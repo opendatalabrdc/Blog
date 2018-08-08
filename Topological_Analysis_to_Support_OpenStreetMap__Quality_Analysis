@@ -1,4 +1,4 @@
-## Building Geometry and Proximity Analysis to Support OpenStreetMap Quality Analysis
+# Building Distribution by Geometry type and number of points, Task 4857 area, 2018-07-06
 
 | Nb Points| 2m2 or less | nr Non Regular | o Orthogonal | r Regular | Total |
 | ----: | ----------: | ----------: | -------------: | ----------: | -------------: |
@@ -18,3 +18,4 @@
 | 25 | 0 | 0 | 1 | 0 | 1 |
 | 29 | 0 | 0 | 1 | 0 | 1 |
 | All Buildings | 18 | 632 | 17,408 | 254 | 18,312 |
+

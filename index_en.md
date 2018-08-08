@@ -8,7 +8,7 @@ The [Documentation Section](https://opendatalabrdc.github.io/Documentation/#!ind
 
 ## Articles
 
-* [Topological Analysis to Support OpenStreetMap Quality Analysis](Topological_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md)
+* [Building Geometry Analysis to Support OpenStreetMap Quality Analysis](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md)
 
 ## Communications, Potentiel 3.0 and DRC OpenStreetMap Community
 

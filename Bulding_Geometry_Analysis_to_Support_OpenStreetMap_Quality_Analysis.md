@@ -2,7 +2,10 @@
 
 Technical support to the OpenStreetMap DRC Community by The Potentiel 3.0 Team takes various forms, like supporting with training, drone imagery acquisition, data acquisition and tools to better monitor / manage activities. 
 
-Inaqccuracy, topological errors while tracing Building brings constant discussion on the OSM groups with the extension of Mapathon in particular to respond to humanitarian crisis and new approachs anre necessary to support adequately the OSM validators work and spot rapidly objects / areas to look at more closely.  With the two consecutive Ebola responses in may and august, the Potentiel 3.0 and OSM0-DRC teams have aggreed to look more closely at the quality of the data produced.
+Inaqccuracy, topological errors while tracing Building brings constant discussion on the OSM groups with the extension of Mapathon in particular to respond to humanitarian crisis and new approachs anre necessary to support adequately the OSM validators work and spot rapidly objects / areas to look at more closely.  With the two consecutive Ebola responses in may and august, the Potentiel 3.0 and OSM0-DRC teams have aggreed to look more closely at the quality of the data produced, to produce quality measure of the data produced and produce information to correct it.  Our indicator of the % of buildings that correspond to Topological rules (either an orthogonal or regular type) is relatively re-assuring with about 96.5% of the buildings responding to these criterias. Validation data that we can produce shoule help to validate and correct if necessary other buildings.
+
+Figure 1
+![Topological errors](img/TM4857-Irregular-polygons-detection.png)
 
 In this Blog article, we will present the first steps of our project with the building geometry topological analysis produced rapidly from data that we monitor in the context of this second Ebola response north of DRC that started august 1. This data was added in the area that correspond to the [task 4857](https://tasks.hotosm.org/project/4857). We should follow later with objects proximity analysis (ie building overlaps, building crossing other polygon types, highways, waterways, etc.). 
 
@@ -25,15 +28,27 @@ Our classification of buildings from the Topological analysis was :
  
 ## Task 4857 
 
-The second Ebola response started august 1 and the task 4857 completed by august 6. The tools that we started to develop before  this response, let's us analyze rapidly the results. From table 1, we see that 95% of the buildings are orthogonaal and 1.4% are regular for a total of 96.5% of buildings that can be considered to respect topological rules. For the other 3.5% of buildings, we cannot conclude that these buildings are wrongly traced. But we have now only 650 buildings to look at more closely and see patterns, necessary corrections to apply.
+The second Ebola response started august 1 and the task 4857 completed by august 6. The tools that we started to develop before  this response, let us analyze rapidly the results. From table 1, we see that 95% of the buildings are orthogonaal and 1.4% are regular for a total of 96.5% of buildings that can be considered to respect topological rules. For the other 3.5% of buildings, we cannot conclude that these buildings are wrongly traced. But we have now only 650 buildings to look at more closely and see patterns, necessary corrections to apply.
 
 The results of the topological analysis let's produce a list of OSM id's from which we can extract from Overpass the OSM current data and analyze in JOSM.
 
-The figure 1 shows an overview of this data to analyze.
+The figure 1 shows an overview map with highlighted buildings in areas where to look at more closely. The Todo plugin in JOSM let's go through each building to analyze / correct.
 
-![Topology Analysis Overview](img/TM4857-Geometry-Topoogy-Analysis-Overview-Map.png]
+**Figure 1**
 
-re are all topolWe can now concentraData was then extracted and analysed (see Table 2 at the end of this article for details about the buildings data). There were 2 buildings before the response and 18,310 buildings added.
+![Topology Analysis Overview](img/TM4857-Geometry-Topoogy-Analysis-Overview-Map.png)
+
+Figure 2 shows in red what's appear to be orthonal buildings that were traced roughly and can be corrected rapidly into josm (figures in black), removing unneccessary points and using Q shortcut to make a rectangular (orthogonal) form.
+
+Figure 2
+![Orhtogonal](https://github.com/opendatalabrdc/Blog/blob/master/img/TM4857-Irregular-polygons-correction-to-orthogonal.png)
+
+Figure 3 shows a hut with regular angles that was traced by hand (in red). Clicking on this way, we use the O shortcut to obtain a regular form (in black).
+
+Figure 3
+![Rectangular](img/TM4857-Irregular-polygons-correction_to_regular.png)
+
+There were 2 buildings before the response and 18,310 buildings added.
 
 **Table 1 Building Distribution by Geometry type, Task 4857 area, 2018-07-06**
 
@@ -46,7 +61,7 @@ re are all topolWe can now concentraData was then extracted and analysed (see Ta
 | o Orthogonal | 17,408 |
 | r Regular | 254 |
 | Total | 18312 |
-
+(see Table 2 at the end of this article for details about the buildings data)
 
 **Table 2 Building Distribution by Geometry type and number of points, Task 4857 area, 2018-07-06**
 

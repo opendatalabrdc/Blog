@@ -8,7 +8,7 @@ La sectin [Documentation](https://opendatalabrdc.github.io/Documentation/#!index
 
 ## Articles
 
-* [Topological Analysis to Support OpenStreetMap Quality Analysis](Topological_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md)
+* [Building Geometry Analysis to Support OpenStreetMap Quality Analysis](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md)
 
 ## Communications, Potentiel 3.0 et Communauté OpenStreetMap RDC
 

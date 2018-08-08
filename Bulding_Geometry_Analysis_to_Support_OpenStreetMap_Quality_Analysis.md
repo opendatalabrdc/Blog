@@ -28,7 +28,7 @@ Our classification of buildings from the Topological analysis was :
  
 ## Task 4857 
 
-The second Ebola response started august 1 and the task 4857 completed by august 6. The tools that we started to develop before  this response, let us analyze rapidly the results. From table 1, we see that 95% of the buildings are orthogonaal and 1.4% are regular for a total of 96.5% of buildings that can be considered to respect topological rules. For the other 3.5% of buildings, we cannot conclude that these buildings are wrongly traced. But we have now only 650 buildings to look at more closely and see patterns, necessary corrections to apply.
+The second Ebola response started august 1 and the task 4857 completed by august 6. The tools that we started to develop before  this response, let us analyze rapidly the results. From table 1, we see that 95% of the buildings are orthogonaal and 1.4% are regular for a total of 96.5% of buildings that can be considered to respect topological rules. For the other 3.5% of buildings, we cannot conclude that these buildings are wrongly traced. While we see buildings with various geometry other than orthogonal or regualar type, they are exceptions. And we have now only 650 buildings to look at more closely and see patterns, necessary corrections to apply.
 
 The results of the topological analysis let's produce a list of OSM id's from which we can extract from Overpass the OSM current data and analyze in JOSM.
 

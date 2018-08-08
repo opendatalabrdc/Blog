@@ -40,7 +40,7 @@ The figure 1 shows an overview map with highlighted buildings in areas where to 
 Figure 2 shows in red what's appear to be orthonal buildings that were traced roughly and can be corrected rapidly into josm (figures in black), removing unneccessary points and using Q shortcut to make a rectangular (orthogonal) form.
 
 Figure 2
-![Orhtogonal](https://github.com/opendatalabrdc/Blog/blob/master/img/TM4857-Irregular-polygons-correction-to-orthogonal.png)
+![Orhtogonal](img/TM4857-Irregular-polygons-correction-to-orthogonal.png)
 
 Figure 3 shows a hut with regular angles that was traced by hand (in red). Clicking on this way, we use the O shortcut to obtain a regular form (in black). We did not have time yet to look in detail, but it seems that the majority of irregular buildings identified could correspond to huts.
 
@@ -60,7 +60,6 @@ There were 2 buildings before the response and 18,310 buildings added.
 | o Orthogonal | 17,408 |
 | r Regular | 254 |
 | Total | 18312 |
-(see Table 2 at the end of this article for details about the buildings data)
 
 **Table 2 Building Distribution by Geometry type and number of points, Task 4857 area, 2018-07-06**
 

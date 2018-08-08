@@ -2,20 +2,20 @@
 
 Technical support to the OpenStreetMap DRC Community by The Potentiel 3.0 Team takes various forms, like supporting with training, drone imagery acquisition, data acquisition and tools to better monitor / manage activities. 
 
-Inaqccuracy, topological errors while tracing Building brings constant discussion on the OSM groups with the extension of Mapathon in particular to respond to humanitarian crisis and new approachs anre necessary to support adequately the OSM validators work and spot rapidly objects / areas to look at more closely.  With the two consecutive Ebola responses in may and august, the Potentiel 3.0 and OSM0-DRC teams have aggreed to look more closely at the quality of the data produced, to produce quality measure of the data produced and produce information to correct it.  Our indicator of the % of buildings that correspond to Topological rules (either an orthogonal or regular type) is relatively re-assuring with about 96.5% of the buildings responding to these criterias. Validation data that we can produce shoule help to validate and correct if necessary other buildings.
+Inaccuracy, topological errors while tracing Building brings constant discussion on the OSM groups with the extension of Mapathon in particular to respond to humanitarian crisis and new approachs anre necessary to support adequately the OSM validators work and spot rapidly objects / areas to look at more closely.  With the two consecutive Ebola responses in may and august, the Potentiel 3.0 and OSM0-DRC teams have aggreed to look more closely at the quality of the data produced, to produce quality measure of the data produced and produce information to correct it.  Our indicator of the % of buildings that correspond to Topological rules (either an orthogonal or regular type) is relatively re-assuring with about 96.5% of the buildings responding to these criterias. Validation data that we can produce should help to validate and correct if necessary other buildings.
 
 Figure 1
 ![Topological errors](img/TM4857-Irregular-polygons-detection.png)
 
-In this Blog article, we will present the first steps of our project with the building geometry topological analysis produced rapidly from data that we monitor in the context of this second Ebola response north of DRC that started august 1. This data was added in the area that correspond to the [task 4857](https://tasks.hotosm.org/project/4857). We should follow later with objects proximity analysis (ie building overlaps, building crossing other polygon types, highways, waterways, etc.). 
+In this Blog article, we will present the preliminary results of our project. We think that they are interesting enough to share with the community and discuss while we continue to monitor this humanitarian response. This was produced rapidly from the data that we monitor in the context of this second Ebola response north of DRC that started august 1. We  think that th This data was added in the area that correspond to the [task 4857](https://tasks.hotosm.org/project/4857). We should follow later with objects proximity analysis (ie building overlaps, building crossing other polygon types, highways, waterways, etc.). 
 
 ## PostGIS database
 
-Our PosgreSQL - PostGIS OSM_hist database id an adaptation the [Osmosis Database schema](https://wiki.openstreetmap.org/wiki/Osmosis) to have the ability to store various OSM historic profiles for an area in a PosgreSQL - PostGIS and manage simply. In this database, each schema represent one extract. For example, we can extract the OSM data for an area at variouus dates and see the progress of the data and data quality for this area.
+Our PosgreSQL - PostGIS OSM_hist database id an adaptation the [Osmosis Pgsnapshot schema](https://github.com/openstreetmap/osmosis/blob/master/package/script/pgsnapshot_schema_0.6.sql) to have the ability to store various OSM historic profiles for an area in a PosgreSQL - PostGIS and manage simply. In this database, each schema represent one extract. For example, we can extract the OSM data for an area at variouus dates and see the progress of the data and data quality for this area.
 
 ## Topological analysis
 
-All the points on a straight line are ignored from the analysis (no angle).
+All the points on a straight line are ignored from the analysis (no angle). To reduce noise while comparing angles of a specifi polygon, we did accept a variance up two 2% comparing the points. This can be revised rapidly and would identify more polygons to classify as irregular. It seems that the majority correspond to huts probably traced by hand.
 
 Our classification of buildings from the Topological analysis was :
 - Open polygons (topological error when the polygon is not closed)
@@ -33,7 +33,6 @@ The second Ebola response started august 1 and the task 4857 completed by august
 The results of the topological analysis let's produce a list of OSM id's from which we can extract from Overpass the OSM current data and analyze in JOSM.
 
 The figure 1 shows an overview map with highlighted buildings in areas where to look at more closely. The Todo plugin in JOSM let's go through each building to analyze / correct.
-
 **Figure 1**
 
 ![Topology Analysis Overview](img/TM4857-Geometry-Topoogy-Analysis-Overview-Map.png)
@@ -43,7 +42,7 @@ Figure 2 shows in red what's appear to be orthonal buildings that were traced ro
 Figure 2
 ![Orhtogonal](https://github.com/opendatalabrdc/Blog/blob/master/img/TM4857-Irregular-polygons-correction-to-orthogonal.png)
 
-Figure 3 shows a hut with regular angles that was traced by hand (in red). Clicking on this way, we use the O shortcut to obtain a regular form (in black).
+Figure 3 shows a hut with regular angles that was traced by hand (in red). Clicking on this way, we use the O shortcut to obtain a regular form (in black). We did not have time yet to look in detail, but it seems that the majority of irregular buildings identified could correspond to huts.
 
 Figure 3
 ![Rectangular](img/TM4857-Irregular-polygons-correction_to_regular.png)

@@ -1,4 +1,4 @@
-## Analyse de la géométrie des bâtiment pour une meilleure qualité OpenStreetMap.
+## Analyse de la géométrie des bâtiment pour une meilleure qualité OpenStreetMap
 
 Le support technique à la communauté OpenStreetMap RDC par l'équipe Potentiel 3.0 prend différentes formes, 
 comme le support à la formation, l'acquisition d'images de drones, l'acquisition de données et des outils de suivi et gestion des activités.

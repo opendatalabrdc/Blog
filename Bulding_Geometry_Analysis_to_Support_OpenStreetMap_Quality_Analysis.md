@@ -32,7 +32,7 @@ The second Ebola response started august 1 and the task 4947 completed by august
 
 The results of the topological analysis let's produce a list of OSM id's from which we can extract from Overpass the OSM current data and analyze in JOSM.
 
-Gigure 3 shows an overview map with highlighted buildings in areas where to look at more closely. The Todo plugin in JOSM let's go through each building to analyze / correct.
+Figure 2 shows an overview map with highlighted buildings in areas where to look at more closely. The Todo plugin in JOSM let's go through each building to analyze / correct.
 
 **Figure 2**
 ![Topology Analysis Overview](img/TM4947-Geometry-Topoogy-Analysis-Overview-Map.png)

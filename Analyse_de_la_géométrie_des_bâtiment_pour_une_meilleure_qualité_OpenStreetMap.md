@@ -35,9 +35,9 @@ Notre classification des bâtiments à partir de l'analyse topologique  :
   - r Angles réguliers (exemples de huttes)
   - nr Angles irréguliers
 
-## Tâche 4857 
+## Tâche 4947 
 
-La tâche 4857 était complétée et validée le 6 août lorsque nous avons fait une extraction OSM pour la zone. Les outils topologique, en développement avant cette réponse, nous on permis d'analyser rapidement les résultats. 
+La tâche 4947 était complétée et validée le 6 août lorsque nous avons fait une extraction OSM pour la zone. Les outils topologique, en développement avant cette réponse, nous on permis d'analyser rapidement les résultats. 
 Le tableau 1 montre que 95% des bâtiments sont orthogonaux et 1,4% sont réguliers pour un total de 96,5% des bâtiments jugés de forme régulièreé
  Pour les 3,5 % de bâtiments restants, nous ne pouvons pas conclure que ces bâtiments sont mal tracés puisque exceptionnellement on observe des batiments irréguliers.
  Il nous reste 650 bâtiments à examiner de plus près et corriger si nécessaire.
@@ -63,7 +63,7 @@ La figure 4 montre une hutte aux angles réguliers qui a été tracée à la mai
 
 Il y avait deux bâtiments avant l'intervention et 18 310 bâtiments ont été ajoutés.
 
-**Tableau 1, Répartition des bâtiments selon le type de géométrie, zone de la tâche 4857, 2018-07-06*
+**Tableau 1, Répartition des bâtiments selon le type de géométrie, zone de la tâche 4947, 2018-07-06*
 
 | Type de Geometrie  |  Immeubles | 
 | :------------- | ------------: |
@@ -75,7 +75,7 @@ Il y avait deux bâtiments avant l'intervention et 18 310 bâtiments ont été a
 | r Régulier | 254 |
 | Total | 18312 |
 
-**Tableau 2, Distribution des immeubles selon le type de géometrie et le nombres de points, zone Tâche 4857, 2018-07-06**
+**Tableau 2, Distribution des immeubles selon le type de géometrie et le nombres de points, zone Tâche 4947, 2018-07-06**
 
 | Nb Points| 2m2 ou moins | nr Non Régulier | o Orthogonal | r Regulier | Total |
 | ----: | ----------: | ----------: | -------------: | ----------: | -------------: |

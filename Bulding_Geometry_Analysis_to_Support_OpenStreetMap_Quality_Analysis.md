@@ -35,17 +35,17 @@ The results of the topological analysis let's produce a list of OSM id's from wh
 Gigure 3 shows an overview map with highlighted buildings in areas where to look at more closely. The Todo plugin in JOSM let's go through each building to analyze / correct.
 
 **Figure 2**
-![Topology Analysis Overview](img/TM4857-Geometry-Topoogy-Analysis-Overview-Map.png)
+![Topology Analysis Overview](img/TM4947-Geometry-Topoogy-Analysis-Overview-Map.png)
 
 Figure 3 shows in red what's appear to be orthonal buildings that were traced roughly and can be corrected rapidly into josm (figures in black), removing unneccessary points and using Q shortcut to make a rectangular (orthogonal) form.
 
 **Figure 3**
-![Orhtogonal](img/TM4857-Irregular-polygons-correction-to-orthogonal.png)
+![Orhtogonal](img/TM4947-Irregular-polygons-correction-to-orthogonal.png)
 
 Figure 4 shows a hut with regular angles that was traced by hand (in red). Clicking on this way, we use the O shortcut to obtain a regular form (in black). We did not have time yet to look in detail, but it seems that the majority of irregular buildings identified could correspond to huts.
 
 **Figure 4**
-![Rectangular](img/TM4857-Irregular-polygons-correction_to_regular.png)
+![Rectangular](img/TM4947-Irregular-polygons-correction_to_regular.png)
 
 There were 2 buildings before the response and 18,310 buildings added.
 

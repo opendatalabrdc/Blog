@@ -1,4 +1,4 @@
-## Building Geometry Analysis to Support OpenStreetMap Quality Analysis
+## 2018-08-08 Building Geometry Analysis to Support OpenStreetMap Quality Analysis
 
 Technical support to the OpenStreetMap DRC Community by The Potentiel 3.0 Team takes various forms, like supporting with training, drone imagery acquisition, data acquisition and tools to better monitor / manage activities. 
 

@@ -5,9 +5,9 @@ Technical support to the OpenStreetMap DRC Community by The Potentiel 3.0 Team t
 Inaccuracy, topological errors while tracing Building brings constant discussion on the OSM groups with the extension of Mapathon in particular to respond to humanitarian crisis and new approachs anre necessary to support adequately the OSM validators work and spot rapidly objects / areas to look at more closely.  With the two consecutive Ebola responses in may and august, the Potentiel 3.0 and OSM0-DRC teams have aggreed to look more closely at the quality of the data produced, to produce quality measure of the data produced and produce information to correct it.  Our indicator shows that 96.5 % of the buildings correspond to orthogonal (90 degres) and regular angle Topological rules. This is relatively re-assuring with only 3.5% of buildings that need more validation / correction if necessary. Not a perfecy measure but one more angle to validate the OSM mapping. Our objective with the analysis of these irregular buildings, is to focus, validate the more problematic contributions. 
 
 Figure 1
-![Topological errors](img/TM4857-Irregular-polygons-detection.png)
+![Topological errors](img/TM4947-Irregular-polygons-detection.png)
 
-In this Blog article, we will present the preliminary results of our project. We think that they are interesting enough to share with the community and discuss while we continue to monitor this humanitarian response. This was produced rapidly from the data that we monitor in the context of this second Ebola response north of DRC that started august 1. We  think that th This data was added in the area that correspond to the [task 4857](https://tasks.hotosm.org/project/4857). We should follow later with objects proximity analysis (ie building overlaps, building crossing other polygon types, highways, waterways, etc.). 
+In this Blog article, we will present the preliminary results of our project. We think that they are interesting enough to share with the community and discuss while we continue to monitor this humanitarian response. This was produced rapidly from the data that we monitor in the context of this second Ebola response north of DRC that started august 1. We  think that th This data was added in the area that correspond to the [task 4947](https://tasks.hotosm.org/project/4947). We should follow later with objects proximity analysis (ie building overlaps, building crossing other polygon types, highways, waterways, etc.). 
 
 ## PostGIS database
 
@@ -26,9 +26,9 @@ Our classification of buildings from the Topological analysis was :
    - r Regular angles (example huts)
    - nr Irregular angles
  
-## Task 4857 
+## Task 4947 
 
-The second Ebola response started august 1 and the task 4857 completed by august 6. The tools that we started to develop before  this response, let us analyze rapidly the results. From table 1, we see that 95% of the buildings are orthogonaal and 1.4% are regular for a total of 96.5% of buildings that can be considered to respect topological rules. For the other 3.5% of buildings, we cannot conclude that these buildings are wrongly traced. While we see buildings with various geometry other than orthogonal or regualar type, they are exceptions. And we have now only 650 buildings to look at more closely and see patterns, necessary corrections to apply.
+The second Ebola response started august 1 and the task 4947 completed by august 6. The tools that we started to develop before  this response, let us analyze rapidly the results. From table 1, we see that 95% of the buildings are orthogonaal and 1.4% are regular for a total of 96.5% of buildings that can be considered to respect topological rules. For the other 3.5% of buildings, we cannot conclude that these buildings are wrongly traced. While we see buildings with various geometry other than orthogonal or regualar type, they are exceptions. And we have now only 650 buildings to look at more closely and see patterns, necessary corrections to apply.
 
 The results of the topological analysis let's produce a list of OSM id's from which we can extract from Overpass the OSM current data and analyze in JOSM.
 
@@ -49,7 +49,7 @@ Figure 4 shows a hut with regular angles that was traced by hand (in red). Click
 
 There were 2 buildings before the response and 18,310 buildings added.
 
-**Table 1 Building Distribution by Geometry type, Task 4857 area, 2018-07-06**
+**Table 1 Building Distribution by Geometry type, Task 4947 area, 2018-07-06**
 
 | Geometry type  |  Buildings | 
 | :------------- | ------------: |
@@ -61,7 +61,7 @@ There were 2 buildings before the response and 18,310 buildings added.
 | r Regular | 254 |
 | Total | 18312 |
 
-**Table 2 Building Distribution by Geometry type and number of points, Task 4857 area, 2018-07-06**
+**Table 2 Building Distribution by Geometry type and number of points, Task 4947 area, 2018-07-06**
 
 | Nb Points| 2m2 or less | nr Non Regular | o Orthogonal | r Regular | Total |
 | ----: | ----------: | ----------: | -------------: | ----------: | -------------: |

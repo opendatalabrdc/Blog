@@ -22,9 +22,9 @@ Our classification of buildings from the Topological analysis was :
 - 2m2 (buildings with less then 2 square meters)
 - s small - less the 5 points (trianges) 
 - 5 to any nb. of points
- -- o Orthogonal (90 degre angles)
- -- r Regular angles (example huts)
- -- nr Irregular angles
+   - o Orthogonal (90 degre angles)
+   - r Regular angles (example huts)
+   - nr Irregular angles
  
 ## Task 4857 
 

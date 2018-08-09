@@ -9,7 +9,7 @@ des validateurs OSM, permettre de repérer rapidement les objets/zones à examin
 Avec les deux réponses consécutives à l'épidémie d'Ebola en mai et août, les équipes Potentiel 3.0 et OSM0-RDC se sont mises d'accord 
 pour identifier des mesures de la qualité des données produites et l production d'information pour corriger les erreurs.  
 
-Selon cet indiqcateur, 96,5 % des bâtiments correspondent aux règles topologiques les plus usuelles (angles orthogonaux ou régulier). Cela est rassurant avec seulement 3,5% des bâtiments qui doivent être examinés de plus près. Cette analyse automatique n'est pas nécessairement parfaite, des bâtiments orthogonaux pouvant être aussi mal tracés. C'est cependant un angle de plus pour analyser et corriger le tracé des bâtiments. Et notre objectif avec l'analyse de ces bâtiments irréguliers, est de focaliser, valider les contributions les plus problématiques, les plus imprécises. 
+Selon cet indiqcateur, 96,5 % des bâtiments correspondent aux règles topologiques les plus usuelles (angles orthogonaux ou régulier). Cela est rassurant avec seulement 3,5% des bâtiments qui doivent être examinés de plus près. Cette analyse automatique n'est pas nécessairement parfaite, des bâtiments orthogonaux pouvant être aussi mal tracés. C'est cependant un angle de plus pour analyser et corriger le tracé des bâtiments. Et notre objectif en focalisant sur l'analyse de ces bâtiments irréguliers, est de valider les contributions les plus problématiques, les plus imprécises. 
 
 **Figure 1**
 ![erreurs topologiques](img/TM4947-Irregular-polygons-detection.png)

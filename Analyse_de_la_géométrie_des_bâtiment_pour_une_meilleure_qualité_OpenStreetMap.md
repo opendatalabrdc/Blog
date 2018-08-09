@@ -12,7 +12,7 @@ pour identifier des mesures de la qualité des données produites et l productio
 Selon cet indiqcateur, 96,5 % des bâtiments correspondent aux règles topologiques les plus usuelles (angles orthogonaux ou régulier). Cela est rassurant avec seulement 3,5% des bâtiments qui doivent être examinés de plus près. Cette analyse automatique n'est pas nécessairement parfaite, des bâtiments orthogonaux pouvant être aussi mal tracés. C'est cependant un angle de plus pour analyser et corriger le tracé des bâtiments. Et notre objectif avec l'analyse de ces bâtiments irréguliers, est de focaliser, valider les contributions les plus problématiques, les plus imprécises. 
 
 **Figure 1**
-![erreurs topologiques](img/TM4857-Irregular-polygons-detection.png)
+![erreurs topologiques](img/TM4947-Irregular-polygons-detection.png)
 
 Dans cet article du Blog, nous présenterons les résultats préliminaires de notre analyse. Nous pensons qu'ils sont suffisamment intéressants pour être partagés avec la communauté et discuter pendant que nous continuons à surveiller cette réponse humanitaire. 
 Ces données ont été produites rapidement à partir des données de suivi dans le contexte de cette deuxième réponse Ebola au nord de la RDC qui . Nous devrions ensuite procéder à une analyse de proximité des objets (c'est-à-dire les chevauchements de bâtiments, les bâtiments qui traversent d'autres types de polygones, les autoroutes, les voies navigables, etc).
@@ -48,18 +48,18 @@ les données l'OSM les plus récentes à partir de l'API Overpass, puis les anal
 La figure 2 montre une carte d'ensemble des bâtiments avec ceux à valider mis en évidence. Le greffon Todo dans JOSM permet ensuite de parcourir chaque bâtiment pour analyser / corriger.
 
 **Figure 2**
-![Aperçu de l'analyse topologique](img/TM4857-Geometry-Topoogy-Analysis-Overview-Map.png)
+![Aperçu de l'analyse topologique](img/TM4947-Geometry-Topoogy-Analysis-Overview-Map.png)
 
 La figure 3 montre en rouge ce qui semble être des bâtiments orthogonaux qui ont été tracés grossièrement et qui peuvent être corrigés rapidement dans l'éditeur JOSM (figures en noir), en supprimant les points inutiles et en utilisant le raccourci Q pour obtenir une forme rectangulaire (orthogonale).
 
 **Figure 3**
 
-![Orhtogonal](img/TM4857-Irregular-polygons-correction-to-orthogonal.png)
+![Orhtogonal](img/TM4947-Irregular-polygons-correction-to-orthogonal.png)
 
 La figure 4 montre une hutte aux angles réguliers qui a été tracée à la main (en rouge). En cliquant sur ce chemin dans JOSM, nous utilisons le raccourci O pour obtenir une forme régulière (en noir). L'analyse rapide effectuée à date semble indiquer que la majorité des bâtiments irréguliers identifiés pourraient correspondre à des huttes.
 
 *Figure 4*
-![Rectangulaire](img/TM4857-Irregular-polygons-correction_to_regular.png)
+![Rectangulaire](img/TM4947-Irregular-polygons-correction_to_regular.png)
 
 Il y avait deux bâtiments avant l'intervention et 18 310 bâtiments ont été ajoutés.
 

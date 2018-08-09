@@ -2,13 +2,13 @@
 
 - [English](index_en.md)
 
-L'équipde de Potentiel 3.0 a accompagné en 2018 la communauté OpenStreetMap RDC dans le contexte de ses projets avec OpenCities et la réponse humanitaire à l'épidémie d'Ebola au nord du pays.
+L'équipe de Potentiel 3.0 a accompagné en 2018 la communauté OpenStreetMap RDC dans le contexte de ses projets avec OpenCities et la réponse humanitaire à l'épidémie d'Ebola au nord du pays.
 
-La sectin [Documentation](https://opendatalabrdc.github.io/Documentation/#!index.md) contient des documents, tutoriels et scripts opensource réalisés dans le cadre du projet.
+La section [Documentation](https://opendatalabrdc.github.io/Documentation/#!index.md) contient des documents, tutoriels et scripts opensource réalisés dans le cadre du projet.
 
 ## Articles
 
-* [Building Geometry Analysis to Support OpenStreetMap Quality Analysis](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md)
+* [Analyse de la géométrie des bâtiment pour une meilleure qualité OpenStreetMap](Analyse_de_la_géométrie_des_bâtiment_pour_une_meilleure_qualité_OpenStreetMap)
 
 ## Communications, Potentiel 3.0 et Communauté OpenStreetMap RDC
 

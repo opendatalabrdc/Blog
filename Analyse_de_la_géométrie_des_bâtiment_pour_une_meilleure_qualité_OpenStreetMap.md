@@ -27,13 +27,13 @@ Lors de la comparaison des points d'un polygone, tous les points d'une ligne dro
 pour réduire le bruit en comparant les angles du polygone, nous acceptons une variance jusqu'à deux 2% en comparant ces angles. Ceci peut être révisé rapidement et permettrait d'identifier plus de polygones à classer comme irréguliers. Il semble que la plus grande partie correspond à des huttes probablement tracées à la main.
 
 Notre classification des bâtiments à partir de l'analyse topologique  :
-- Polygones ouverts (erreur topologique lorsque le polygone n'est pas fermé)
+ Polygones ouverts (erreur topologique lorsque le polygone n'est pas fermé)
 - 2m2 (bâtiments de moins de 2 mètres carrés)
 - s petit - moins les 5 points (trianges) 
 - 5 à n'importe quel nb. de points
- -- o Orthogonal (angles de 90 degrés)
- -- r Angles réguliers (exemples de huttes)
- -- nr Angles irréguliers
+  - o Orthogonal (angles de 90 degrés)
+  - r Angles réguliers (exemples de huttes)
+  - nr Angles irréguliers
 
 ## Tâche 4857 
 
@@ -48,7 +48,7 @@ les données l'OSM les plus récentes à partir de l'API Overpass, puis les anal
 La figure 1 montre une carte d'ensemble des bâtiments avec ceux à valider mis en évidence. Le greffon Todo dans JOSM permet ensuite de parcourir chaque bâtiment pour analyser / corriger.
 
 **Figure 1**
-Aperçu de l'analyse topologique](img/TM4857-Geometry-Topoogy-Analyse-Analyse-Overview-Map.png)
+![Aperçu de l'analyse topologique](img/TM4857-Geometry-Topoogy-Analyse-Analyse-Overview-Map.png)
 
 La figure 2 montre en rouge ce qui semble être des bâtiments orthogonaux qui ont été tracés grossièrement et qui peuvent être corrigés rapidement dans l'éditeur JOSM (figures en noir), en supprimant les points inutiles et en utilisant le raccourci Q pour obtenir une forme rectangulaire (orthogonale).
 
@@ -58,13 +58,12 @@ La figure 2 montre en rouge ce qui semble être des bâtiments orthogonaux qui o
 La figure 3 montre une hutte aux angles réguliers qui a été tracée à la main (en rouge). En cliquant sur ce chemin dans JOSM, nous utilisons le raccourci O pour obtenir une forme régulière (en noir). L'analyse rapide effectuée à date semble indiquer que la majorité des bâtiments irréguliers identifiés pourraient correspondre à des huttes.
 
 *Figure 3*
-[Rectangulaire](img/TM4857-Irregular-polygong-correction_to_regular.png)
+
+![Rectangulaire](img/TM4857-Irregular-polygong-correction_to_regular.png)
 
 Il y avait deux bâtiments avant l'intervention et 18 310 bâtiments ont été ajoutés.
 
-**Tableau 1 Répartition des bâtiments selon le type de géométrie, zone de la tâche 4857, 2018-07-06*
-
-**Table 1 Building Distribution by Geometry type, Task 4857 area, 2018-07-06**
+**Tableau 1, Répartition des bâtiments selon le type de géométrie, zone de la tâche 4857, 2018-07-06*
 
 | Type de Geometrie  |  Immeubles | 
 | :------------- | ------------: |
@@ -76,7 +75,7 @@ Il y avait deux bâtiments avant l'intervention et 18 310 bâtiments ont été a
 | r Régulier | 254 |
 | Total | 18312 |
 
-**Table 2 Distribution des immeubles selon le type de géometrie et le nombres de points, zone Tâche 4857, 2018-07-06**
+**Tableau 2, Distribution des immeubles selon le type de géometrie et le nombres de points, zone Tâche 4857, 2018-07-06**
 
 | Nb Points| 2m2 ou moins | nr Non Régulier | o Orthogonal | r Regulier | Total |
 | ----: | ----------: | ----------: | -------------: | ----------: | -------------: |

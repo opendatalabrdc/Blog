@@ -59,33 +59,37 @@ En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géomé
 ## Kisenso, Kinshasa 2018-08-16, (polygone limites de Kisenso)
 * [Kisenso, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-kisenso-2018-08-16.geojson)
 * [Kisenso, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-kisenso-2018-08-16.geojson)
-![Kisenso Immeubles superposés](img/po-geojsjon-Kisenso-overlap.png)
+![Kisenso](img/po-geojsjon-Kisenso-overlap.png)
 
 
 ## Kampala, 2018-04-07, Task 4360, hotosm
 
 * [Kampala, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Kampala_hotosm_4360_2018_04_07.geojson) 
 * [Kampala, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Kampala_hotosm_4360_2018_04_07.geojson)
-
+![Kampala](img/po-geojsjon-Kampala-Form.png)
 
 ## Ngaoundere, 2018-08-06, Task 4800, hotosm
 
 * [Ngaoundere, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson) 
 * [Ngaoundere, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson)
+![Ngaoundere](img/po-geojsjon-Ngaoundere-Overlaps.png)
 
 
 ## Monrovia, 2018-08-25, Task 4366, hotosm
 
 * [Monrovia, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_monrovia_hotosm_4866_2018_08_25.geojson) 
 * [Monrovia, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_monrovia_hotosm_4866_2018_08_25.geojson)
+![Monrovia](img/po-geojsjon-Monrovia-Form.png)
+
 
 ## Accra, 2018-08-25, Task 4969, hotosm
 
 * [Accra, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Accra_hotosm_4969_2018_08_25.geojson)
 * [Accra, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Accra_hotosm_4969_2018_08_25.geojson)
-
+![Accra](img/po-geojsjon-Accra-Form.png)
 
 ## Dar Es Salaam, 2018-08-25, Task 5012, hotosm
 
 * [Dar Es Salaam, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_DarEsSalaam_hotosm_5012.geojson)
 * [Dar Es Salaam, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_DarEsSalaam_hotosm_5012.geojson)
+![Dar Es Salaam](img/po-geojsjon-DarEsSalaam-Form.png)

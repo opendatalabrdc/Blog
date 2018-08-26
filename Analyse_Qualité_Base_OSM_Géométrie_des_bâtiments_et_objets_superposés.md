@@ -1,11 +1,19 @@
 # 2018-08-26 Analyse Qualité Base OSM: Géométrie des bâtiments et objets superposés
  - Comparaison de différents projets 
 
-Dans un premier article sur ce Blog, nous avons présenté notre classification de la forme des bâtiments et mesuré quel est la proportion de bâtiments irréguliers pour la commune de Kisenso à Kinshasa.
+Dans un [premier article](Analyse_de_la_géométrie_des_bâtiment_pour_une_meilleure_qualité_OpenStreetMap.md)
+ sur ce Blog le 8 août, nous avons présenté notre classification de la forme des bâtiments. À titre d'exemple, nous avons examiné les données OSM des bâtiments dans la base OSM, pour la commune de Kisenso à Kinshasa, et mesuré la proportion de bâtiments de forme irrégulière. Les bâtiments de forme irrégulière sont généralement en petit nombre. Des proportions trop élevées suggèrent de regarder de plus près les données et s'assurer de la qualité du tracage des contours de bâtiments.  Dans les milieux urbains denses, le défi est grand pour tracer avec précision le contour des immeubles et les allées entre ces immeubles. La situation se complique également
+lorsque les images disponbiles sont sombres ou floues ou encore si différentes images ne sont pas parfaitement alignées. Les mapathons où un grand nombre de débutants participent sont aussi susceptible de causer des problèmes de qualité de la donnée OSM.
 
-Dans ce deuxième article sur l'analyse topologique, nous allons ajouter l'identification des bâtiments et autres objets (ie. routes, cours d'eau, polygones occupation du sol) se superposant. 
+Dans de tels projets, le Gestionnaire de tâches OSM est généralement utilisé pour coordonner les contributions simultanées d'un grand nombre de participants et éviter les collisions et conflits d'édition. Ces outils assurent les gestionnaires d'un projet de cartographie de couvrir systématiquement le territoire lors des étapes de cartographie et de validation des données de la zone. Les divers outils Qualité permettent également de repérer des problèmes dans la zone et les corriger. Cependant, on constate souvent qu'après un mapathon, la donnée peut demeurer inchangée pendant des années faute de contributeurs suffisants pour parcourir la zone et corriger les données. 
 
-Nous allons également présenté une comparaison de la cartographie de différentes villes faisant partie du projet Open Cities Africa.
+L'approche que nous proposons est de développer une approche plus quantitative à l'aide de l'analyse topologique. L'identification des bâtiments de forme irrégulière présente une première mesure. Cela permet également de fournir un fichier contenant ces bâtiments pour valider/corriger à l'aide d'éditeurs tels JOSM. Dans ce cas, le greffon ToDO permet de réviser un à un les objets contenus dans le fichier, valider et corriger si nécessaire.
+
+Dans ce deuxième article sur l'analyse topologique, nous ajoutons le repérage des objets superposés (ie. bâtiments, routes, cours d'eau, polygones occupation du sol, etc).
+
+Nous allons également présenter une comparaison de la cartographie de différentes villes faisant partie du projet Open Cities Africa.
+
+# Analyse Qualité - Superposition des Bâtiments et autres objets
 
 # Comparaison, différentes villes du projet Open Cities Africa
 

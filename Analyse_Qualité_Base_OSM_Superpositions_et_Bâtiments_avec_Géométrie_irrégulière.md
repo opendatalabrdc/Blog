@@ -1,5 +1,4 @@
-# 2018-08-26 Analyse Qualité Base OSM: Géométrie des bâtiments et objets superposés
- 
+# 2018-08-26 Analyse Qualité Base OSM: Superpositions et Bâtiments avec Géométrie irrègulière - Comparaison de différents projets
 *Figure 1 Polygones non valides / Outils Qualité*
 ![Figure 1 Polygones non valides](img/Kisenso_test_self_overlap_polygon_vs_osmose_flag.png)
 

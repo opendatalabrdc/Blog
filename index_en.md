@@ -9,6 +9,9 @@ The [Documentation Section](https://opendatalabrdc.github.io/Documentation/#!ind
 ## Articles
 
 * 2018-08-08 [Building Geometry Analysis to Support OpenStreetMap Quality Analysis](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md)
+* 2018-08-26 [Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparison
+](Database_Quality_Analysis_Building_overlaps_and_irregular_geometries_Various_cartographic_projects_comparizon.md)
+
 
 ## Communications, Potentiel 3.0 and DRC OpenStreetMap Community
 

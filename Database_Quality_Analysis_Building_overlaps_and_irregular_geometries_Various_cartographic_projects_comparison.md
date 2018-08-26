@@ -41,26 +41,28 @@ the proposed analytical approach will hopefully contribute to this discussion.
 ![Figure 3](img/po-Topologie-XB-XO-Overpass-Kisenso-Vixualise-Immeubles-et-Routes-se-superposant.png)
 
 
-Our topological analysis tool let's identify every building, road, waterway or other object overlapping. A statistic of flagged objects is 
-computed and a ID list of flagged objects is also available. An Overpass query using this ID list (see figure 4) 
-let's produce OSM data files containing the objects concerned. This then allows the file to be imported into JOSM for analysis and correction.
+Our topological analysis tool let's identify every building, road, waterway or other object overlapping. A statistic of flagged objects is computed and a ID list of flagged objects is also available. An Overpass query using this ID list (see figure 4) 
+let's produce OSM data files containing the objects concerned. This then allows the file to be imported into JOSM for analysis and correction.  The map visualisation from the GeoJSON files presented below for each city, let's have an overview of objects flagged for analysis. It is also possible to zoom in for more detail.
 
 *Figure 4 Overpass Query - Flagged Id's - Quality Analysis*
 ![Figure 4](img/Overpass_Turbo_Kisenso_Immeubles_formes_irreg.png)
 
 # Comparison, Various towns, project Open Cities Africa
 
-Pour fin de comparaison, nous avons sélectionné des villes du projet Open Cities Africa pour lesquelles des tâches ont été réalisées à l'aide du gestionnaire de tâches OSM.  Pour la plupart, la tâche était cartographié et validé à 100%.  Chacune à son histoire, réponse rapide à un désastre ou autre, qualité d'imagerie très variable, organisation de mapathons avec des débutants, etc. L'architecture d'une ville à l'autre peut aussi varier et dans certaines villes on peut identifier un nombre plus élevé de bâtiments qui ont effectivement une forme irrégulière.  Par exemple, lors de l'épidémie d'Ebola à, Monrovia, la ville a dû être cartographiée rapidement pour aider les équipes humanitaires, et cela malgré la mauvaise qualité de l'imagerie disponible. Les images manquant encore de précision, les projets récente n'ont pas réussi à améliorer sensiblement la qualité.  À Kamapala, suite à un projet de cartographie récent, beaucoup de doublons ont été ajoutés. Cet outil d'analyse topologique perment de l'observer rapidement et apporter les corrections nécessaires.
+For comparison purposes, we selected cities from the Open Cities Africa project for which OSM tasking manager projects were available.  For the most part, these tasks were 100% mapped and validated.  Each city has its own cartographic history, with rapid response to a disaster or variable quality of imagery, organization of mapathons with beginners, etc. Building architecture from one city to another can also vary and in some cities a higher number of buildings with irregular shapes can really exist.  
 
-Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse topologique. Les signalements sont regroupés selon
-- Immeubles - Géométrie irrégulière et polygones non valides
-- Superposition d'immeubles (avec autres immeubles ou autres objets)
+During the Ebola outbreak in Monrovia in 2014, the city had to be mapped quickly to help humanitarian teams, despite the poor quality of the imagery available. As the images are still lacking in precision, recent projects have not succeeded in significantly improving quality.  In Kamapala, following a recent mapping project, many duplicates have been added. This topological analysis tool allows you to observe amd reac quickly to make the necessary corrections.
+
+Table 1 presents a comparison of the results obtained with the topological analysis with flagged buildings grouped according to
+- Buildings - Irregular geometry and invalid polygons
+- Overlapped buildings (with other buildings or other objects)
 
 En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géométrie irrégulière et 3.4% de superpositions  en proportion du total des immeubles. Au total, il y a 11,5% de signalements (objets à valider) en proportion des immeubles. 
+On average, a rate of 8.2% of buildings are flagged with irregular geometry and 3.4% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 11.5% of buildings. 
 
-*Tableau 1 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, 6 projets Open Cities Africa*
+*Tableau 1 : Topological Analysis Comparison, Flagged objects in % of buildings for the zone, 6 Open Cities Africa projects*
 
-|	Localité	|	Buildings	|	Form	|	%	|	Overlaps	|	%	|	Total Flags % |
+|	Town	|	Buildings	|	Form	|	%	|	Overlaps	|	%	|	Total Flags % |
 |	:----------------------------------	|	----------:	|	----------:	|	------:	|	----------:	|	------:	|	----------:	|
 |	Kisenso 2018-08-16	|	73609	|	324	|	0.4%	|	391	|	0.5%	|	1.0%	|
 |	Kampala 2018-04-07	|	11327	|	1001	|	8.8%	|	343	|	3.0%	|	11.9%	|
@@ -68,10 +70,10 @@ En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géomé
 |	Monrovia 2018-08-25	|	4107	|	750	|	18.3%	|	442	|	10.8%	|	29.0%	|
 |	Accra 2018-08-25	|	4107	|	1396	|	34.0%	|	17	|	0.4%	|	34.4%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
-|	Total projets analysés	|	169338	|	13803	|	8.2%	|	5712	|	3.4%	|	11.5%	|
+|	Total Projets analyzed	|	169338	|	13803	|	8.2%	|	5712	|	3.4%	|	11.5%	|
 
 
-## Kisenso. 2018-08-16, (polygone limites de Kisenso)
+## Kisenso. 2018-08-16, (polygon Kisenso Territory limit)
 * [Kisenso, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-kisenso-2018-08-16.geojson)
 * [Kisenso, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-kisenso-2018-08-16.geojson)
 

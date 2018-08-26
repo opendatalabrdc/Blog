@@ -67,7 +67,7 @@ Il y avait deux bâtiments avant l'intervention et 18 310 bâtiments ont été a
 
 | Type de Geometrie  |  Immeubles | 
 | :------------- | ------------: |
-| Polygone ouvert   | 0
+| Polygone ouvert   | 0 |
 | s Petit | 0 |
 | 2m2 ou moins | 18 |
 | nr Non Regulier | 632 |

@@ -1,3 +1,5 @@
+
+
 # 2018-08-26 Analyse Qualité Base OSM: Superpositions et Bâtiments avec Géométrie irrègulière - Comparaison de différents projets
 *Figure 1 Polygones non valides / Outils Qualité*
 ![Figure 1 Polygones non valides](img/Kisenso_test_self_overlap_polygon_vs_osmose_flag.png)
@@ -18,6 +20,7 @@ Dans ce deuxième article sur l'analyse topologique, nous ajoutons le repérage 
 
 Lors de la Conférence Open Cities Africa à Dar Es Salaam cette semaine, les villes participantes discuteront notamment de la qualité de la donnée. C'est là un aspect important pour assurer la crédibilité de tels projets cartographiques bénévoles et fournir une donnée utile à différents projets nécessitant des données géographiques.   La comparaison ci-dessous de projets cartographique de différentes villes participantes et l'approche d'analyse proposées pourront, nous l'espérons, contribuer à cette discussion. 
  
+ 
 # Analyse Qualité - Superposition des Bâtiments et autres objets
 
 Des bâtiments, routes et autres objets tracés avec imprécision ou encore des erreurs lors de l'édition déplaçant un point auront souvent pour effet de superposer des polgyones (bâtiments, occupation du sol, cours d'eau, limites territoriales, etc) et des lignes tels routes et chemins de fer.  La figure 3 illustre ces superpositions, montrant des bâtiments et routes qui se superposent. Divers projets au cours des dernières années, souvent dans des contexte de crises ou désastres naturels ont cartographié en partie les villes faisant partie de cette liste. Malgré les validations, de nombreuses erreurs ne sont pas encore corrigées. Les outils Qualité listent ces erreurs mais il est difficile d'avoir une vue d'ensemble et de mesurer l'importance de ces signalements.
@@ -30,6 +33,7 @@ Notre outil d'analyse topologique permet d'identifier chaque immeuble ou autre o
 
 *Figure 4 Requête Overpass - Id signalés Analyse Qualité*
 ![Figure 4](img/Overpass_Turbo_Kisenso_Immeubles_formes_irreg.png)
+
 
 # Comparaison, différentes villes du projet Open Cities Africa
 

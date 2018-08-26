@@ -40,6 +40,18 @@ Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse top
 
 En moyenne, on observe un taux de signalement de % des immeubles avec géométrie irrégulière et % superposés. Au total, il y a % des immeubles avec un signalement indiquant de valider la donnée. 
 
+*Tableau 1 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, 6 projets Open Cities Africa*
+
+|	Localité	|	Buildings	|	Form	|	%	|	Overlaps	|	%	|	Total Flags % |
+|	:----------------------------------	|	----------:	|	----------:	|	------:	|	----------:	|	------:	|	----------:	|
+|	Kisenso 2018-08-16	|	73609	|	324	|	0.4%	|	391	|	0.5%	|	1.0%	|
+|	Kampala 2018-04-07	|	11327	|	1001	|	8.8%	|	343	|	3.0%	|	11.9%	|
+|	Ngaoundere 2018-08-06	|	73609	|	9998	|	13.6%	|	4439	|	6.0%	|	19.6%	|
+|	Monrovia 2018-08-25	|	4107	|	750	|	18.3%	|	442	|	10.8%	|	29.0%	|
+|	Accra 2018-08-25	|	4107	|	1396	|	34.0%	|	17	|	0.4%	|	34.4%	|
+|	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
+|	Total projets analysés	|	169338	|	13803	|	8.2%	|	5712	|	3.4%	|	11.5%	|
+
 
 ## Accra, 2018-08-25, Task 4969, hotosm
 

@@ -15,9 +15,18 @@ L'approche que nous proposons est d'extraire les données OSM d'une zone pour un
 
 Dans ce deuxième article sur l'analyse topologique, nous ajoutons le repérage des objets superposés (ie. bâtiments, routes, cours d'eau, polygones occupation du sol, etc).
 
-Nous allons également présenter une comparaison de la cartographie de différentes villes faisant partie du projet Open Cities Africa.
-
+ Lors de la Conférence Open Cities Africa à Dar Es Salaam cette semaine, divers ateliers sont organisés ou les participants des différentes villes faisant partie du porjet Open Cities pourront analyser les données OSM et discuter sur les façons d'améliorer cette donnée.  La comparaison ci-dessous de projets cartographique de différentes villes participantes seront sûrement utiles à la discussion. 
+ 
 # Analyse Qualité - Superposition des Bâtiments et autres objets
+
+Des bâtiments, routes et autres objets tracés avec imprécision ou encore des erreurs lors de l'édition déplaçant un point auront souvent pour effet de superposer des polgyones (bâtiments, occupation du sol, cours d'eau, limites territoriales, etc) et des lignes tels routes et chemins de fer.  La figure 3 illustre ces superpositions, montrant des bâtiments et routes qui se superposent.
+sont suSi les bçat
+
+*Figure3 Immeubles et routes superposées*
+![Figure 3](img/po-Topologie-XB-XO-Overpass-Kisenso-Vixualise-Immeubles-et-Routes-se-superposant.png)
+
+*Figure 4 Requête Overpass - Id signalés Analyse Qualité*
+![Figure 4](img/Overpass_Turbo_Kisenso_Immeubles_formes_irreg.png)
 
 # Comparaison, différentes villes du projet Open Cities Africa
 

@@ -32,11 +32,13 @@ Notre outil d'analyse topologique permet d'identifier chaque immeuble ou autre o
 
 # Comparaison, différentes villes du projet Open Cities Africa
 
-Pour fin de comparaison, nous avons sélectionné des villes du projet Open Cities Africa pour lesquelles des tâches ont été réalisées à l'aide du gestionnaire de tâches OSM.  Pour la plupart, la tâche était cartographié et validé à 100%.  Chacune à son histoire, réponse rapide à un désastre ou autre, qualité d'imagerie très variable, organisation de mapathons avec des débutants, etc.
+Pour fin de comparaison, nous avons sélectionné des villes du projet Open Cities Africa pour lesquelles des tâches ont été réalisées à l'aide du gestionnaire de tâches OSM.  Pour la plupart, la tâche était cartographié et validé à 100%.  Chacune à son histoire, réponse rapide à un désastre ou autre, qualité d'imagerie très variable, organisation de mapathons avec des débutants, etc. L'architecture d'une ville à l'autre peut aussi varier et dans certaines villes on peut identifier un nombre plus élevé de bâtiments qui ont effectivement une forme irrégulière.  Par exemple, lors de l'épidémie d'Ebola à, Monrovia, la ville a dû être cartographiée rapidement pour aider les équipes humanitaires, et cela malgré la mauvaise qualité de l'imagerie disponible. Les images manquant encore de précision, les projets récente n'ont pas réussi à améliorer sensiblement la qualité.  À Kamapala, suite à un projet de cartographie récent, beaucoup de doublons ont été ajoutés. Cet outil d'analyse topologique perment de l'observer rapidement et apporter les corrections nécessaires.
 
 Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse topologique. Les signalements sont regroupés selon
 - Immeubles - Géométrie irrégulière et polygones non valides
 - Superposition d'immeubles (avec autres immeubles ou autres objets)
+
+En moyenne, on observe un taux de signalement de % des immeubles avec géométrie irrégulière et % superposés. Au total, il y a % des immeubles avec un signalement indiquant de valider la donnée. 
 
 
 ## Accra, 2018-08-25, Task 4969, hotosm

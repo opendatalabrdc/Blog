@@ -1,5 +1,3 @@
-
-
 # 2018-08-26 Analyse Qualité Base OSM: Superpositions et Bâtiments avec Géométrie irrègulière - Comparaison de différents projets
 *Figure 1 Polygones non valides / Outils Qualité*
 ![Figure 1 Polygones non valides](img/Kisenso_test_self_overlap_polygon_vs_osmose_flag.png)
@@ -49,7 +47,7 @@ En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géomé
 
 |	Localité	|	Bâtiments	|	Géométrie	|	%	|	Superpositions	|	%	|	Total Signalements % |
 |	:----------------------------------	|	----------:	|	----------:	|	------:	|	----------:	|	------:	|	----------:	|
-|	Kisenso 2018-08-16	|	73609	|	324	|	0.4%	|	391	|	0.5%	|	1.0%	|
+|	Kisenso, Kinshasa 2018-08-16	|	73609	|	324	|	0.4%	|	391	|	0.5%	|	1.0%	|
 |	Kampala 2018-04-07	|	11327	|	1001	|	8.8%	|	343	|	3.0%	|	11.9%	|
 |	Ngaoundere 2018-08-06	|	73609	|	9998	|	13.6%	|	4439	|	6.0%	|	19.6%	|
 |	Monrovia 2018-08-25	|	4107	|	750	|	18.3%	|	442	|	10.8%	|	29.0%	|
@@ -58,7 +56,7 @@ En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géomé
 |	Total projets analysés	|	169338	|	13803	|	8.2%	|	5712	|	3.4%	|	11.5%	|
 
 
-## Kisenso. 2018-08-16, (polygone limites de Kisenso)
+## Kisenso, Kinshasa 2018-08-16, (polygone limites de Kisenso)
 * [Kisenso, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-kisenso-2018-08-16.geojson)
 * [Kisenso, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-kisenso-2018-08-16.geojson)
 
@@ -67,7 +65,6 @@ En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géomé
 
 * [Kampala, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Kampala_hotosm_4360_2018_04_07.geojson) 
 * [Kampala, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Kampala_hotosm_4360_2018_04_07.geojson)
-
 
 
 ## Ngaoundere, 2018-08-06, Task 4800, hotosm

@@ -1,13 +1,16 @@
 # 2018-08-26 Analyse Qualité Base OSM: Géométrie des bâtiments et objets superposés
- - Comparaison de différents projets 
-
-![Bâtiments superposés](img/Kisenso_test_self_overlap_polygon_vs_osmose_flag.png)
+ 
 Dans un [premier article](Analyse_de_la_géométrie_des_bâtiment_pour_une_meilleure_qualité_OpenStreetMap.md)
- sur ce Blog le 8 août, nous avons présenté notre classification de la forme des bâtiments. À titre d'exemple, nous avons examiné les données OSM des bâtiments dans la base OSM, pour la commune de Kisenso à Kinshasa, et mesuré la proportion de bâtiments de forme irrégulière. Les bâtiments de forme irrégulière sont généralement en petit nombre. Des proportions trop élevées suggèrent de regarder de plus près les données et s'assurer de la qualité du tracage des contours de bâtiments.  Dans les milieux urbains denses, le défi est grand pour tracer avec précision le contour des immeubles et les allées entre ces immeubles. La situation se complique également
+ sur ce Blog le 8 août, nous avons présenté notre classification de la forme des bâtiments. 
+*Figure 1 Polygones non valides / Outils Qualité*
+![Figure 1 Polygones non valides](img/Kisenso_test_self_overlap_polygon_vs_osmose_flag.png)
+À titre d'exemple, nous avons examiné les données OSM des bâtiments dans la base OSM, pour la commune de Kisenso à Kinshasa, et mesuré la proportion de bâtiments de forme irrégulière. Les bâtiments de forme irrégulière sont généralement en petit nombre. Des proportions trop élevées suggèrent de regarder de plus près les données et s'assurer de la qualité du tracage des contours de bâtiments.  Dans les milieux urbains denses, le défi est grand pour tracer avec précision le contour des immeubles et les allées entre ces immeubles. La situation se complique également
 lorsque les images disponbiles sont sombres ou floues ou encore si différentes images ne sont pas parfaitement alignées. Les mapathons où un grand nombre de débutants participent sont aussi susceptible de causer des problèmes de qualité de la donnée OSM.
 
-![Polygones non valides](img/po-Topologie-FB-Overpass-Kisenso-Polygones-non-valides.png)
-Dans de tels projets, le Gestionnaire de tâches OSM est généralement utilisé pour coordonner les contributions simultanées d'un grand nombre de participants et éviter les collisions et conflits d'édition. Ces outils assurent les gestionnaires d'un projet de cartographie de couvrir systématiquement le territoire lors des étapes de cartographie et de validation des données de la zone. Les divers outils Qualité permettent également de repérer des problèmes dans la zone et les corriger. Cependant, on constate souvent qu'après un mapathon, la donnée peut demeurer inchangée pendant des années faute de contributeurs suffisants pour parcourir la zone et corriger les données. 
+Dans de tels projets, 
+*Figure 2 Polygones non valides - Repérage*
+![Figure 2 Polygones non valides - Repérage](img/po-Topologie-FB-Overpass-Kisenso-Polygones-non-valides.png)
+le Gestionnaire de tâches OSM est généralement utilisé pour coordonner les contributions simultanées d'un grand nombre de participants et éviter les collisions et conflits d'édition. Ces outils assurent les gestionnaires d'un projet de cartographie de couvrir systématiquement le territoire lors des étapes de cartographie et de validation des données de la zone. Les divers outils Qualité permettent également de repérer des problèmes dans la zone et les corriger. Cependant, on constate souvent qu'après un mapathon, la donnée peut demeurer inchangée pendant des années faute de contributeurs suffisants pour parcourir la zone et corriger les données. 
 
 L'approche que nous proposons est d'extraire les données OSM d'une zone pour une date donnée et réaliser une analyse topologique de la qualité de la donnée.  Les statistiques produites sur les objets signalés pour évaluation permettent de mesurer l'ampleur du phénomène et comparer avec d'autres projets. Cela permet également de fournir un fichier contenant les bâtiments et autres objets à valider/corriger à l'aide d'éditeurs tels JOSM. Dans ce cas, le greffon ToDO permet de réviser un à un les objets contenus dans le fichier, valider et corriger si nécessaire. L'identification des bâtiments de forme irrégulière présentait une première mesure. Les polygones de bâtiments invalides (voir figure 1) ont aussi été identifiés. 
 

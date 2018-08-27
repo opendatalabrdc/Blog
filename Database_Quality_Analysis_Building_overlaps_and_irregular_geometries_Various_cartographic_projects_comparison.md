@@ -1,4 +1,4 @@
-# 2018-08-26 OSM Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparison
+# 2018-08-27 OSM Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparison
 In a [first article](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md) on august 8 in this Blog, we presented our classification of Building forms in the OSM Database. For example, we examined the buildings data added for the Ebola response in North Kivu, DRC, and measured the proportion of buildings of irregular shape. 
 
 These buildings are generally in small number and a high proportion of buildings with irregular shape in the OSM database for an area is an indication to take a closer look at the data and validate the quality of the drawing of building contours.  In dense urban environments, there is a great challenge in accurately tracing building contours and walkways between buildings. The situation is also becoming more complicated when the aerial imageries available to trace in OSM are dark or blurred or if different images are not perfectly aligned.  Mapathons where a large number of beginners participate are also likely to cause OSM data quality problems.
@@ -60,7 +60,7 @@ On average, a rate of 11.6% of buildings are flagged with irregular geometry and
 |	Accra 2018-08-25	|	7699	|	1396	|	18.1%	|	13	|	0.2%	|	18.3%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Saint-Louis 2018-08-27	|	25970	|	8185	|	31.5%	|	0	|	0.0%	|	31.5%	|
-|	Total projects analysed	|	145380	|	21988	|	15.1%	|	0	|	0.0%	|	15.1%	|
+|	Total projects analysed	|	145380	|	21988	|	15.1%	|	5708	|	3.9%	|	19.1%	|
 
 For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  When we visualize the GeoJSON map, the vector data appears in blue. The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference in alignment between the vector map data om blue and the background map.
 
@@ -111,4 +111,4 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 
 </br></br>
-*Pierre Béland, 2018-08-26*
+*Pierre Béland*

@@ -41,25 +41,25 @@ Notre outil d'analyse topologique permet d'identifier chaque immeuble ou autre o
 
 ## Comparaison, différentes villes du projet Open Cities Africa
 
-Pour fin de comparaison, nous avons sélectionné des villes du projet Open Cities Africa pour lesquelles des tâches ont été réalisées à l'aide du gestionnaire de tâches OSM.  Pour la plupart, la tâche était cartographié et validé à 100%.  Chacune à son histoire, réponse rapide à un désastre ou autre, qualité d'imagerie très variable, organisation de mapathons avec des débutants, etc. L'architecture d'une ville à l'autre peut aussi varier et dans certaines villes on peut identifier un nombre plus élevé de bâtiments qui ont effectivement une forme irrégulière.  Par exemple, lors de l'épidémie d'Ebola à, Monrovia, la ville a dû être cartographiée rapidement pour aider les équipes humanitaires, et cela malgré la mauvaise qualité de l'imagerie disponible. Les images manquant encore de précision, les projets récente n'ont pas réussi à améliorer sensiblement la qualité.  À Ngaoundere, suite à un projet de cartographie récent, beaucoup de doublons et d'immeubles superposés ont été ajoutés. Des outils d'analyse topologique permettent de le détecter rapidement et apporter les corrections nécessaires. À l'aide des signalements fournis par notre outil Qualité pour la commune de Kisenso à Kinshasa où la proportion d'objets avec signalement était de 3,5%, il a été possible de valider / corriger rapidement et réduire ce taux à 1%.
+Pour fin de comparaison, nous avons sélectionné des villes du projet Open Cities Africa pour lesquelles des tâches ont été réalisées à l'aide du gestionnaire de tâches OSM.  Pour la plupart, la tâche était cartographié et validé à 100%.  Chacune à son histoire, réponse rapide à un désastre ou autre, qualité d'imagerie très variable, organisation de mapathons avec des débutants, etc. L'architecture d'une ville à l'autre peut aussi varier et dans certaines villes on peut identifier un nombre plus élevé de bâtiments qui ont effectivement une forme irrégulière.  Par exemple, lors de l'épidémie d'Ebola à, Monrovia, la ville a dû être cartographiée rapidement pour aider les équipes humanitaires, et cela malgré la mauvaise qualité de l'imagerie disponible. Les images manquant encore de précision, les projets récente n'ont pas réussi à améliorer sensiblement la qualité.  À Ngaoundere, suite à un projet de cartographie récent, beaucoup de doublons et d'immeubles superposés ont été ajoutés. Des outils d'analyse topologique permettent de le détecter rapidement et apporter les corrections nécessaires. À l'aide des signalements fournis par notre outil Qualité pour la commune de Kisenso à Kinshasa où la proportion d'objets avec signalement était de 3,6%, il a été possible de valider / corriger rapidement et réduire ce taux à 1%.
 
 Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse topologique. Les sections suivantes pour chaque commune / ville, fournissent des liens vers les cartes vectorielles contenant les signalements. Ces signalements sont regroupés selon
 - Immeubles - Géométrie irrégulière et polygones non valides
 - Superposition d'immeubles (avec autres immeubles ou autres objets)
 
-En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géométrie irrégulière et 3.4% de superpositions  en proportion du total des immeubles. Au total, il y a 11,5% de signalements (objets à valider) en proportion des immeubles. 
+En moyenne, on observe un taux de signalement de 11,6% des immeubles avec géométrie irrégulière et 4.8% de superpositions  en proportion du total des immeubles. Au total, il y a 16,3% de signalements (objets à valider) en proportion des immeubles. 
 
 *Tableau 1 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, 6 projets Open Cities Africa*
 
 |	Localité	|	Bâtiments	|	Géométrie	|	%	|	Superpositions	|	%	|	Total Signalements % |
 |	:----------------------------------	|	----------:	|	----------:	|	------:	|	----------:	|	------:	|	----------:	|
-|	Kisenso, Kinshasa 2018-08-16	|	73609	|	324	|	0.4%	|	391	|	0.5%	|	1.0%	|
+|	Kisenso 2018-08-16	|	20089	|	324	|	1.6%	|	391	|	1.9%	|	3.6%	|
 |	Kampala 2018-04-07	|	11327	|	1001	|	8.8%	|	343	|	3.0%	|	11.9%	|
 |	Ngaoundere 2018-08-06	|	73609	|	9998	|	13.6%	|	4439	|	6.0%	|	19.6%	|
 |	Monrovia 2018-08-25	|	4107	|	750	|	18.3%	|	442	|	10.8%	|	29.0%	|
 |	Accra 2018-08-25	|	7699	|	1396	|	18.1%	|	13	|	0.2%	|	18.3%	|
-|	Dar Es Salaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
-|	Total projets analysés	|	172930	|	13803	|	8.0%	|	5708	|	3.3%	|	11.3%	|
+|	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
+|	Total projets analysés	|	119410	|	13803	|	11.6%	|	5708	|	4.8%	|	16.3%	|
 
 Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vectorielles des objets signalés pour évaluation. Nous retrouvons également une image illustrant cette zone géographique.  Le titre indique à quelle date on été extraites les données vectorielles pour une commune / ville.  Lorsque nous visualisons la carte GeoJSON, les données vectorielles apparaissent en ble et la carte de fond représente les données OSM actuelles. Par exemple, si une route a été modifiée dans la base OSM depuis l'extraction pour analyse pour éviter de la superposer sur un immeuble, vous observerez une différence entre la carte vectorielle et la carte de fond.
 

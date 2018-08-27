@@ -41,7 +41,7 @@ Notre outil d'analyse topologique permet d'identifier chaque immeuble ou autre o
 
 ## Comparaison, différentes villes du projet Open Cities Africa
 
-Pour fin de comparaison, nous avons sélectionné des villes du projet Open Cities Africa pour lesquelles des tâches ont été réalisées à l'aide du gestionnaire de tâches OSM.  Pour la plupart, la tâche était cartographié et validé à 100%.  Chacune à son histoire, réponse rapide à un désastre ou autre, qualité d'imagerie très variable, organisation de mapathons avec des débutants, etc. L'architecture d'une ville à l'autre peut aussi varier et dans certaines villes on peut identifier un nombre plus élevé de bâtiments qui ont effectivement une forme irrégulière.  Par exemple, lors de l'épidémie d'Ebola à, Monrovia, la ville a dû être cartographiée rapidement pour aider les équipes humanitaires, et cela malgré la mauvaise qualité de l'imagerie disponible. Les images manquant encore de précision, les projets récente n'ont pas réussi à améliorer sensiblement la qualité.  À Ngaoundere, suite à un projet de cartographie récent, beaucoup de doublons et d'immeubles superposés ont été ajoutés. Cet outil d'analyse topologique perment de l'observer rapidement et apporter les corrections nécessaires. Nous l'avons testé sur la commune de Kisenso, Kinshasa où la proportion d'objets avec signalement était de 3,5%. Après validation / correction, ce taux a été réduit à 1%.
+Pour fin de comparaison, nous avons sélectionné des villes du projet Open Cities Africa pour lesquelles des tâches ont été réalisées à l'aide du gestionnaire de tâches OSM.  Pour la plupart, la tâche était cartographié et validé à 100%.  Chacune à son histoire, réponse rapide à un désastre ou autre, qualité d'imagerie très variable, organisation de mapathons avec des débutants, etc. L'architecture d'une ville à l'autre peut aussi varier et dans certaines villes on peut identifier un nombre plus élevé de bâtiments qui ont effectivement une forme irrégulière.  Par exemple, lors de l'épidémie d'Ebola à, Monrovia, la ville a dû être cartographiée rapidement pour aider les équipes humanitaires, et cela malgré la mauvaise qualité de l'imagerie disponible. Les images manquant encore de précision, les projets récente n'ont pas réussi à améliorer sensiblement la qualité.  À Ngaoundere, suite à un projet de cartographie récent, beaucoup de doublons et d'immeubles superposés ont été ajoutés. Des outils d'analyse topologique permettent de le détecter rapidement et apporter les corrections nécessaires. Nous l'avons tester sur la commune de Kisenso à Kinshasa où la proportion d'objets avec signalement était de 3,5%. Après validation / correction, ce taux a été réduit à 1%.
 
 Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse topologique. Les sections suivantes pour chaque commune / ville, fournissent des liens vers les cartes vectorielles contenant les signalements. Ces signalements sont regroupés selon
 - Immeubles - Géométrie irrégulière et polygones non valides
@@ -63,6 +63,7 @@ En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géomé
 
 Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vectorielles des objets signalés pour évaluation. Nous retrouvons également une image illustrant cette zone géographique.  Le titre indique à quelle date on été extraites les données vectorielles pour une commune / ville.  Lorsque nous visualisons la carte GeoJSON, les données vectorielles apparaissent en ble et la carte de fond représente les données OSM actuelles. Par exemple, si une route a été modifiée dans la base OSM depuis l'extraction pour analyse pour éviter de la superposer sur un immeuble, vous observerez une différence entre la carte vectorielle et la carte de fond.
 
+
 ## Kisenso, Kinshasa 2018-08-16, (polygone limites de Kisenso)
 * [Kisenso, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-kisenso-2018-08-16.geojson)
 * [Kisenso, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-kisenso-2018-08-16.geojson)
@@ -74,6 +75,7 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 * [Kampala, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Kampala_hotosm_4360_2018_04_07.geojson) 
 * [Kampala, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Kampala_hotosm_4360_2018_04_07.geojson)
 ![Kampala](img/po-geojsjon-Kampala-Form.png)
+
 
 ## Ngaoundere, 2018-08-06, Task 4800, hotosm
 
@@ -94,6 +96,7 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 * [Accra, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Accra_hotosm_4969_2018_08_25.geojson)
 * [Accra, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Accra_hotosm_4969_2018_08_25.geojson)
 ![Accra](img/po-geojsjon-Accra-Form.png)
+
 
 ## Dar Es Salaam, 2018-08-25, Task 5012, hotosm
 

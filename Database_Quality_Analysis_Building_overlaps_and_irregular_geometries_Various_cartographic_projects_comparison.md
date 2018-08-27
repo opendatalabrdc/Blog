@@ -52,11 +52,11 @@ For comparison purposes, we selected cities from the Open Cities Africa project 
 
 During the Ebola outbreak in Monrovia in 2014, the city had to be mapped quickly to help humanitarian teams, despite the poor quality of the imagery available. As the images are still lacking in precision, recent projects have not succeeded in significantly improving quality.  In Kamapala, following a recent mapping project, many duplicates have been added. This topological analysis tool allows you to observe amd reac quickly to make the necessary corrections.
 
-Table 1 presents a comparison of the results obtained with the topological analysis with flagged buildings grouped according to
+Table 1 presents a comparison of the results obtained with the topological analysis. The sections below for each town / city provide links to vector maps for each class of buildings flagged for evaluation.
+The flagged buildings are grouped according to
 - Buildings - Irregular geometry and invalid polygons
 - Overlapped buildings (with other buildings or other objects)
 
-En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géométrie irrégulière et 3.4% de superpositions  en proportion du total des immeubles. Au total, il y a 11,5% de signalements (objets à valider) en proportion des immeubles. 
 On average, a rate of 8.2% of buildings are flagged with irregular geometry and 3.4% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 11.5% of buildings. 
 
 *Tableau 1 : Topological Analysis Comparison, Flagged objects in % of buildings for the zone, 6 Open Cities Africa projects*
@@ -70,6 +70,8 @@ On average, a rate of 8.2% of buildings are flagged with irregular geometry and 
 |	Accra 2018-08-25	|	4107	|	1396	|	34.0%	|	17	|	0.4%	|	34.4%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Total Projets analyzed	|	169338	|	13803	|	8.2%	|	5712	|	3.4%	|	11.5%	|
+
+For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference between the vector map and the background map.
 
 
 ## Kisenso. 2018-08-16, (polygon Kisenso Territory limit)

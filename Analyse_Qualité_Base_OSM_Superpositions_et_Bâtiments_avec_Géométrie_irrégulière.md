@@ -1,6 +1,3 @@
-
-
-
 # 2018-08-26 Analyse Qualité Base OSM: Superpositions et Bâtiments avec Géométrie irrègulière - Comparaison de différents projets
 Dans un [premier article](Analyse_de_la_géométrie_des_bâtiment_pour_une_meilleure_qualité_OpenStreetMap.md)
  sur ce Blog le 8 août, nous avons présenté notre classification de la forme des bâtiments. À titre d'exemple, nous avons examiné les données de bâtiments de la base OSM ajoutés pour la réponse Ebola au Nord-Kivu et mesuré la proportion de bâtiments de forme irrégulière.  Ceux-ci sont généralement en petit nombre. 
@@ -25,7 +22,6 @@ Dans ce deuxième article sur l'analyse topologique, nous ajoutons le repérage 
 Lors de la Conférence Open Cities Africa à Dar Es Salaam cette semaine, les villes participantes discuteront notamment de la qualité de la donnée. C'est là un aspect important pour assurer la crédibilité de tels projets cartographiques bénévoles et fournir une donnée utile à différents projets nécessitant des données géographiques.   La comparaison ci-dessous de projets cartographique de différentes villes participantes et l'approche d'analyse proposées pourront, nous l'espérons, contribuer à cette discussion. 
  
  
- 
 ## Analyse Qualité - Superposition des Bâtiments et autres objets
 Des bâtiments, routes et autres objets tracés avec imprécision ou encore des erreurs lors de l'édition déplaçant un point auront souvent pour effet de superposer des polgyones (bâtiments, occupation du sol, cours d'eau, limites territoriales, etc) et des lignes tels routes et chemins de fer.  La figure 3 illustre ces superpositions, montrant des bâtiments et routes qui se superposent. Divers projets au cours des dernières années, souvent dans des contexte de crises ou désastres naturels ont cartographié en partie les villes faisant partie de cette liste. Malgré les validations, de nombreuses erreurs ne sont pas encore corrigées. Les outils Qualité listent ces erreurs mais il est difficile d'avoir une vue d'ensemble et de mesurer l'importance de ces signalements.
 
@@ -37,7 +33,6 @@ Notre outil d'analyse topologique permet d'identifier chaque immeuble ou autre o
 
 *Figure 4 Requête Overpass - Id signalés Analyse Qualité*
 ![Figure 4](img/Overpass_Turbo_Kisenso_Immeubles_formes_irreg.png)
-
 
 
 ## Comparaison, différentes villes du projet Open Cities Africa
@@ -112,5 +107,7 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 * Saint-Louis, , Superpositions Immeubles/Autres objets  - Aucun
 ![Saint-Louis](img/po-geojson-Saint-Louis-Form.png)
 
+
+</br></br>
 
 *Pierre Béland, 2018-08-26

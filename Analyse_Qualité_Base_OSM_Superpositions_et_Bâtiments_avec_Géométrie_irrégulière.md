@@ -55,7 +55,7 @@ En moyenne, on observe un taux de signalement de 11,6% des immeubles avec géom�
 |	Accra 2018-08-25	|	7699	|	1396	|	18.1%	|	13	|	0.2%	|	18.3%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Saint-Louis 2018-08-27	|	25970	|	8185	|	31.5%	|	0	|	0.0%	|	31.5%	|
-|	Total projets analysés	|	145380	|	21988	|	15.1%	|	0	|	0.0%	|	15.1%	|
+|	Total projets analysés	|	145380	|	21988	|	15.1%	|	5708	|	3.9%	|	19.1%	|
 
 Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vectorielles des objets signalés pour évaluation. Nous retrouvons également une image illustrant cette zone géographique.  Le titre indique à quelle date on été extraites les données vectorielles pour une commune / ville.  Lorsque nous visualisons la carte GeoJSON, les données vectorielles apparaissent en ble et la carte de fond représente les données OSM actuelles. Par exemple, si une route a été modifiée dans la base OSM depuis l'extraction pour analyse pour éviter de la superposer sur un immeuble, vous observerez une différence entre la carte vectorielle et la carte de fond.
 
@@ -110,4 +110,4 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 
 </br></br>
 
-*Pierre Béland
+*Pierre Béland*

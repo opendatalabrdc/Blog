@@ -2,7 +2,6 @@
 
 
 # 2018-08-26 OSM Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparison
-
 In a [first article](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md) on august 8 in this Blog, we presented our classification of Building forms in the OSM Database. For example, we examined the buildings data added for the Ebola response in North Kivu, DRC, and measured the proportion of buildings of irregular shape. 
 
 These buildings are generally in small number and a high proportion of buildings with irregular shape in the OSM database for an area is an indication to take a closer look at the data and validate the quality of the drawing of building contours.  In dense urban environments, there is a great challenge in accurately tracing building contours and walkways between buildings. The situation is also becoming more complicated when the aerial imageries available to trace in OSM are dark or blurred or if different images are not perfectly aligned.  Mapathons where a large number of beginners participate are also likely to cause OSM data quality problems.
@@ -31,13 +30,11 @@ the proposed analytical approach will hopefully contribute to this discussion.
 
 
 # Quality Analysis - Buildings and other Objects Overlaps
-
 Our topological analysis tool let's identify every building, road, waterway or other object overlapping. A statistic of flagged objects is computed and a ID list of flagged objects is also available. An Overpass query using this ID list (see figure 4) 
 let's produce OSM data files containing the objects concerned. This then allows the file to be imported into JOSM for analysis and correction.  The map visualisation from the GeoJSON files presented below for each city, let's have an overview of objects flagged for analysis. It is also possible to zoom in for more detail.
 
 *Figure 4 Overpass Query - Flagged Id's - Quality Analysis*
 ![Figure 4](img/Overpass_Turbo_Kisenso_Immeubles_formes_irreg.png)
-
 
 
 # Comparison, Various towns, project Open Cities Africa
@@ -83,9 +80,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 ![Kampala](img/po-geojsjon-Kampala-Form.png)
 
 
-
 ## Ngaoundere, 2018-08-06, Task 4800, hotosm
-
 * [Ngaoundere, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson) 
 * [Ngaoundere, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson)
 ![Ngaoundere](img/po-geojsjon-Ngaoundere-Overlaps.png)
@@ -93,21 +88,18 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 
 ## Monrovia, 2018-08-25, Task 4366, hotosm
-
 * [Monrovia, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_monrovia_hotosm_4866_2018_08_25.geojson) 
 * [Monrovia, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_monrovia_hotosm_4866_2018_08_25.geojson)
 ![Monrovia](img/po-geojsjon-Monrovia-Form.png)
 
 
 ## Accra, 2018-08-25, Task 4969, hotosm
-
 * [Accra, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Accra_hotosm_4969_2018_08_25.geojson)
 * [Accra, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Accra_hotosm_4969_2018_08_25.geojson)
 ![Accra](img/po-geojsjon-Accra-Form.png)
 
 
 ## Dar Es Salaam, 2018-08-25, Task 5012, hotosm
-
 * [Dar Es Salaam, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_DarEsSalaam_hotosm_5012.geojson)
 * [Dar Es Salaam, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_DarEsSalaam_hotosm_5012.geojson)
 ![Dar Es Salaam](img/po-geojsjon-DarEsSalaam-Form.png)
@@ -115,10 +107,11 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 
 ## Saint-Louis, 2018-08-27
-
 * [Saint-Louis, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_saint_louis_2018_08_27.geojson)
 * Saint-Louis, , Overlapped objects  - None
 ![Saint-Louis](img/po-geojson-Saint-Louis-Form.png)
 
 
-*Pierre Béland, 2018-08-26
+
+
+*Pierre Béland, 2018-08-26*

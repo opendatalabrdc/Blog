@@ -42,7 +42,7 @@ Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse top
 - Immeubles - Géométrie irrégulière et polygones non valides
 - Superposition d'immeubles (avec autres immeubles ou autres objets)
 
-En moyenne, on observe un taux de signalement de 11,6% des immeubles avec géométrie irrégulière et 4.8% de superpositions  en proportion du total des immeubles. Au total, il y a 16,3% de signalements (objets à valider) en proportion des immeubles. 
+En moyenne, on observe un taux de signalement de 15,1% des immeubles avec géométrie irrégulière et 3,9% de superpositions  en proportion du total des immeubles. Au total, il y a 19,1% de signalements (objets à valider) en proportion des immeubles. 
 
 *Tableau 1 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, 6 projets Open Cities Africa*
 

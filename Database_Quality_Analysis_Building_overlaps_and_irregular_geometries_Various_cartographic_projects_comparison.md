@@ -28,7 +28,6 @@ the proposed analytical approach will hopefully contribute to this discussion.
 ![Figure 3](img/po-Topologie-XB-XO-Overpass-Kisenso-Vixualise-Immeubles-et-Routes-se-superposant.png)
 
 
-
 # Quality Analysis - Buildings and other Objects Overlaps
 Our topological analysis tool let's identify every building, road, waterway or other object overlapping. A statistic of flagged objects is computed and a ID list of flagged objects is also available. An Overpass query using this ID list (see figure 4) 
 let's produce OSM data files containing the objects concerned. This then allows the file to be imported into JOSM for analysis and correction.  The map visualisation from the GeoJSON files presented below for each city, let's have an overview of objects flagged for analysis. It is also possible to zoom in for more detail.
@@ -67,7 +66,7 @@ On average, a rate of 11.6% of buildings are flagged with irregular geometry and
 For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  When we visualize the GeoJSON map, the vector data appears in blue. The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference in alignment between the vector map data om blue and the background map.
 
 
-## Kisenso. 2018-08-16, (polygon Kisenso Territory limit)
+## Kisenso. 2018-08-16
 * [Kisenso, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-kisenso-2018-08-16.geojson)
 * [Kisenso, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-kisenso-2018-08-16.geojson)
 ![Kisenso](img/po-geojsjon-Kisenso-overlap.png)
@@ -84,7 +83,6 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Ngaoundere, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson) 
 * [Ngaoundere, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson)
 ![Ngaoundere](img/po-geojsjon-Ngaoundere-Overlaps.png)
-
 
 
 ## Monrovia, 2018-08-25, Task 4366, hotosm
@@ -113,5 +111,5 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 
 
-
+</br></br>
 *Pierre Béland, 2018-08-26*

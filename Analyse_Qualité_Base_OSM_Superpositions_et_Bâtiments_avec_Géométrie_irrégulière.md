@@ -110,4 +110,4 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 
 </br></br>
 
-*Pierre Béland, 2018-08-26
+*Pierre Béland, 2018-08-27

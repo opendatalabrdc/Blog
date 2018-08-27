@@ -1,30 +1,25 @@
 
 
-# 2018-08-26 OSB Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparizon
+# 2018-08-26 OSM Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparison
 
-*Figure 1 Invalid Polygons / Quality Tools*
+*Figure 1 Invalid Polygons / Osmosis Quality Tool*
 ![Figure 1 Invalid Polygons](img/Kisenso_test_self_overlap_polygon_vs_osmose_flag.png)
 
-In a [first article](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md) on august 8 in this Blog,
-, we presented our classification of Building forms. For example, we examined the OSM database buildings data added for the Ebola response in North Kivu, DRC, and measured the proportion of
-buildings of irregular shape. These buildings are generally in small numbers. 
+In a [first article](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md) on august 8 in this Blog, we presented our classification of Building forms in the OSM Database. For example, we examined the buildings data added for the Ebola response in North Kivu, DRC, and measured the proportion of buildings of irregular shape. 
 
-A high proportion of buildings with irregular shape in the OSM database for an area is an indication to take a closer look
-at the data and validate the quality of the drawing of building contours.  In dense urban environments, there is a great challenge
+These buildings are generally in small number and a high proportion of buildings with irregular shape in the OSM database for an area is an indication to take a closer look at the data and validate the quality of the drawing of building contours.  In dense urban environments, there is a great challenge
 in accurately tracing building contours and walkways between buildings. The situation is also becoming more complicated
 when the aerial imageries available to trace in OSM are dark or blurred or if different images are not perfectly aligned. 
 Mapathons where a large number of beginners participate are also likely to cause OSM data quality problems.
 
 *Figure 2 Invalid Polygons Detection* ![Figure 2 Invalid Polygons Detection](img/po-Topologie-FB-Overpass-Kisenso-Polygones-non-valides.png)
 
-In many projects, the OSM Tasking Manager is used to coordinate the simultaneous contributions of a large number of participants and to avoid collisions and edit conflicts. 
+In many projects, the OSM Tasking Manager role is used to distribute the task to a great number of simultaneous contributors and to avoid collisions and edit conflicts. This assures the coordinators of a mapping project to cover systematically the territory for both the mapping and data validation stages. The various Quality tools also make it possible to identify problems in the area and correct them. However, we often find that after a mapathon, the data can remain unchanged for years because there are not enough contributors to go through the area and correct the data.  Also, there are some coordination aspects that are not covered by the Tasking manager tools. The dahsboared is quite limited with a simple indication that a square is completed and validated. No evaluation about the data if any is added.  We have to count on the validators. But either unexperienced contributors validate or experienced contributors are more and more demotivated when not seeing improvement in the quality of the data.
 
-These tools ensure that the managers of a mapping project systematically cover the territory during the mapping and data validation stages of the zone. The various Quality tools also make it possible to identify problems in the area and correct them. However, we often find that after a mapathon, the data can remain unchanged for years because there are not enough contributors to go through the area and correct the data. 
+We propose to use the topological analysis on data extracted for the zone to both monitor data quality and flagged objects for revision. Data quality tools such as Osmose already provide a lot of such information, but we need some flexibility to obtain quickly the data for the zone and assaure a better monitoring.  The access to these tools via API could eventually let extract such data for a geographic zone.
 
-The approach we propose is to extract OSM data from an area for a given date and perform a topological analysis of the data quality.  
-
-The statistics produced on the objects flagged for further examination make it possible to measure the extent of the phenomenon and 
-make comparizons with other projects. This tool also provides a file containing buildings and other objects to validate/correct 
+In our project, the statistics produced on the objects flagged for further examination make it possible to measure the extent of the phenomenon and 
+make comparizons with cartographic projects in similar zones. This tool also provides a file containing buildings and other objects to validate/correct 
 using editors such as JOSM. In this case, the ToDO plugin allows to revise one by one the objects contained in the file, 
 validate and correct if necessary. The identification of buildings of irregular shape was a a first measure. Polygons of invalid buildings (see Figure 1) were also identified. 
 

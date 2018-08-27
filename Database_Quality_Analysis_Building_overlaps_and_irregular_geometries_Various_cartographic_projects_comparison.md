@@ -71,7 +71,7 @@ On average, a rate of 8.2% of buildings are flagged with irregular geometry and 
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Total Projets analyzed	|	169338	|	13803	|	8.2%	|	5712	|	3.4%	|	11.5%	|
 
-For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference between the vector map and the background map.
+For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  When we visualize the GeoJSON map, the vector data appears in blue. The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference in alignment between the vector map data om blue and the background map.
 
 
 ## Kisenso. 2018-08-16, (polygon Kisenso Territory limit)

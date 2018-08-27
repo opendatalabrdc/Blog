@@ -1,6 +1,3 @@
-
-
-
 # 2018-08-26 OSM Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparison
 In a [first article](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md) on august 8 in this Blog, we presented our classification of Building forms in the OSM Database. For example, we examined the buildings data added for the Ebola response in North Kivu, DRC, and measured the proportion of buildings of irregular shape. 
 
@@ -24,11 +21,13 @@ This is important to ensure the credibility of volunteered cartographic projects
 require geographic data.   The following comparison of mapping projects from different participating cities and 
 the proposed analytical approach will hopefully contribute to this discussion. 
 
+
+# Quality Analysis - Buildings and other Objects Overlaps
+Buildings, roads and other objects drawn with imprecision or errors during editing moving a point will often have the effect to overlap polygons (buildings, land use, water contours, territorial boundaries, etc.) and lines such as roads and railways.  Figure 3 illustrates these overlays, showing buildings and roads that overlap. Various projects in recent years, often in the context of natural crises or disasters, have partially mapped the cities on this list. Despite validations, many errors have not yet been corrected. The Quality tools list these errors but it is difficult to have an overview and to measure the importance of these flagged objects for Quality analysis.
+
 *Figure3 Overlapped Buildings and Roads*
 ![Figure 3](img/po-Topologie-XB-XO-Overpass-Kisenso-Vixualise-Immeubles-et-Routes-se-superposant.png)
 
-
-# Quality Analysis - Buildings and other Objects Overlaps
 Our topological analysis tool let's identify every building, road, waterway or other object overlapping. A statistic of flagged objects is computed and a ID list of flagged objects is also available. An Overpass query using this ID list (see figure 4) 
 let's produce OSM data files containing the objects concerned. This then allows the file to be imported into JOSM for analysis and correction.  The map visualisation from the GeoJSON files presented below for each city, let's have an overview of objects flagged for analysis. It is also possible to zoom in for more detail.
 

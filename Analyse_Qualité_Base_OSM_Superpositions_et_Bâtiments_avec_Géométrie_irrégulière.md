@@ -61,7 +61,7 @@ En moyenne, on observe un taux de signalement de 8,2% des immeubles avec géomé
 |	Dar Es Salaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Total projets analysés	|	169338	|	13803	|	8.2%	|	5712	|	3.4%	|	11.5%	|
 
-Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vectorielles des objets signalés pour évaluation. Nous retrouvons également une image illustrant cette zone géographique.  Le titre indique à quelle date on été extraites les données vectorielles pour une commune / ville.  La carte de fond représente les données OSM actuelles. Si par exemple une route a été modifiée dans la base OSM depuis l'extraction pour analyse pour éviter de la superposer sur un immeuble, vous observerez une différence entre la carte vectorielle et la carte de fond.
+Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vectorielles des objets signalés pour évaluation. Nous retrouvons également une image illustrant cette zone géographique.  Le titre indique à quelle date on été extraites les données vectorielles pour une commune / ville.  Lorsque nous visualisons la carte GeoJSON, les données vectorielles apparaissent en ble et la carte de fond représente les données OSM actuelles. Par exemple, si une route a été modifiée dans la base OSM depuis l'extraction pour analyse pour éviter de la superposer sur un immeuble, vous observerez une différence entre la carte vectorielle et la carte de fond.
 
 ## Kisenso, Kinshasa 2018-08-16, (polygone limites de Kisenso)
 * [Kisenso, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-kisenso-2018-08-16.geojson)

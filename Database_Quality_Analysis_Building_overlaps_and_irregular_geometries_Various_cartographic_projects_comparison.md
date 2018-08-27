@@ -46,8 +46,7 @@ The flagged buildings are grouped according to
 - Buildings - Irregular geometry and invalid polygons
 - Overlapped buildings (with other buildings or other objects)
 
-On average, a rate of 11.6% of buildings are flagged with irregular geometry and 4.8% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 16.3% of buildings. 
-|	Total projects analyzed	|	119410	|	13803	|	11.6%	|	5708	|	4.8%	|	16.3%	|
+On average, a rate of 15.1% of buildings are flagged with irregular geometry and 3.9% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 19.1% of buildings. 
 
 *Table 1 : Topological Analysis Comparison, Flagged objects in % of buildings for the zone, 6 Open Cities Africa projects*
 

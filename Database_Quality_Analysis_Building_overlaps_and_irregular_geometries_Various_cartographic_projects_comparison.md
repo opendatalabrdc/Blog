@@ -50,27 +50,26 @@ let's produce OSM data files containing the objects concerned. This then allows 
 For comparison purposes, we selected cities from the Open Cities Africa project for which OSM tasking manager projects were available.  For the most part, these tasks were 100% mapped and validated.  Each city has its own cartographic history, with rapid response to a disaster or variable quality of imagery, organization of mapathons with beginners, etc. Building architecture from one city to another can also vary and in some cities a higher number of buildings with irregular shapes can really exist.  
 
 For example, during the Ebola outbreak in Monrovia in 2014, the city had to be mapped quickly to help humanitarian teams, despite the poor quality of the imagery available. As the images are still lacking in precision, recent projects have not succeeded in significantly improving quality.   In Ngaoundere, following a recent mapping project, many duplicates and superimposed buildings have been added. 
-Topological analysis tools enable to detect quickly quality problems and made the necessary corrections. From the reports provided by our Quality tool for the commune of Kisenso in Kinshasa where the proportion of objects with reports was 3.5%, it was possible to focus on these objects, to validate / correct quickly and reduce this rate to 1%.
-This topological analysis tool allows you to observe it quickly and make the necessary corrections. We tested it in the commune of Kisenso, Kinshasa, where the proportion of flagged objects was 3.5%. After validation / correction, this rate was reduced to 1%.
+Topological analysis tools enable to detect quickly quality problems and made the necessary corrections. From the reports provided by our Quality tool for the commune of Kisenso in Kinshasa where the proportion of objects with reports was 3.6%, it was possible to focus on these objects, to validate / correct quickly and reduce this rate to 1%.
 
 Table 1 presents a comparison of the results obtained with the topological analysis. The sections below for each town / city provide links to vector maps for each class of buildings flagged for evaluation.
 The flagged buildings are grouped according to
 - Buildings - Irregular geometry and invalid polygons
 - Overlapped buildings (with other buildings or other objects)
 
-On average, a rate of 8.2% of buildings are flagged with irregular geometry and 3.4% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 11.5% of buildings. 
+On average, a rate of 11.6% of buildings are flagged with irregular geometry and 4.8% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 16.3% of buildings. 
+|	Total projects analyzed	|	119410	|	13803	|	11.6%	|	5708	|	4.8%	|	16.3%	|
 
 *Tableau 1 : Topological Analysis Comparison, Flagged objects in % of buildings for the zone, 6 Open Cities Africa projects*
 
 |	Town	|	Buildings	|	Form	|	%	|	Overlaps	|	%	|	Total Flags % |
 |	:----------------------------------	|	----------:	|	----------:	|	------:	|	----------:	|	------:	|	----------:	|
-|	Kisenso 2018-08-16	|	73609	|	324	|	0.4%	|	391	|	0.5%	|	1.0%	|
+|	Kisenso 2018-08-16	|	20089	|	324	|	1.6%	|	391	|	1.9%	|	3.6%	|
 |	Kampala 2018-04-07	|	11327	|	1001	|	8.8%	|	343	|	3.0%	|	11.9%	|
 |	Ngaoundere 2018-08-06	|	73609	|	9998	|	13.6%	|	4439	|	6.0%	|	19.6%	|
 |	Monrovia 2018-08-25	|	4107	|	750	|	18.3%	|	442	|	10.8%	|	29.0%	|
 |	Accra 2018-08-25	|	7699	|	1396	|	18.1%	|	13	|	0.2%	|	18.3%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
-|	Total Projets analyzed	|	172930	|	13803	|	8.0%	|	5708	|	3.3%	|	11.3%	|
 
 For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  When we visualize the GeoJSON map, the vector data appears in blue. The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference in alignment between the vector map data om blue and the background map.
 

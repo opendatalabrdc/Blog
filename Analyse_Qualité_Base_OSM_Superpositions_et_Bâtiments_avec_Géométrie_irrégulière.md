@@ -19,8 +19,7 @@ Dans notre projet, les statistiques produites sur les objets marqués pour un ex
 
 Dans ce deuxième article sur l'analyse topologique, nous ajoutons le repérage des objets superposés (ie. bâtiments, routes, cours d'eau, polygones occupation du sol, etc) à la liste des objets signalés pour une évaluation plus poussée.
 
-Lors de la Conférence Open Cities Africa à Dar Es Salaam cette semaine, les villes participantes discuteront notamment de la qualité de la donnée. C'est là un aspect important pour assurer la crédibilité de tels projets cartographiques bénévoles et fournir une donnée utile à différents projets nécessitant des données géographiques.   La comparaison ci-dessous de projets cartographique de différentes villes participantes et l'approche d'analyse proposées pourront, nous l'espérons, contribuer à cette discussion. 
- 
+Le démarrage récemment du projet Open Cities Africa avec 12 villes participantes offre une opportunité intéressante pour comparer la réalité de différentes territoires. La comparaison ci-dessous présente les données de ces 12 villes et offre la possibilité de comparer la base de données de OSM à travers l'Afrique.  La comparaison des données Qualité de ces villes est intéressante pour voir comment de tels outils peuventt aider à améliorer la base de données OSM. Nous proposons une approche analytique qui, nous l'espérons, contribuera aux discussions sur la qualité des données et le développement d'OSM dans diverses localités. 
  
  
 ## Analyse Qualité - Superposition des Bâtiments et autres objets

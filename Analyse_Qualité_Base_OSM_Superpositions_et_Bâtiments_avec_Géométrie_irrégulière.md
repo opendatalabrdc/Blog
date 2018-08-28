@@ -128,28 +128,28 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 
 * [Antananarivo, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_antananarivo_2018_08_27.geojson)
 * [Antananarivo, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_antananarivo_2018_08_27.geojson)
-![Antananarivo](img/po-geojson-Antananarivo-Overlaps.png)
+![Antananarivo](img/po-geojsjon-Antanarivo-Irregular-Forms.png)
 
 
 ## Pointe-Noire 2018-08-27
 
 * [Pointe-Noire, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_pointe_noire_2018_08_27.geojson)
 * [Pointe-Noire, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_pointe_noire_2018_08_27.geojson)
-![Pointe-Noire](img/po-geojson-Pointe-Noire-Overlaps.png)
+![Pointe-Noire](img/po-geojsjon-Pointe-Noire-Overlaps.png)
 
 
 ## Brazzaville 2018-08-27
 
 * [Brazzaville, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_brazzaville_2018_08_27.geojson)
 * [Brazzaville, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_brazzaville_2018_08_27.geojson)
-![Brazzaville](img/po-geojson-Brazzaville-Overlaps.png)
+![Brazzaville](img/po-geojsjon-Brazzaville-Irregular-Forms.png)
 
 
 ## Stone Town 2018-08-27
 
-* [Stone Town, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_brazzaville_2018_08_27.geojson)
-* [Stone Town, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_brazzaville_2018_08_27.geojson)
-![Stone Town](img/po-geojson-Stone-Town-Overlaps.png)
+* [Stone Town, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_stone_town_2018_08_27.geojson)
+* [Stone Town, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_stone_town_2018_08_27.geojson)
+![Stone Town](img/po-geojsjon-Stone-Town-Irregular-Forms.png)
 
 </br></br>
 

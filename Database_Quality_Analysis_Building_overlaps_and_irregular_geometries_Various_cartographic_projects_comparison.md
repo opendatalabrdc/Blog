@@ -129,7 +129,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 * [Antananarivo, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_antananarivo_2018_08_27.geojson)
 * [Antananarivo, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_antananarivo_2018_08_27.geojson)
-![Antananarivo](img/po-geojson-Antananarivo-Overlaps.png)
+![Antananarivo](img/po-geojsjon-Antanarivo-Irregular-Forms.png)
 
 
 ## Pointe-Noire 2018-08-27
@@ -143,14 +143,14 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 * [Brazzaville, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_brazzaville_2018_08_27.geojson)
 * [Brazzaville, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_brazzaville_2018_08_27.geojson)
-![Brazzaville](img/po-geojson-Brazzaville-Overlaps.png)
+![Brazzaville](img/po-geojsjon-Brazzaville-Irregular-Forms.png)
 
 
 ## Stone Town 2018-08-27
 
-* [Stone Town, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_brazzaville_2018_08_27.geojson)
-* [Stone Town, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_brazzaville_2018_08_27.geojson)
-![Stone Town](img/po-geojson-Stone-Town-Overlaps.png)
+* [Stone Town, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_stone_town_2018_08_27.geojson)
+* [Stone Town, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_stone_town_2018_08_27.geojson)
+![Stone Town](img/po-geojsjon-Stone-Town-Irregular-Forms.png)
 
 </br></br>
 

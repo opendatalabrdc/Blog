@@ -1,3 +1,4 @@
+
 # 2018-08-27 OSM Database Quality Analysis : Building overlaps and irregular geometries - Various cartographic projects comparison
 In a [first article](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md) on august 8 in this Blog, we presented our classification of Building forms in the OSM Database. For example, we examined the buildings data added for the Ebola response in North Kivu, DRC, and measured the proportion of buildings of irregular shape. 
 
@@ -36,8 +37,6 @@ let's produce OSM data files containing the objects concerned. This then allows 
 
 
 # Comparison, Various towns, project Open Cities Africa
-**Totals in this section are preliminary, some overlaps flags might be missing**
-
 For comparison purposes, we selected cities from the Open Cities Africa project for which OSM tasking manager projects were available.  For the most part, these tasks were 100% mapped and validated.  Each city has its own cartographic history, with rapid response to a disaster or variable quality of imagery, organization of mapathons with beginners, etc. Building architecture from one city to another can also vary and in some cities a higher number of buildings with irregular shapes can really exist.  
 
 For example, during the Ebola outbreak in Monrovia in 2014, the city had to be mapped quickly to help humanitarian teams, despite the poor quality of the imagery available. As the images are still lacking in precision, recent projects have not succeeded in significantly improving quality.   In Ngaoundere, following a recent mapping project, many duplicates and superimposed buildings have been added. 
@@ -48,7 +47,6 @@ The flagged buildings are grouped according to
 - Buildings - Irregular geometry and invalid polygons
 - Overlapped buildings (with other buildings or other objects)
 
-On average, a rate of 15.1% of buildings are flagged with irregular geometry and 3.9% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 19.1% of buildings. 
 On average, a rate of 25.9% of buildings are flagged with irregular geometry and 5.7% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 31.7% of buildings. Rather than the average, we should focus on the discrepancy of rates between the various cities analyzed.  How to explain these differences ranging from 3.6? with Kisenso to 74.8% for Victoria?.  Can irregular shapes vary so much from one place to the other? Can differences be explained by different architectures in informal urban areas?  And for some cities, various remotely organized mapathons may have significantly increased the level of flagged objects.  If we look more closely at the data for Victoria and Saint-Louis, we see a high volume of duplicates and irregular forms that will need to be looked at closely.
 
 These maps represent the current situation for each city. The lack of quality in some places represents an additional challenge and it will surely be necessary to think about how to improve the OSM database for the area while assuring to make progress with the project.
@@ -64,7 +62,8 @@ These maps represent the current situation for each city. The lack of quality in
 |	Accra 2018-08-25	|	7699	|	1396	|	18.1%	|	13	|	0.2%	|	18.3%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Saint-Louis 2018-08-27	|	25970	|	6548	|	25.2%	|	3814	|	14.7%	|	39.9%	|
-|	Total projects analysed	|	145380	|	20352	|	14.0%	|	9521	|	6.5%	|	20.5%	|
+|	Victoria 2018-08-27	|	37299	|	27015	|	72.4%	|	898	|	2.4%	|	74.8%	|
+|	Total projects analysed|	182679	|	47367	|	25.9%	|	10419	|	5.7%	|	31.6%	|
 
 For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  When we visualize the GeoJSON map, the vector data appears in blue. The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference in alignment between the vector map data om blue and the background map.
 

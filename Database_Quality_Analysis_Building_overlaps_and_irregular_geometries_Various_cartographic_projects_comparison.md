@@ -53,15 +53,15 @@ On average, a rate of 15.1% of buildings are flagged with irregular geometry and
 *Table 1 : Topological Analysis Comparison, Flagged objects in % of buildings for the zone, 6 Open Cities Africa projects*
 
 |	Town	|	Buildings	|	Form	|	%	|	Overlaps	|	%	|	Total Flags % |
-|	:----------------------------------	|	----------:	|	----------:	|	------:	|	----------:	|	------:	|	----------:	|
+|	:----------------------------------	|	----------:	|	----------:	|	----------:	|	----------:	|	----------:	|	----------:	|
 |	Kisenso 2018-08-16	|	20089	|	324	|	1.6%	|	391	|	1.9%	|	3.6%	|
 |	Kampala 2018-04-07	|	11327	|	1001	|	8.8%	|	343	|	3.0%	|	11.9%	|
 |	Ngaoundere 2018-08-06	|	73609	|	9998	|	13.6%	|	4439	|	6.0%	|	19.6%	|
-|	Monrovia 2018-08-25	|	4107	|	750	|	18.3%	|	442	|	10.8%	|	29.0%	|
+|	Monrovia 2018-08-25	|	4107	|	751	|	18.3%	|	441	|	10.7%	|	29.0%	|
 |	Accra 2018-08-25	|	7699	|	1396	|	18.1%	|	13	|	0.2%	|	18.3%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
-|	Saint-Louis 2018-08-27	|	25970	|	8185	|	31.5%	|	----	|	0.0%	|	31.5%	|
-|	Total projects analysed	|	145380	|	21988	|	15.1%	|	5708	|	3.9%	|	19.1%	|
+|	Saint-Louis 2018-08-27	|	25970	|	6548	|	25.2%	|	3814	|	14.7%	|	39.9%	|
+|	Total projects analysed	|	145380	|	20352	|	14.0%	|	9521	|	6.5%	|	20.5%	|
 
 For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  When we visualize the GeoJSON map, the vector data appears in blue. The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference in alignment between the vector map data om blue and the background map.
 
@@ -106,8 +106,9 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 ## Saint-Louis, 2018-08-27
 * [Saint-Louis, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_saint_louis_2018_08_27.geojson)
-* Saint-Louis, , Overlapped objects  - To be added
-![Saint-Louis](img/po-geojson-Saint-Louis-Form.png)
+* [Saint-Louis, , Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_saint_louis_2018_08_27.geojson)
+
+[Saint-Louis](img/po-geojson-Saint-Louis-Form.png)
 
 
 

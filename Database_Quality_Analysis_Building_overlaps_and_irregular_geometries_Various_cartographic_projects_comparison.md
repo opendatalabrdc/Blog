@@ -39,7 +39,7 @@ let's produce OSM data files containing the objects concerned. This then allows 
 
 
 # «State of the Map» Comparison, Various towns, project Open Cities Africa
-For comparison purposes, we selected cities from the Open Cities Africa project for which OSM tasking manager projects were available.  For the most part, these tasks were 100% mapped and validated.  Each city has its own cartographic history, with rapid response to a disaster or variable quality of imagery, organization of mapathons with beginners, etc. Building architecture from one city to another can also vary and in some cities a higher number of buildings with irregular shapes can really exist.  
+For comparison purposes, we selected cities from the Open Cities Africa project for which OSM tasking manager projects were available. Otherwise we selected a rectangular zone to represent the city.  The selected areas may cover a larger area than the Open Cities project but nevertheless represents a good indication of the state of the map, the quality of the OSM data in the area.  Each city has its own cartographic history, with rapid response to a disaster or variable quality of imagery, organization of mapathons with beginners, etc. Building architecture from one city to another can also vary and in some cities a higher number of buildings with irregular shapes can really exist.  
 
 For example, during the Ebola outbreak in Monrovia in 2014, the city had to be mapped quickly to help humanitarian teams, despite the poor quality of the imagery available. As the images are still lacking in precision, recent projects have not succeeded in significantly improving quality.   In Ngaoundere, following a recent mapping project, many duplicates and superimposed buildings have been added. 
 Topological analysis tools enable to detect quickly quality problems and made the necessary corrections.
@@ -49,14 +49,14 @@ The flagged buildings are grouped according to
 - Buildings - Irregular geometry and invalid polygons
 - Overlapped buildings (with other buildings or other objects)
 
-On average, a rate of 25.9% of buildings are flagged with irregular geometry and 5.7% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 31.7% of buildings. Rather than the average, we should focus on the discrepancy of rates between the various cities analyzed.  How to explain these differences ranging from 3.6? with Kisenso to 74.8% for Victoria?.  Can irregular shapes vary so much from one place to the other? Can differences be explained by different architectures in informal urban areas?  And for some cities, various remotely organized mapathons may have significantly increased the level of flagged objects.
+On average, a rate of 25.9% of buildings are flagged with irregular geometry and 5.7% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 31.7% of buildings. Rather than the average, we should focus on the discrepancy of rates between the various cities analyzed.  How to explain these differences ranging from 3.6? with Kisenso to 74.8% for Victoria?  Topological errors (Overlays + Invalid polygons do not represent the largest share of alerts. On the other hand, one must question the high rate of buildings with irregular shapes in certain zones.  Can irregular shapes vary so much from one place to the other? Can differences be explained by different architectures in informal urban areas?  And for some cities, various remotely organized mapathons may have significantly increased the level of flagged objects.
 
 These maps represent the current situation for each city (ie The State of the Map). The lack of quality in some places represents an additional challenge and it will surely be necessary to think about how to improve the OSM database for the area while assuring to make progress with the project.
 
 *Table 1 : Topological Analysis Comparison, Flagged objects in % of buildings for the zone, 6 Open Cities Africa projects*
 
-|	Town	|	Buildings	|	Form	|	%	|	Overlaps	|	%	|	Total Flags % |
-|	:----------------------------------	|	----------:	|	----------:	|	----------:	|	----------:	|	----------:	|	----------:	|
+|	Town	|	Buildings	|	Warning Irreg. Form	|	%	|	Error Overlaps +Invalid Polyg	|	%	|	Total Flags % |
+|	:------------------------------------------	|	--------:	|	------:	|	--------:	|	------:	|	------:	|	------:	|
 |	Kisenso 2018-08-16	|	20089	|	324	|	1.6%	|	391	|	1.9%	|	3.6%	|
 |	Kampala 2018-04-07	|	11327	|	1001	|	8.8%	|	343	|	3.0%	|	11.9%	|
 |	Ngaoundere 2018-08-06	|	73609	|	9998	|	13.6%	|	4439	|	6.0%	|	19.6%	|

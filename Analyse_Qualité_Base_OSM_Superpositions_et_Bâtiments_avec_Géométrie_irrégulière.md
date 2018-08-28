@@ -44,7 +44,9 @@ Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse top
 - Immeubles - Géométrie irrégulière et polygones non valides
 - Superposition d'immeubles (avec autres immeubles ou autres objets)
 
-En moyenne, on observe un taux de signalement de 15,1% des immeubles avec géométrie irrégulière et 3,9% de superpositions  en proportion du total des immeubles. Au total, il y a 19,1% de signalements (objets à valider) en proportion des immeubles. 
+En moyenne, on observe un taux de signalement de 25,9% des immeubles avec géométrie irrégulière et 5,7% de superpositions  en proportion du total des immeubles. Au total, il y a 31,6% de signalements (objets à valider) en proportion des immeubles. Mais plutôt que la moyenne, ce sont les grands écarts dans les taux qui sont à retenir.  Comment expliquer ces écarts allant  De Kisenso  avec un taux de signalements de 3,6% à Victoria avec un taux de 74,8%.  Les architectures de forme irrégulière peuvent-elles varier autant? Peut-on expliquer les écarts par des architectures différentes dans les zones d'urbanisme informel?  Et pour certains villes, divers mapathons organisés à distance peuvent avoir augmenté sensiblement les taux de signalement.  Si nous regardons de plus près les données pour Victoria et Saint-Louis, on observe des doublons et des tracés variables.
+
+Ces cartes représentent la situation actuelle pour chacune des villes. Le manque de qualité à certains endroits représente un défi supplémentaire et il faudra sûrement réfléchir à comment amélioer la base OSM pour la zone toute en réussissant à faire progresser le projet.
 
 *Tableau 1 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, 6 projets Open Cities Africa*
 
@@ -57,7 +59,8 @@ En moyenne, on observe un taux de signalement de 15,1% des immeubles avec géom�
 |	Accra 2018-08-25	|	7699	|	1396	|	18.1%	|	13	|	0.2%	|	18.3%	|
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Saint-Louis 2018-08-27	|	25970	|	6548	|	25.2%	|	3814	|	14.7%	|	39.9%	|
-|	Total projets analysés	|	145380	|	20352	|	14.0%	|	9521	|	6.5%	|	20.5%	|
+|	Victoria 2018-08-27	|	37299	|	27015	|	72.4%	|	898	|	2.4%	|	74.8%	|
+|	Total projets analysés	|	182679	|	47367	|	25.9%	|	10419	|	5.7%	|	31.6%	|
 
 Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vectorielles des objets signalés pour évaluation. Nous retrouvons également une image illustrant cette zone géographique.  Le titre indique à quelle date on été extraites les données vectorielles pour une commune / ville.  Lorsque nous visualisons la carte GeoJSON, les données vectorielles apparaissent en ble et la carte de fond représente les données OSM actuelles. Par exemple, si une route a été modifiée dans la base OSM depuis l'extraction pour analyse pour éviter de la superposer sur un immeuble, vous observerez une différence entre la carte vectorielle et la carte de fond.
 
@@ -106,8 +109,15 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 ## Saint-Louis, 2018-08-27
 
 * [Saint-Louis, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_saint_louis_2018_08_27.geojson)
-* [Saint-Louis, , Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_saint_louis_2018_08_27.geojson)
+* [Saint-Louis, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_saint_louis_2018_08_27.geojson)
 ![Saint-Louis](img/po-geojson-Saint-Louis-Overlaps.png)
+
+
+## Victoria, 2018-08-27
+
+* [Victoria, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_victoria_2018_08_27.geojson)
+* [Victoria, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
+![Victoria](img/po-geojson-Saint-Louis-Overlaps.png)
 
 
 </br></br>

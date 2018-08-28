@@ -17,11 +17,7 @@ In our project, the statistics produced on the objects flagged for further exami
 
 In this second article on topological analysis, superimposed objects (ie. buildings, roads, streams, land use polygons, etc) are added to the list of objects flagged for more analysis.
 
-During the Open Cities Africa Conference in Dar Es Salaam this week, the participating cities will discuss the quality of the data. 
-This is important to ensure the credibility of volunteered cartographic projects and to provide useful data for different projects that 
-require geographic data.   The following comparison of mapping projects from different participating cities and 
-the proposed analytical approach will hopefully contribute to this discussion. 
-
+The Open Cities Africa project started recently with 12 participant cities. The comparison below presents data for these 12 cities. This offers the possibilily to compare the OSM database for various areas of Africa.  Comparison of quality data for these cities is interesting to see how it can help to improve the OSM Database. We propose an analytical approach that will hopefully contribute to discussions about data quality and the development of OSM in various localities. 
 
 
 # Quality Analysis - Buildings and other Objects Overlaps

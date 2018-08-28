@@ -115,8 +115,8 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 
 ## Victoria, 2018-08-27
 
-* [Victoria, Immeubles avec géométrie irrégulière](topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
-* [Victoria, Superpositions Immeubles/Autres objets](topology/topology-overlap-oc_victoria_2018_08_27.geojson)
+* [Victoria, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
+* [Victoria, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_victoria_2018_08_27.geojson)
 ![Victoria](img/po-geojson-Victoria-Overlaps.png)
 
 </br></br>

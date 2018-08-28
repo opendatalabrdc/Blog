@@ -106,7 +106,7 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 ## Saint-Louis, 2018-08-27
 
 * [Saint-Louis, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_saint_louis_2018_08_27.geojson)
-* [Saint-Louis, , Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_saint_louis_2018_08_27.geojson)
+* [Saint-Louis, , Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_saint_louis_2018_08_27.geojson)
 ![Saint-Louis](img/po-geojson-Saint-Louis-Form.png)
 
 

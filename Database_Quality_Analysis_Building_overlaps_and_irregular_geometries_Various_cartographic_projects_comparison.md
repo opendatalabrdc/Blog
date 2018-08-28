@@ -115,8 +115,8 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 
 ## Victoria, 2018-08-27
 
-* [Victoria, Irregular building Forms](topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
-* [Victoria, Overlapped objects](topology/topology-overlap-oc_victoria_2018_08_27.geojson)
+* [Victoria, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
+* [Victoria, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_victoria_2018_08_27.geojson)
 ![Victoria](img/po-geojson-Victoria-Overlaps.png)
 
 </br></br>

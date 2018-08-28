@@ -44,7 +44,7 @@ Le tableau 1 présente une comparaison des résultats obtenus avec l'analyse top
 - Immeubles - Géométrie irrégulière et polygones non valides
 - Superposition d'immeubles (avec autres immeubles ou autres objets)
 
-En moyenne, on observe un taux de signalement de 25,9% des immeubles avec géométrie irrégulière et 5,7% de superpositions  en proportion du total des immeubles. Au total, il y a 31,6% de signalements (objets à valider) en proportion des immeubles. Mais plutôt que la moyenne, ce sont les grands écarts dans les taux qui sont à retenir.  Comment expliquer ces écarts allant  De Kisenso  avec un taux de signalements de 3,6% à Victoria avec un taux de 74,8%.  Les erreurs topologiques (Superpositions + Polygones invalides ne représentent pas la part la plus importante des signalements. Par contre, on doit s'interroger sur le taux élevé d'immeubles avec formes irrégulières dans certaines zones.  Les architectures de forme irrégulière peuvent-elles varier autant? Peut-on expliquer les écarts par des architectures différentes dans les zones d'urbanisme informel?  Et pour certains villes, divers mapathons organisés à distance peuvent avoir augmenté sensiblement les taux de signalement. 
+En moyenne, on observe un taux de signalement de 27,8% des immeubles avec géométrie irrégulière et 5,6% de superpositions  en proportion du total des immeubles. Au total, il y a 33,4% de signalements (objets à valider) en proportion des immeubles. Mais plutôt que la moyenne, ce sont les grands écarts dans les taux qui sont à retenir.  Comment expliquer ces écarts allant  De Kisenso  avec un taux de signalements de 3,6% à Victoria avec un taux de 74,8%.  Les erreurs topologiques (Superpositions + Polygones invalides ne représentent pas la part la plus importante des signalements. Par contre, on doit s'interroger sur le taux élevé d'immeubles avec formes irrégulières dans certaines zones.  Les architectures de forme irrégulière peuvent-elles varier autant? Peut-on expliquer les écarts par des architectures différentes dans les zones d'urbanisme informel?  Et pour certains villes, divers mapathons organisés à distance peuvent avoir augmenté sensiblement les taux de signalement. 
 
 Ces cartes représentent la situation actuelle pour chacune des villes (ie The State of the Map). Le manque de qualité à certains endroits représente un défi supplémentaire et il faudra sûrement réfléchir à comment amélioer la base OSM pour la zone toute en réussissant à faire progresser le projet.
 
@@ -60,7 +60,11 @@ Ces cartes représentent la situation actuelle pour chacune des villes (ie The S
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Saint-Louis 2018-08-27	|	25970	|	6548	|	25.2%	|	3814	|	14.7%	|	39.9%	|
 |	Victoria 2018-08-27	|	37299	|	27015	|	72.4%	|	898	|	2.4%	|	74.8%	|
-|	Total projets analysés	|	182679	|	47367	|	25.9%	|	10419	|	5.7%	|	31.6%	|
+|	Antananarivo 2018-08-27	|	10282	|	5932	|	57.7%	|	330	|	3.2%	|	60.9%	|
+|	Pointe-Noire 2018-08-27	|	765	|	265	|	34.6%	|	186	|	24.3%	|	59.0%	|
+|	Brazzaville 2018-08-27	|	1239	|	208	|	16.8%	|	30	|	2.4%	|	19.2%	|
+|	Stone Town 2018-08-27	|	2392	|	1022	|	42.7%	|	178	|	7.4%	|	50.2%	|
+|	Total projets analysés	|	197357	|	54794	|	27.8%	|	11143	|	5.6%	|	33.4%	|
 
 Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vectorielles des objets signalés pour évaluation. Nous retrouvons également une image illustrant cette zone géographique.  Le titre indique à quelle date on été extraites les données vectorielles pour une commune / ville.  Lorsque nous visualisons la carte GeoJSON, les données vectorielles apparaissent en ble et la carte de fond représente les données OSM actuelles. Par exemple, si une route a été modifiée dans la base OSM depuis l'extraction pour analyse pour éviter de la superposer sur un immeuble, vous observerez une différence entre la carte vectorielle et la carte de fond.
 

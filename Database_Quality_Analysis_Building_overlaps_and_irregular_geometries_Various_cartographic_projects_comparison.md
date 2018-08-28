@@ -49,7 +49,7 @@ The flagged buildings are grouped according to
 - Buildings - Irregular geometry and invalid polygons
 - Overlapped buildings (with other buildings or other objects)
 
-On average, a rate of 25.9% of buildings are flagged with irregular geometry and 5.7% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 31.7% of buildings. Rather than the average, we should focus on the discrepancy of rates between the various cities analyzed.  How to explain these differences ranging from 3.6? with Kisenso to 74.8% for Victoria?  Topological errors (Overlays + Invalid polygons do not represent the largest share of alerts. On the other hand, one must question the high rate of buildings with irregular shapes in certain zones.  Can irregular shapes vary so much from one place to the other? Can differences be explained by different architectures in informal urban areas?  And for some cities, various remotely organized mapathons may have significantly increased the level of flagged objects.
+On average, a rate of 27.8% of buildings are flagged with irregular geometry and 5.6% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 33.4% of buildings. Rather than the average, we should focus on the discrepancy of rates between the various cities analyzed.  How to explain these differences ranging from 3.6? with Kisenso to 74.8% for Victoria?  Topological errors (Overlays + Invalid polygons do not represent the largest share of alerts. On the other hand, one must question the high rate of buildings with irregular shapes in certain zones.  Can irregular shapes vary so much from one place to the other? Can differences be explained by different architectures in informal urban areas?  And for some cities, various remotely organized mapathons may have significantly increased the level of flagged objects.
 
 These maps represent the current situation for each city (ie The State of the Map). The lack of quality in some places represents an additional challenge and it will surely be necessary to think about how to improve the OSM database for the area while assuring to make progress with the project.
 
@@ -65,7 +65,11 @@ These maps represent the current situation for each city (ie The State of the Ma
 |	Dar Es Sallaam 2018-08-25	|	2579	|	334	|	13.0%	|	80	|	3.1%	|	16.1%	|
 |	Saint-Louis 2018-08-27	|	25970	|	6548	|	25.2%	|	3814	|	14.7%	|	39.9%	|
 |	Victoria 2018-08-27	|	37299	|	27015	|	72.4%	|	898	|	2.4%	|	74.8%	|
-|	Total projects analysed|	182679	|	47367	|	25.9%	|	10419	|	5.7%	|	31.6%	|
+|	Antananarivo 2018-08-27	|	10282	|	5932	|	57.7%	|	330	|	3.2%	|	60.9%	|
+|	Pointe-Noire 2018-08-27	|	765	|	265	|	34.6%	|	186	|	24.3%	|	59.0%	|
+|	Brazzaville 2018-08-27	|	1239	|	208	|	16.8%	|	30	|	2.4%	|	19.2%	|
+|	Stone Town 2018-08-27	|	2392	|	1022	|	42.7%	|	178	|	7.4%	|	50.2%	|
+|	Total projects analysed	|	197357	|	54794	|	27.8%	|	11143	|	5.6%	|	33.4%	|
 
 For each town / city, we find the hyperlinks to the vector maps of the objects flagged for evaluation. We also find an image illustrating this geographical area.  The title indicates to which date the vector data correspond for a town / city.  When we visualize the GeoJSON map, the vector data appears in blue. The background map represents the current OSM data. For example, if a route has been modified in the OSM database since extraction for analysis to correct overlaps of roads and buildings, you will notice a difference in alignment between the vector map data om blue and the background map.
 
@@ -119,6 +123,34 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Victoria, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
 * [Victoria, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_victoria_2018_08_27.geojson)
 ![Victoria](img/po-geojson-Victoria-Overlaps.png)
+
+
+## Antananarivo 2018-08-27
+
+* [Antananarivo, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_antananarivo_2018_08_27.geojson)
+* [Antananarivo, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_antananarivo_2018_08_27.geojson)
+![Antananarivo](img/po-geojson-Antananarivo-Overlaps.png)
+
+
+## Pointe-Noire 2018-08-27
+
+* [Pointe-Noire, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_pointe_noire_2018_08_27.geojson)
+* [Pointe-Noire, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_pointe_noire_2018_08_27.geojson)
+![Pointe-Noire](img/po-geojson-Pointe-Noire-Overlaps.png)
+
+
+## Brazzaville 2018-08-27
+
+* [Brazzaville, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_brazzaville_2018_08_27.geojson)
+* [Brazzaville, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_brazzaville_2018_08_27.geojson)
+![Brazzaville](img/po-geojson-Brazzaville-Overlaps.png)
+
+
+## Stone Town 2018-08-27
+
+* [Stone Town, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_brazzaville_2018_08_27.geojson)
+* [Stone Town, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_brazzaville_2018_08_27.geojson)
+![Stone Town](img/po-geojson-Stone-Town-Overlaps.png)
 
 </br></br>
 

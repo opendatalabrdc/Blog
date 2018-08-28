@@ -147,9 +147,9 @@ Pour chaque commune / ville, nous retrouvons les hyperliens vers les cartes vect
 
 ## Stone Town 2018-08-27
 
+![Stone Town](img/po-geojsjon-Stone-Town-Irregular-Forms.png)
 * [Stone Town, Immeubles avec géométrie irrégulière](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_stone_town_2018_08_27.geojson)
 * [Stone Town, Superpositions Immeubles/Autres objets](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_stone_town_2018_08_27.geojson)
-![Stone Town](img/po-geojsjon-Stone-Town-Irregular-Forms.png)
 
 </br></br>
 

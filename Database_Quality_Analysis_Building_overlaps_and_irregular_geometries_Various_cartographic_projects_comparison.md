@@ -107,8 +107,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 ## Saint-Louis, 2018-08-27
 * [Saint-Louis, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_saint_louis_2018_08_27.geojson)
 * [Saint-Louis, , Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_saint_louis_2018_08_27.geojson)
-
-[Saint-Louis](img/po-geojson-Saint-Louis-Form.png)
+![Saint-Louis](img/po-geojson-Saint-Louis-Form.png)
 
 
 

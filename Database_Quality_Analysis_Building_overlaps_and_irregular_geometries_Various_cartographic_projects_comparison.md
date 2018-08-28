@@ -74,7 +74,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Kisenso, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-kisenso-2018-08-16.geojson)
 * [Kisenso, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-kisenso-2018-08-16.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Kisenso](img/po-geojsjon-Kisenso-overlap.png)
 
 
@@ -83,7 +83,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Kampala, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Kampala_hotosm_4360_2018_04_07.geojson) 
 * [Kampala, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Kampala_hotosm_4360_2018_04_07.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Kampala](img/po-geojsjon-Kampala-Form.png)
 
 
@@ -91,7 +91,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Ngaoundere, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson) 
 * [Ngaoundere, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Ngaoundere_hotosm_4800_2018_08_06.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Ngaoundere](img/po-geojsjon-Ngaoundere-Overlaps.png)
 
 
@@ -99,7 +99,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Monrovia, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_monrovia_hotosm_4866_2018_08_25.geojson) 
 * [Monrovia, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_monrovia_hotosm_4866_2018_08_25.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Monrovia](img/po-geojsjon-Monrovia-Form.png)
 
 
@@ -107,7 +107,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Accra, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_Accra_hotosm_4969_2018_08_25.geojson)
 * [Accra, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_Accra_hotosm_4969_2018_08_25.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Accra](img/po-geojsjon-Accra-Form.png)
 
 
@@ -115,7 +115,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Dar Es Salaam, Irregular Building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-OC_DarEsSalaam_hotosm_5012.geojson)
 * [Dar Es Salaam, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-OC_DarEsSalaam_hotosm_5012.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Dar Es Salaam](img/po-geojsjon-DarEsSalaam-Form.png)
 
 
@@ -123,7 +123,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Saint-Louis, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_saint_louis_2018_08_27.geojson)
 * [Saint-Louis, , Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_saint_louis_2018_08_27.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Saint-Louis](img/po-geojson-Saint-Louis-Overlaps.png)
 
 
@@ -132,7 +132,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Victoria, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
 * [Victoria, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_victoria_2018_08_27.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Victoria](img/po-geojson-Victoria-Overlaps.png)
 
 
@@ -141,7 +141,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Antananarivo, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_antananarivo_2018_08_27.geojson)
 * [Antananarivo, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_antananarivo_2018_08_27.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Antananarivo](img/po-geojsjon-Antanarivo-Irregular-Forms.png)
 
 
@@ -150,7 +150,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Pointe-Noire, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_pointe_noire_2018_08_27.geojson)
 * [Pointe-Noire, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_pointe_noire_2018_08_27.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Pointe-Noire](img/po-geojson-Pointe-Noire-Overlaps.png)
 
 
@@ -159,7 +159,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Brazzaville, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_brazzaville_2018_08_27.geojson)
 * [Brazzaville, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_brazzaville_2018_08_27.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Brazzaville](img/po-geojsjon-Brazzaville-Irregular-Forms.png)
 
 
@@ -168,7 +168,7 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 * [Stone Town, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_stone_town_2018_08_27.geojson)
 * [Stone Town, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-overlap-oc_stone_town_2018_08_27.geojson)
 
-[Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
+Source: OpenDataLabRDC [Ⓒ OpenStreetMap, OdBL](https://www.openstreetmap.org/copyright)
 ![Stone Town](img/po-geojsjon-Stone-Town-Irregular-Forms.png)
 
 </br></br>

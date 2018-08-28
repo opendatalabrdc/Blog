@@ -23,6 +23,7 @@ require geographic data.   The following comparison of mapping projects from dif
 the proposed analytical approach will hopefully contribute to this discussion. 
 
 
+
 # Quality Analysis - Buildings and other Objects Overlaps
 Buildings, roads and other objects drawn with imprecision or errors during editing moving a point will often have the effect to overlap polygons (buildings, land use, water contours, territorial boundaries, etc.) and lines such as roads and railways.  Figure 3 illustrates these overlays, showing buildings and roads that overlap. Various projects in recent years, often in the context of natural crises or disasters, have partially mapped the cities on this list. Despite validations, many errors have not yet been corrected. The Quality tools list these errors but it is difficult to have an overview and to measure the importance of these flagged objects for Quality analysis.
 
@@ -36,11 +37,12 @@ let's produce OSM data files containing the objects concerned. This then allows 
 ![Figure 4](img/Overpass_Turbo_Kisenso_Immeubles_formes_irreg.png)
 
 
+
 # Comparison, Various towns, project Open Cities Africa
 For comparison purposes, we selected cities from the Open Cities Africa project for which OSM tasking manager projects were available.  For the most part, these tasks were 100% mapped and validated.  Each city has its own cartographic history, with rapid response to a disaster or variable quality of imagery, organization of mapathons with beginners, etc. Building architecture from one city to another can also vary and in some cities a higher number of buildings with irregular shapes can really exist.  
 
 For example, during the Ebola outbreak in Monrovia in 2014, the city had to be mapped quickly to help humanitarian teams, despite the poor quality of the imagery available. As the images are still lacking in precision, recent projects have not succeeded in significantly improving quality.   In Ngaoundere, following a recent mapping project, many duplicates and superimposed buildings have been added. 
-Topological analysis tools enable to detect quickly quality problems and made the necessary corrections. From the reports provided by our Quality tool for the commune of Kisenso in Kinshasa where the proportion of objects with reports was 3.6%, it was possible to focus on these objects, to validate / correct quickly and reduce this rate to 1%.
+Topological analysis tools enable to detect quickly quality problems and made the necessary corrections.
 
 Table 1 presents a comparison of the results obtained with the topological analysis. The sections below for each town / city provide links to vector maps for each class of buildings flagged for evaluation.
 The flagged buildings are grouped according to

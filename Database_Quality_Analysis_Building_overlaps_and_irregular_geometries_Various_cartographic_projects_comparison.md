@@ -11,7 +11,7 @@ In many projects, the OSM Tasking Manager role is used to distribute the task to
 
 *Figure 2 Invalid Polygons Detection* ![Figure 2 Invalid Polygons Detection](img/po-Topologie-FB-Overpass-Kisenso-Polygones-non-valides.png)
 
-We propose to use the topological analysis on data extracted for the zone to both monitor data quality and flagged objects for revision. Data quality tools such as Osmose already provide a lot of such information, but we need some flexibility to obtain quickly the data for the zone and assaure a better monitoring.  The access to these tools via API could eventually let extract such data for a geographic zone.
+We propose to use the topological analysis on data extracted for the zone to both monitor data quality and flagged objects for revision. Data quality tools such as Osmose, KeepRight, OSM Inspector and the JOSM validator already provide a lot of such information, but we need some flexibility to obtain quickly the data for the zone and assure a better monitoring.  The access to these tools via API could eventually let extract such data for a geographic zone.
 
 In our project, the statistics produced on the objects flagged for further examination make it possible to measure the extent of the phenomenon and make comparizons with cartographic projects in similar zones. This tool also provides a file containing buildings and other objects to validate/correct using editors such as JOSM. In this case, the ToDO plugin allows to revise one by one the objects contained in the file, validate and correct if necessary. The identification of buildings of irregular shape was a a first measure. Polygons of invalid buildings (see Figure 1) were also identified. 
 

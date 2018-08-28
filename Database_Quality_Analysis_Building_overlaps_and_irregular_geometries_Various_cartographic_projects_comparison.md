@@ -49,6 +49,9 @@ The flagged buildings are grouped according to
 - Overlapped buildings (with other buildings or other objects)
 
 On average, a rate of 15.1% of buildings are flagged with irregular geometry and 3.9% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 19.1% of buildings. 
+On average, a rate of 25.9% of buildings are flagged with irregular geometry and 5.7% with Overlaps, this in proportion of total buildings for the zone. In total, flagged objects (objects to be validated)  represent 31.7% of buildings. Rather than the average, we should focus on the discrepancy of rates between the various cities analyzed.  How to explain these differences ranging from 3.6? with Kisenso to 74.8% for Victoria?.  Can irregular shapes vary so much from one place to the other? Can differences be explained by different architectures in informal urban areas?  And for some cities, various remotely organized mapathons may have significantly increased the level of flagged objects.  If we look more closely at the data for Victoria and Saint-Louis, we see a high volume of duplicates and irregular forms that will need to be looked at closely.
+
+These maps represent the current situation for each city. The lack of quality in some places represents an additional challenge and it will surely be necessary to think about how to improve the OSM database for the area while assuring to make progress with the project.
 
 *Table 1 : Topological Analysis Comparison, Flagged objects in % of buildings for the zone, 6 Open Cities Africa projects*
 
@@ -110,6 +113,12 @@ For each town / city, we find the hyperlinks to the vector maps of the objects f
 ![Saint-Louis](img/po-geojson-Saint-Louis-Overlaps.png)
 
 
+## Victoria, 2018-08-27
+
+* [Victoria, Irregular building Forms](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-forms-oc_victoria_2018_08_27.geojson)
+* [Victoria, Overlapped objects](https://github.com/opendatalabrdc/Documentation/blob/master/topology/topology-irregular-form-oc_victoria_2018_08_27.geojson.zip)
+![Victoria](img/po-geojson-Saint-Louis-Overlaps.png)
 
 </br></br>
+
 *Pierre Béland*

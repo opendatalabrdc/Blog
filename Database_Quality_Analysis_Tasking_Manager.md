@@ -28,12 +28,7 @@ In Kochi - India, we also find more complex architectures but in smaller numbers
 
 Task 4975 (Ndorwa County, Uganda) particularly draws our attention with over 16,600 buildings out of 28,000 with irregular shapes (irregular warning rate of 58.6% of buildings), and an error rate (superimposed buildings) of 3.5% compared to all buildings in the area covered by this task.  This task has not been validated and the analysis of the mapping of the area shows a very variable quality.
 
-Such variations in building quality analysis results suggest that more monitoring is needed to quickly detect and correct quality problems. We must also act upstream and stp thinkîng that experienced contributors will pass behind novice contributors to correct all errors. Rather, it seems that experienced contributors are increasingly avoiding areas where OSM building data quality is highly variable.
-
-Until 2015, the trainers / validators teams  had maintained the pace, training new ones and ensuring quality in the context of humanitarian projects in particular. During the Response for Nepal in 2015 and for Hurricane Matthews in 2016, many signals were sent by validators. Then later, they expressed their demotivation. On the other hand, there is an acceleration of projects where the OSM community is invited to participate to support various partners. 
-
-The task manager makes it possible to constantly increase the speed. We must, however, think of ways to better monitor and mentor new contributors and train them better. Quality before quantity!
-
+*Pierre Béland*
 
 *Graph 3 - Very approximative buildings tracing, Ndorwa, Ouganda*
 ![Ndorwa, Ouganda](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)

@@ -10,7 +10,7 @@ Nous poursuivons la comparaison avec cette fois-ci un échantillon de la carte O
 
 ## «State of the Map» Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
 
-Les deux mêmes indicateurs sont utilisés pour la comparaison selon les différentes Tâches. Les signalements sont regroupés selon
+Les deux mêmes indicateurs que dans l'article précédent sont utilisés pour la comparaison selon les différentes Tâches. Les signalements sont regroupés selon
 - Avertissement : Immeubles avec Géométrie irrégulière et polygones non valides
 - Erreur : Superposition d'immeubles (avec autres immeubles ou autres objets)
 

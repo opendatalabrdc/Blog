@@ -9,11 +9,12 @@ Nous poursuivons la comparaison avec cette fois-ci un échantillon présentant l
 
 ## «State of the Map» Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
 
+Tout comme dans le premier échantillon, nous observons une grande variance des résultats selon les Tâches. L'étape de validation de la cartographie via le Gestionnaire de tâches ne semble pas avoir d'impact significatif pour les tâches de cet échantillon. D'autres facteurs nous apparaissent plus déterminants.
+
 Les deux mêmes indicateurs sont utilisés pour la comparaison selon les différentes Tâches. Les signalements sont regroupés selon
 - Avertissement : Immeubles avec Géométrie irrégulière et polygones non valides
 - Erreur : Superposition d'immeubles (avec autres immeubles ou autres objets)
 
-Tout comme dans le premier échantillon, nous observons une grande variance des résultats selon les Tâches. L'étape de validation de la cartographie via le Gestionnaire de tâches ne semble pas avoir d'impact significatif pour les tâches de cet échantillon. D'autres facteurs nous apparaissent plus déterminants.
 
 *Graphique 1 - Observation de bâtiments avec formes irrégulières, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
@@ -23,13 +24,18 @@ des architectures de bâtiments aux formes irrégulières. Les formes irréguli�
 
 
 *Graphique 2 - Tracés imprécis, Kochi, Inde*
-![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
+![Dar Es Salaam](img/ 	Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
 De même à Kochi en Inde, on retrouve en nombre plus réduit des architectures plus complexes. Dans ce cas-ci on retrouve aussi de nombreuses maisons individuelles ont été tracées avec imprécision. Cependant le nombre d'immeubles signalés avec forme irégulière ne dépasse pas les 7%.
 
 La tâche 4975 (Ndorwa County, Uganda) attire particulièrement notre attention avec plus de 16,000 bâtiments sur 28,000 avec des formes irrégulières (
 taux de signalementde 58,6% des bâtiments),  et un taux d'erreur (immeubles superposés) de 3,5% par rapport à l'ensembles des bâtiments dans la zone couverte par cette tâche.  Cette tâche n'a pas été validée et l'analyse de la cartographie de la zone montre une qualité de la cartographie très variable.
  
+
+Avec de tels résultats suite à l'analyse Qualité des bâtiment,s il faut s'interroger sur les conditions permettant de maintenir la Qualité des données OSM.
+Avec des flux constants de milliers de contributeurs inexpérimentés. Jusqu'en 2015, les équipes de formateurs / validateurs réussissaient à maintenir la cadence, à former des nouveaux et assurer la qualité. De nombreux signaux ont été envoyé par les validateurs lors de la Réponse pour le Népal en 2015, puis pour l'Ouragan Matthews en 2016 puis par la suite ont exprimé leur démotivation.
+D'autre part, on observe une accélération de projets où la communauté OSM est invitée à participer. Le projet Missing Maps et de nombreux groupes font aussi régulièrement la promotion de mapathons où on retrouve un grand nombre de débutants qui souvent cesseront leur participation après ces quelques heures. Les tâches se multiplient à un grand rythme sur le Gestionnaire de tâche.
+
 
 *Graphique 3 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
 ![Dar Es Salaam](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)

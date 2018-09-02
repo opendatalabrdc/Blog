@@ -10,6 +10,7 @@ La section [Documentation](https://opendatalabrdc.github.io/Documentation/#!inde
 
 * 2018-08-08 [Analyse de la géométrie des bâtiment pour une meilleure qualité OpenStreetMap](Analyse_de_la_géométrie_des_bâtiment_pour_une_meilleure_qualité_OpenStreetMap.md) *Pierre Béland*
 * 2018-08-27 [Analyse Qualité Base OSM: Superpositions et Bâtiments avec Géométrie irrègulière - Comparaison de différents projets](Analyse_Qualité_Base_OSM_Superpositions_et_Bâtiments_avec_Géométrie_irrégulière.md) *Pierre Béland*
+* 2018-09-02 [Analyse Qualité, Base OSM: Le Gestionnaire de Tâches](Analyse_Qualité_Base_OSM_Le_Gestionnaire_de_Tâches)
 
 ## Communications, Potentiel 3.0 et Communauté OpenStreetMap RDC
 

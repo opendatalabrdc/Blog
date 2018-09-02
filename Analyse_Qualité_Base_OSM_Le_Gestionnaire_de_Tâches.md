@@ -31,12 +31,7 @@ La tâche 4975 (Ndorwa County, Ouganda) attire particulièrement notre attention
 taux de signalementde 58,6% des bâtiments),  et un taux d'erreur (immeubles superposés) de 3,5% par rapport à l'ensembles des bâtiments dans la zone couverte par cette tâche.  Cette tâche n'a pas été validée et l'analyse de la cartographie de la zone montre une qualité de la cartographie très variable.
  
 
-De telles variations résultats suite à l'analyse Qualité des bâtiments suggèrent qu'il faut davantage de suivi pour détecter et corriger rapidement les problèmes de qualité. Il faut aussi agir en amont et ne pas penser que des contributeurs expérimentés passeront derrière les contributeurs novices pour corriger toutes les erreurs. Il semble plutôt que les contributeurs expérimentés évitent de plus en plus les zones où la qualité des données OSM est très variable
-
-Jusqu'en 2015, les équipes de formateurs / validateurs réussissaient à maintenir la cadence, à former des nouveaux et assurer la qualité dans le contexte des projets humanitaires notamment. De nombreux signaux ont été envoyés par les validateurs lors de la Réponse pour le Népal en 2015, puis pour l'Ouragan Matthews en 2016. Puis par la suite, ils ont exprimé leur démotivation.
-D'autre part, on observe une accélération de projets où la communauté OSM est invitée à participer pour supporter divers partenaires. 
-Le gestionnaire de tâches permet d'augmenter constamment la cadence. Nous devons cependant penser à des moyens susceptible de mieux suivre et encadrer les nouveaux contributeurs, mieux les former. La qualité avant la quantité!
-
+De telles variations résultats suite à l'analyse Qualité des bâtiments suggèrent qu'il faut davantage de suivi pour détecter et corriger rapidement les problèmes de qualité. 
 *Pierre Béland*
 
 *Graphique 3 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*

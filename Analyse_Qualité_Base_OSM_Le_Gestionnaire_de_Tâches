@@ -4,37 +4,37 @@
  on retrouvait une comparaison de la cartographie de différentes villes (échantillon à partir des villes qui commencent leur participation 
  à Open Cities).  
 
-Nous poursuivons la comparaison avec cette fois-ci un échantillon présentant la carte OSM le 30 août pour 15 tâches réalisées au cours des dernières semaines. Tout comme pour le premier comparatif, on observe une grande variabilité
-
+Nous poursuivons la comparaison avec cette fois-ci un échantillon de la carte OSM le 30 août  couvrant la zone géographique correpondant à 
+ 15 tâches cartographiques OSM réalisées au cours des dernières semaines. 
+ 
 
 ## «State of the Map» Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
-
-Tout comme dans le premier échantillon, nous observons une grande variance des résultats selon les Tâches. L'étape de validation de la cartographie via le Gestionnaire de tâches ne semble pas avoir d'impact significatif pour les tâches de cet échantillon. D'autres facteurs nous apparaissent plus déterminants.
 
 Les deux mêmes indicateurs sont utilisés pour la comparaison selon les différentes Tâches. Les signalements sont regroupés selon
 - Avertissement : Immeubles avec Géométrie irrégulière et polygones non valides
 - Erreur : Superposition d'immeubles (avec autres immeubles ou autres objets)
 
+Tout comme pour le premier échantillon comparatif, on observe une grande variabilité des résultats selon les Tâches. L'étape de validation de la cartographie via le Gestionnaire de tâches ne semble pas avoir d'impact significatif pour les tâches de cet échantillon. D'autres facteurs nous apparaissent plus déterminants.
 
 *Graphique 1 - Observation de bâtiments avec formes irrégulières, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
 
-D'abord, la cartographie des centre-ville semble à première vue contenir beaucoup plus de grands bâtiments réellement de forme irrégulière. Au Centre-ville de Dar Es Salaam et d'autres villes de Tanzanie, on observe sur l'Imagerie aérienne
-des architectures de bâtiments aux formes irrégulières. Les formes irrégulières représentent de 10% jusqu'à 20% selon les tâche. 
+Dans les centres-ville, d'abord, le nombre de bâtiments avec des formes complexes correpond à ce qui est observé sur l'imagerie aérienne et il est donc normal d'y obsrver des taux de formes comples plus élevés que dans d'autres zones géographiques. Au Centre-ville de Dar Es Salaam et d'autres villes de Tanzanie, on observe ces formes irrégulières. Dans la base OSM, elles représentent de 10% jusqu'à 20% selon les tâche. 
 
 
 *Graphique 2 - Tracés imprécis, Kochi, Inde*
 ![Dar Es Salaam](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
-De même à Kochi en Inde, on retrouve en nombre plus réduit des architectures plus complexes. Dans ce cas-ci on retrouve aussi de nombreuses maisons individuelles ont été tracées avec imprécision. Cependant le nombre d'immeubles signalés avec forme irégulière ne dépasse pas les 7%.
+À Kochi en Inde, on retrouve aussi  des architectures plus complexes mais en nombre plus réduit. Dans ce cas-ci on retrouve aussi de nombreuses maisons individuelles qui ont été tracées avec imprécision. Cependant le nombre d'immeubles signalés avec forme irégulière ne dépasse pas les 7%.
 
 La tâche 4975 (Ndorwa County, Uganda) attire particulièrement notre attention avec plus de 16,000 bâtiments sur 28,000 avec des formes irrégulières (
 taux de signalementde 58,6% des bâtiments),  et un taux d'erreur (immeubles superposés) de 3,5% par rapport à l'ensembles des bâtiments dans la zone couverte par cette tâche.  Cette tâche n'a pas été validée et l'analyse de la cartographie de la zone montre une qualité de la cartographie très variable.
  
 
-Avec de tels résultats suite à l'analyse Qualité des bâtiment,s il faut s'interroger sur les conditions permettant de maintenir la Qualité des données OSM.
-Avec des flux constants de milliers de contributeurs inexpérimentés. Jusqu'en 2015, les équipes de formateurs / validateurs réussissaient à maintenir la cadence, à former des nouveaux et assurer la qualité. De nombreux signaux ont été envoyé par les validateurs lors de la Réponse pour le Népal en 2015, puis pour l'Ouragan Matthews en 2016 puis par la suite ont exprimé leur démotivation.
-D'autre part, on observe une accélération de projets où la communauté OSM est invitée à participer. Le projet Missing Maps et de nombreux groupes font aussi régulièrement la promotion de mapathons où on retrouve un grand nombre de débutants qui souvent cesseront leur participation après ces quelques heures. Les tâches se multiplient à un grand rythme sur le Gestionnaire de tâche.
+De telles variations résultats suite à l'analyse Qualité des bâtiments suggèrent qu'il faut davantage de suivi pour détecter et corriger rapidement les problèmes de qualité. Il faut aussi agir en amont et ne pas penser que des contributeurs expérimentés passeront derrière les contributeurs novices pour corriger toutes les erreurs. Il semble plutôt que les contributeurs expérimentés évitent de plus en plus les zones où la qualité des données OSM est très variable
+
+Jusqu'en 2015, les équipes de formateurs / validateurs réussissaient à maintenir la cadence, à former des nouveaux et assurer la qualité dans le contexte des projets humanitaires notamment. De nombreux signaux ont été envoyés par les validateurs lors de la Réponse pour le Népal en 2015, puis pour l'Ouragan Matthews en 2016. Puis par la suite, ils ont exprimé leur démotivation.
+D'autre part, on observe une accélération de projets où la communauté OSM est invitée à participer. Le projet Missing Maps et de nombreux groupes font aussi régulièrement la promotion de mapathons où on retrouve un grand nombre de débutants qui souvent cesseront leur participation après ces quelques heures.   
 
 
 *Graphique 3 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*

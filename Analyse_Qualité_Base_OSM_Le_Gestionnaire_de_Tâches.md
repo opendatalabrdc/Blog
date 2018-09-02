@@ -1,3 +1,4 @@
+# BROUILLON
 # 2018-09-02 Analyse Qualité, Base OSM: Le Gestionnaire de Tâches
 
  Dans [l'article précédent sur ce Blog](Analyse_Qualité_Base_OSM_Superpositions_et_Bâtiments_avec_Géométrie_irrégulière.md), le 27 août, 

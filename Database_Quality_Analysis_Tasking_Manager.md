@@ -1,3 +1,4 @@
+# DRAFT
 # 2018-09-02 OSM Database Quality Analysis : The Tasking Manager
 
 In[the previous article on this Blog](!Database_Quality_Analysis_Building_overlaps_and_irregular_geometries_Various_cartographic_projects_comparison.md), on August 27, 

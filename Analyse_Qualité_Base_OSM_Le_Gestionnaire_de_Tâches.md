@@ -38,9 +38,18 @@ De telles variations résultats suite à l'analyse Qualité des bâtiments sugg�
 *Graphique 3 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
 ![Dar Es Salaam](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
 
+*Tableau 1 : Analyse topologique des bâtiments, échantillon basé sur 25 tâches, Gestionnaire hotosm août 2018*
+*Contributeurs classés selon le taux de signalements en % des bâtiments qui lui sont crédités*
 
+Classe |Contributeurs | Tâches | Immeubles | Avertissement Géométrie Irreg | Erreurs Superpositions +Polygone non valide | Signalements | Taux de Signalement |
+:---------|--------:|------:|----------:|-----------:|-----------:|---------:|----------:|
+  0         |757     |866   |49,424     |0          |0          |0        |0 %|
+ 1<5%       |406     |489   |241,171    |2,875       |1,081       |3,956     |1.6 %      |
+ 5<10%      |216     |236   |37,738     |2,178       |519        |2,697     |7.2 %     |
+10<20%      |234     |277   |28,351     |3,254       |649        |3,903     |13.8 %     |
+20% +       |522     |584   |40,847     |24,504      |1,616       |26,120    |64 %    |
 
-*Tableau 1 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches*
+*Tableau 2 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches*
 
 |	Tâche * 	|	Bâtiments	|	Avertissement Géométrie Irreg	|	%	|	Erreurs Superpositions +Polygone non valide	|	%	|	Total Signalements % | Validation |
 |	:------------------------------------------	|	--------:	|	------:	|	--------:	|	------:	|	------:	|	------:	| :------------|

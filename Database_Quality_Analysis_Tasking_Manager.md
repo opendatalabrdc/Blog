@@ -49,8 +49,48 @@ Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry |
 TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 
 
-*Table 2 : Tasks Compararion, sample of 25 tasks, august 2018*
-* The Geographic Zones correspond to zone covered by each task in the OSM Tasking Manager
+
+*Graphique 4 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
+![Dar Es Salaam](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
+
+*Graphique 5 - Exemple, Visualisation, Bâtiments, Contributeurs avec taux de Signalement élevé*
+![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
+
+
+*Table 2 : Topological Analysis Comparison, 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
+for the zone, 2018-08-30*
+
+|Project * | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Error Overlaps +Invalid Polygon| % of Buildings 
+|  W+E %  | Status 2018-08-30 |
+| :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
+| 	[4944](https://tasks.hotosm.org/project/4944)	| 	73	| 	3,130	 | 	217	 | 	6.9	% |	22	 | 	0.7	% |	7.6	% |	Validated	 |
+| 	[4946](https://tasks.hotosm.org/project/4946)	| 	43	| 	1,615	 | 	85	 | 	5.3	% |	35	 | 	2.2	% |	7.4	% |	Validated	 |
+| 	[4947](https://tasks.hotosm.org/project/4947)	| 	94	| 	21,140	 | 	387	 | 	1.8	% |	31	 | 	0.1	% |	2	% |	Validated	 |
+| 	[4950](https://tasks.hotosm.org/project/4950)	| 	32	| 	1,580	 | 	17	 | 	1.1	% |	12	 | 	0.8	% |	1.8	% |	Validated	 |
+| 	[4953](https://tasks.hotosm.org/project/4953)	| 	36	| 	1,238	 | 	261	 | 	21.1	% |	44	 | 	3.6	% |	24.6	% |	Validated	 |
+| 	[4954](https://tasks.hotosm.org/project/4954)	| 	86	| 	53,748	 | 	610	 | 	1.1	% |	30	 | 	0.1	% |	1.2	% |	Validated	 |
+| 	[4958](https://tasks.hotosm.org/project/4958)	| 	325	| 	71,064	 | 	653	 | 	0.9	% |	105	 | 	0.1	% |	1.1	% |	Validated	 |
+| 	[4966](https://tasks.hotosm.org/project/4966)	| 	304	| 	44,247	 | 	1,061	 | 	2.4	% |	194	 | 	0.4	% |	2.8	% |	Validated	 |
+| 	[4969](https://tasks.hotosm.org/project/4969)	| 	75	| 	7,101	 | 	1,299	 | 	18.3	% |	31	 | 	0.4	% |	18.7	% |	Validated	 |
+| 	[4975](https://tasks.hotosm.org/project/4975)	| 	334	| 	28,393	 | 	17,220	 | 	60.6	% |	618	 | 	2.2	% |	62.8	% |	Not Validated	 |
+| 	[4976](https://tasks.hotosm.org/project/4976)	| 	36	| 	1,238	 | 	261	 | 	21.1	% |	44	 | 	3.6	% |	24.6	% |	Validated	 |
+| 	[4978](https://tasks.hotosm.org/project/4978)	| 	51	| 	2,086	 | 	125	 | 	6	% |	9	 | 	0.4	% |	6.4	% |	Validated	 |
+| 	[4991](https://tasks.hotosm.org/project/4991)	| 	102	| 	28,567	 | 	415	 | 	1.5	% |	589	 | 	2.1	% |	3.5	% |	Not Validated	 |
+| 	[4994](https://tasks.hotosm.org/project/4994)	| 	37	| 	4,506	 | 	398	 | 	8.8	% |	131	 | 	2.9	% |	11.7	% |	Not Validated	 |
+| 	[4998](https://tasks.hotosm.org/project/4998)	| 	24	| 	1,148	 | 	52	 | 	4.5	% |	34	 | 	3	% |	7.5	% |	Not Validated	 |
+| 	[5005](https://tasks.hotosm.org/project/5005)	| 	24	| 	3,003	 | 	390	 | 	13	% |	189	 | 	6.3	% |	19.3	% |	Validated	 |
+| 	[5006](https://tasks.hotosm.org/project/5006)	| 	24	| 	1,196	 | 	189	 | 	15.8	% |	118	 | 	9.9	% |	25.7	% |	Validated	 |
+| 	[5007](https://tasks.hotosm.org/project/5007)	| 	10	| 	1,191	 | 	227	 | 	19.1	% |	10	 | 	0.8	% |	19.9	% |	Validated	 |
+| 	[5009](https://tasks.hotosm.org/project/5009)	| 	110	| 	15,810	 | 	337	 | 	2.1	% |	68	 | 	0.4	% |	2.6	% |	Validated	 |
+| 	[5010](https://tasks.hotosm.org/project/5010)	| 	360	| 	90,816	 | 	7,028	 | 	7.7	% |	1,029	 | 	1.1	% |	8.9	% |	Not Validated	|
+| 	[5011](https://tasks.hotosm.org/project/5011)	| 	62	| 	2,465	 | 	295	 | 	12	% |	56	 | 	2.3	% |	14.2	% |	Validated	 |
+| 	[5016](https://tasks.hotosm.org/project/5016)	| 	63	| 	1,201	 | 	198	 | 	16.5	% |	24	 | 	2	% |	18.5	% |	Validated	 |
+| 	[5019](https://tasks.hotosm.org/project/5019)	| 	7	| 	1,728	 | 	5	 | 	0.3	% |	15	 | 	0.9	% |	1.2	% |	Not Validated	 |
+| 	[5021](https://tasks.hotosm.org/project/5021)	| 	64	| 	2,724	 | 	387	 | 	14.2	% |	85	 | 	3.1	% |	17.3	% |	Validated	 |
+| 	[5022](https://tasks.hotosm.org/project/5022)	| 	76	| 	6,596	 | 	694	 | 	10.5	% |	342	 | 	5.2	% |	15.7	% |	Validated	 |
+| 		Total	| 	2,452	| 	397,531	| 	32,811	| 	8.3	% |	3,865	| 	1.0	% |	9.2	% |	.	 |
+
+* The Geographic Zones correspond to area covered by each task in the OSM Tasking Manager
 
 
 *Table 3 : Tasks by Contributors with more then 20 Building Flags and Flags / Buildings ratio over 20%, sample of 25 tasks, august 2018*

@@ -3,16 +3,19 @@
 
 # 2018-09-02 Analyse Qualité, Base OSM: Le Gestionnaire de Tâches
 
-La cartographie des bâtiments ajoutés à la base OSM suscite de nombreuses discussions avec la multiplication de mapathons et participation de débutants. Les outils Qualité ne permettent de repérer que les chevauchements et polygones non valides. Mais comment peut-on assurer le suivi Qualité pour les bâtiments, développer des indicateurs et fournir des données pour valider / corriger éventuellenent les problèmes. Ce projet vise à répondre à ces problèmes Qualité avec l'analyse des bâtiments avec géométrie irrégulière. Normalement, peu de bâtiments ont des formes irrégulières et les différents logiciels d'édition OSM facilitent le traçage de bâtiments avec des angles droits.
+La cartographie des bâtiments ajoutés à la base OSM suscite de nombreuses discussions avec la multiplication de mapathons et participation de débutants. Des responsables de projet comptent sur la communauté pour valider le travail des débutants. Par contre de nombreux mapathons couvrant des zones dans des pays où le nombre de contributeurs est peu élevé ajoutent des données imprécises qui risquent de ne pas être corrigées avant très longtemps. Par ailleurs, des validateurs indiquent que le nombre d'erreurs est trop élevé et les flux constants de novices qui quittent rapidement créent une situation de plus en plus difficile à gérer.
 
-Les architectures peuvent bien sûr varier. Les grands immeubles ont souvent des formes irrégulières. Dans certaines villes, on peut aussi trouver davantage de bâtiemnts avec des formes irrégulières. De même dans des quartiers informels très denses, les formes vont davantage varier. Dans [l'article précédent sur ce Blog](Analyse_Qualité_Base_OSM_Superpositions_et_Bâtiments_avec_Géométrie_irrégulière.md), le 27 août, nous avons utilisé un échantillon de zones cartographiées dans la base OSM pour 12 villes qui commencent leur participation 
- à Open Cities. En moyenne, les «Signalements» pour formes irrégulières et les erreurs topologiques (chevauchements et polygones invalides) représentaient moins de 10%. Cependant, les écarts étaient élevés d'une ville à l'autre et l'analyse des données indiquaient que la proportion réelle de bâtiments avec forme irrégulière sont en général nettement sous les 10⅜.
+Les outils Qualité ne permettent de repérer que les chevauchements et polygones non valides. Mais comment peut-on assurer le suivi Qualité pour les bâtiments, développer des indicateurs et fournir des données pour valider / corriger éventuellenent les problèmes. Ce projet vise à répondre à ces problèmes Qualité avec l'analyse des bâtiments avec géométrie irrégulière. Normalement, peu de bâtiments ont des formes irrégulières et les différents logiciels d'édition OSM facilitent le traçage de bâtiments avec des angles droits. L'accès à de tels outils de diagnostic pourraient permettre aux gestionnaies de projet d'intervenir rapidement et s'assurer que les contributeurs participant corrigent le tir rapidement.
 
-Nous poursuivons l'analyse en focusant cette fois-ci sur des zones couvertes récemment par des projets cartographiques coordonnées à partir du Gestionnaire de tâches OSM. L'échantillon contient les bâtiments dans la base OSM le 30 août pour 25 zones géographiques correpondant à autant de projets réalisés à l'aide du Gestionnaire de tâches OSM au cours du mois d'août et complétées avant le 30 août. L'Échantillon contient près de 400,000 immeubles et, encore ici, les signalements représentent moins de 10%, soit 9,2% des immeubles dans la base le 30 août pour les zones étudiées. 
+Les architectures peuvent bien sûr varier en particulier dans les grands centres et les zones urbaines très denses. Les grands immeubles ont souvent des formes irrégulières et dans les quartiers informels très denses, les formes vont davantage varier. Dans [l'article précédent sur ce Blog](Analyse_Qualité_Base_OSM_Superpositions_et_Bâtiments_avec_Géométrie_irrégulière.md), le 27 août, nous avons utilisé un échantillon de zones cartographiées dans la base OSM pour 12 villes africaines densément peuplées qui commencent leur participation  à Open Cities. En moyenne, les «Signalements» pour formes irrégulières et les erreurs topologiques (chevauchements et polygones invalides) représentaient moins de 10%. Cependant, les écarts étaient élevés d'une ville à l'autre et l'analyse des données indiquaient que la proportion réelle de bâtiments avec forme irrégulière est en général nettement sous les 10⅜.
  
-Le suivi consiste ici à observer les projets cartographiques et contributeurs se distinguant de la moyenne des contributions avec un nombre élevé d'immeubles tracés avec des formes irrégulières ou contenant des erreurs topologiques (chevauchemets et polygones non valides).  Tout comme pour la première analyse, une grande variablité est observée d'un endroit à l'autre. Pour expliquer cette variabilité, nous examinons différents facteurs. L'analyse visuelle de l'imagerie aérienne permet de repérer certains centres-villes et quartiers très denses avec davantage de formes irrégulières. 
+Le suivi Qualité consiste ici à observer les projets cartographiques et contributeurs qui ont des ratios nettement au-dessus de la moyenne pour les bâtiments tracés avec des formes irrégulières ou contenant des erreurs topologiques (chevauchemets et polygones non valides).  Tout comme pour la première analyse, une grande variablité est observée d'un endroit à l'autre. Pour expliquer cette variabilité, nous examinons différents facteurs.
 
-Une grande variabilité est encore observée d'un projet à l'autre et peut rarement être expliquée par l'observation sur l'imagerie aérienne d'un plus grand nombre de bâtiments avec des formes irrégulières.  Le comportement des contributeurs et le suivi inégal par les contributeurs des projets semblent beaucoup plus déterminants, avec de nombreux contributeurs qui systématiquement tracent des formes très imprécises, et où se chevauchent immeubles, routes, etc. Le Tableau de bord du gestionnaire de tâches OSM rapporte que la majorité des tâches ont été validées. À noter cependant que ce tableau de bord ne contient aucun indicateur Qualité sinon la confirmation qu'un contributeur indique avoir validé la tâche. L'analyse nous montre que suite à cette validation, un nombre élevé de formes irrégulières persiste pour ces zones. Les mapathons avec des débutants insuffisamment formé et un manque d'outil de Suivi lors des mapathons semblent avoir un impact avec des zones qui sont couvertes ponctuellement un jour ou deux puis sans activité par la suite. 
+Nous poursuivons l'analyse en focusant cette fois-ci sur des zones couvertes récemment par des projets cartographiques coordonnées à partir du Gestionnaire de tâches OSM. L'échantillon contient les bâtiments dans la base OSM le 30 août pour 25 zones géographiques correpondant à autant de projets réalisés à l'aide du Gestionnaire de tâches OSM au cours du mois d'août et complétées avant le 30 août. L'Échantillon contient près de 400,000 immeubles et 2,452 contributeurs ont participé à ces projets au cours du mois d'août. Encore ici, les signalements représentent moins de 10%, soit 9,2% des immeubles dans la base le 30 août pour les zones étudiées. Plusieurs projets ont des ratios (Immeubles irréguliers / Total) autour de 1%. Par contre un projet se démarque particulièrement avec un taux supérieur à 60%. 
+
+Cette grande variabilité qui est encore observée d'un projet à l'autre ne peut que rarement être expliquée par l'observation sur l'imagerie aérienne d'un plus grand nombre de bâtiments avec des formes irrégulières.  Le comportement des contributeurs et le suivi inégal par les coordonnateurs des projets semblent beaucoup plus déterminants, avec de nombreux contributeurs qui systématiquement tracent des formes très imprécises, et où se chevauchent immeubles, routes, etc. Le Tableau de bord du gestionnaire de tâches OSM rapporte que la majorité des tâches ont été validées. À noter cependant que ce tableau de bord ne contient aucun indicateur de suivi Qualité sinon la confirmation qu'un contributeur indique avoir validé la tâche ou qu'un contributeur est novice. L'analyse nous montre que suite à l'étape de validation dans le Gestionnaire de tâches, un nombre élevé de formes irrégulières persiste pour ces zones. 
+
+Les mapathons avec une prédominance de débutants insuffisamment formés, le manque d'outil de Suivi et le manque d'interaction avec les contributeurs pour rectifier le tir lors des mapathons semblent avoir un impact avec des zones qui sont couvertes en un jour ou deux puis sans activité par la suite les mapathons se déplacant ailleurs. 
 
 
 ## «State of the Map» 2018-08-30, Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
@@ -21,38 +24,28 @@ Les deux mêmes indicateurs que dans l'article précédent sont utilisés pour l
 - Avertissement : Bâtiments avec Géométrie irrégulière (8,3% des bâtiments)
 - Erreur : Superposition d'immeubles et polygones non valides (1% des bâtiments)
 
-Dar Es Salaam, Tanzanie (#4976, #5011, #5016, #5021, #5022),  à Accra (#4969),
-(#4958), (#49), (#49), (#49)
 
 *Graphique 1 - Observation de bâtiments avec formes irrégulières, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
 
-Dans les centres-ville, d'abord, le nombre de bâtiments avec des formes complexes correspond à ce qui est observé sur l'imagerie aérienne et il est donc normal d'y obsrver des taux de formes comples plus élevés que dans d'autres zones géographiques. Au Centre-ville de Dar Es Salaam et d'autres villes de Tanzanie, on observe ces formes irrégulières. Dans la base OSM, elles représentent de 10% jusqu'à 20% selon les tâche. 
+Dans plusieurs grandes villes, notamment à Dar Es Salaam, Tanzanie (TM#4976, #5011, #5016, #5021, #5022),  à Accra (#4969)
+et à Kochi en Inde (#5010), un nombre de bâtiments plus élevé que la moyenne avec des formes complexes est observé sur l'imagerie aérienne et il est donc normal d'y observer des ratios plus élevés. Cependant il est aussi plus difficile de tracer dans des milieux très denses avec des qualités d'images très variables et là aussi plusieurs bâtiments sont tracés de façon imprécise.
 
 *Graphique 2 - Tracés imprécis, Kochi, Inde*
-![Dar Es Salaam](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
+![Kochi, Inde](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
 À Kochi en Inde, on retrouve aussi  des architectures plus complexes mais en nombre plus réduit. Dans ce cas-ci on retrouve aussi de nombreuses maisons individuelles qui ont été tracées avec imprécision. Cependant le nombre d'immeubles signalés avec forme irégulière ne dépasse pas les 7%.
 
-Le projet 4975 (Ndorwa County, Ouganda) attire particulièrement notre attention avec plus de 16,600 bâtiments sur 28,000 avec des formes irrégulières (
-taux de signalementde 58,6% des bâtiments),  et un taux d'erreur (immeubles superposés) de 3,5% par rapport à l'ensembles des bâtiments dans la zone couverte par cette tâche.  Cette tâche n'a pas été validée et l'analyse de la cartographie de la zone montre une qualité de la cartographie très variable.
-Le projet 4966 (Bwamba County, Ouganda), quoique similaire, présente des résultats très différents avec un taux de Signalement de 2,8%. 
+Un projet Le projet 4975 (Ndorwa County, Ouganda) attire particulièrement notre attention avec plus de 16,600 bâtiments sur 28,000 avec des formes irrégulières (60,6% des bâtiments),  et un taux d'erreurs de 2,2%  (immeubles superposés et polygones non valides) par rapport à l'ensembles des bâtiments dans la zone couverte par cette tâche.  Cette tâche n'a pas été validée et l'analyse de la cartographie de la zone montre une qualité de la cartographie très variable (voir cartes par contributeur au tableau 3). Le projet 4966 (Bwamba County, Ouganda), quoique similaire, présente des résultats très différents avec un taux de Signalement de 2,8%. 
 
 *Graphique 3 - Profil bâtiments, 2018-08-30, selon date de dernière édition*
 ![TM-4975-date](img/po-Topology-TM-4975-date-fr.png)
 
-De telles variations résultats suite à l'analyse Qualité des bâtiments suggèrent qu'il faut davantage de suivi pour détecter et corriger rapidement les problèmes de qualité. 
-
-*Pierre Béland*
-
-*Graphique 4 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
-![Dar Es Salaam](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
-
+Le tableau 1 regroupe les quelque 2,100 contributeurs selon leur ratio Signalements / Immeubles. Les ratios inférieurs à 5% représentent la majorité des contributeurs (54,5%) et des bâtiments édités (73,1%) et un petit nombre des signalements (10,8%).
+À l'inverse, les ratios de 20% et plus représentent une minorité de contributeurs (24,4%) et des bâtiments édités (10,3%) et la forte majorité des signalements (71,2%). On ne sera pas surpris de constater qu'ils tracent surtout des bâtiments de forme irrégulière (64% des bâtiments tracés).
 
 *Tableau 1 : Analyse topologique des bâtiments, échantillon basé sur 25 tâches, Gestionnaire hotosm août 2018*
 *Contributeurs classés selon le taux de signalements en % des bâtiments qui lui sont crédités*
-
-
 
 Classe |Contributeurs | Tâches | Immeubles | Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides | Total Signalements | % Signalements /Immeubles |
 :---------|--------:|------:|----------:|-----------:|-----------:|---------:|----------:|
@@ -62,6 +55,15 @@ Classe |Contributeurs | Tâches | Immeubles | Avertissements Géométrie Irreg |
 10<20%      |234     |277   |28,351     |3,254       |649        |3,903     |13.8 %     |
 20% +       |522     |584   |40,847     |24,504      |1,616       |26,120    |64 %    |
 TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
+
+Le tableau 2 permet d'observer la variabilité des indicateurs selon les différents projets. Le tableau 3 liste les contributeurs individuels avec des ratios de 20% et plus et avec plus de 20 bâtiments signalés. Pour chacun de ceux-ci, un lien Overpass permet de voir la carte des immeubles signalés. À noter que les données courantes sont affichée et que les bâtiments édités depuis le 30 août peuvent maintenant avoir des formes régulières. À partir de Overpass, un lien permet de télécharger les données dans JOSM pour édition / correction.
+
+En conclusion, cette grande variabilité des résultats observée avec cette analyse Qualité des bâtiments suggère qu'il faut davantage de suivi pour détecter et corriger rapidement les problèmes de qualité. Le gestionnaire de tâches a permis au cours des années d'attirer un grand nombre de contributeurs. Mais un tel outil est insuffisant pour assurer le suivi et coordonner la contribution des flux constants de débutants.  La pratique de couvrir rapidement une zone et de se déplacer ensuite vers d'autres zones laissent en plan des zones avec beaucoup d'erreurs. Une réflexion doit être relativement à ces problèmes et les projets doivent être davantage autonomes, assurer le suivi, la formation et la Qualité des données produites.
+
+*Pierre Béland*
+
+*Graphique 4 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
+![Dar Es Salaam](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
 
 *Graphique 5 - Exemple, Visualisation, Bâtiments, Contributeurs avec taux de Signalement élevé*
 ![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)

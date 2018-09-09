@@ -24,8 +24,6 @@ Dar Es Salaam, Tanzanie (#4976, #5011, #5016, #5021, #5022),  à Accra (#4969),
 
 Dans les centres-ville, d'abord, le nombre de bâtiments avec des formes complexes correspond à ce qui est observé sur l'imagerie aérienne et il est donc normal d'y obsrver des taux de formes comples plus élevés que dans d'autres zones géographiques. Au Centre-ville de Dar Es Salaam et d'autres villes de Tanzanie, on observe ces formes irrégulières. Dans la base OSM, elles représentent de 10% jusqu'à 20% selon les tâche. 
 
-
-
 *Graphique 2 - Tracés imprécis, Kochi, Inde*
 ![Dar Es Salaam](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
@@ -35,11 +33,14 @@ Le projet 4975 (Ndorwa County, Ouganda) attire particulièrement notre attention
 taux de signalementde 58,6% des bâtiments),  et un taux d'erreur (immeubles superposés) de 3,5% par rapport à l'ensembles des bâtiments dans la zone couverte par cette tâche.  Cette tâche n'a pas été validée et l'analyse de la cartographie de la zone montre une qualité de la cartographie très variable.
 Le projet 4966 (Bwamba County, Ouganda), quoique similaire, présente des résultats très différents avec un taux de Signalement de 2,8%. 
 
+*Graphique 3 - Profil bâtiments, 2018-08-30, selon date de dernière édition*
+![TM-4975-date](img/po-Topology-TM-4975-date-fr.png)
+
 De telles variations résultats suite à l'analyse Qualité des bâtiments suggèrent qu'il faut davantage de suivi pour détecter et corriger rapidement les problèmes de qualité. 
 
 *Pierre Béland*
 
-*Graphique 3 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
+*Graphique 4 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
 ![Dar Es Salaam](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
 
 
@@ -55,7 +56,10 @@ Classe |Contributeurs | Tâches | Immeubles | Avertissement Géométrie Irreg | 
  5<10%      |216     |236   |37,738     |2,178       |519        |2,697     |7.2 %     |
 10<20%      |234     |277   |28,351     |3,254       |649        |3,903     |13.8 %     |
 20% +       |522     |584   |40,847     |24,504      |1,616       |26,120    |64 %    |
-TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
+TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
+
+*Graphique 5 - Exemple, Visualisation, Bâtiments, Contributeurs avec taux de Signalement élevé*
+![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
 
 *Tableau 2 : Comparaison, Signalements Analyse topologique en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches*
 

@@ -69,7 +69,7 @@ TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 *Tableau 2 : Comparaison 25 projets, Signalements Analyse topologique en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches*
 
 |Projet | Contributeurs | Immeubles | Avertissements Géométrie Irreg | % Immeubles| Erreurs Superpositions +Polygones non valides| % Immeubles|  % Signalements | Statut 2018-08-30 |
-| :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |  :------------------------------ |
+| :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
 | 	[4944](https://tasks.hotosm.org/project/4944)	| 	73	| 	3,130	 | 	217	 | 	6.9	% |	22	 | 	0.7	% |	7.6	% |	Validated	 |
 | 	[4946](https://tasks.hotosm.org/project/4946)	| 	43	| 	1,615	 | 	85	 | 	5.3	% |	35	 | 	2.2	% |	7.4	% |	Validated	 |
 | 	[4947](https://tasks.hotosm.org/project/4947)	| 	94	| 	21,140	 | 	387	 | 	1.8	% |	31	 | 	0.1	% |	2	% |	Validated	 |
@@ -95,7 +95,7 @@ TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 | 	[5019](https://tasks.hotosm.org/project/5019)	| 	7	| 	1,728	 | 	5	 | 	0.3	% |	15	 | 	0.9	% |	1.2	% |	Not Validated	 |
 | 	[5021](https://tasks.hotosm.org/project/5021)	| 	64	| 	2,724	 | 	387	 | 	14.2	% |	85	 | 	3.1	% |	17.3	% |	Validated	 |
 | 	[5022](https://tasks.hotosm.org/project/5022)	| 	76	| 	6,596	 | 	694	 | 	10.5	% |	342	 | 	5.2	% |	15.7	% |	Validated	 |
-| 		Total	| 	2,452	| 	397,531	| 	32,811	| 	1338.1	% |	3,865	| 	157.6	% |	1495.8	% |	.	 |
+| 		Total	| 	2,452	| 	397,531	| 	32,811	| 	8.3	% |	3,865	| 	1.0	% |	9.2	% |	.	 |
 
 
 *Tableau 3 : Contributeurs avec un taux élevé de Signalements, Analyse topologique en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches et Carte des immeubles*

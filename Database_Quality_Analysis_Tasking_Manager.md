@@ -1,29 +1,48 @@
 # DRAFT
-# 2018-09-02 OSM Database Quality Analysis : The Tasking Manager
+# 2018-09-10 OSM Database Buildings Quality Analysis : The Tasking Manager
 
-In[the previous article on this Blog](!Database_Quality_Analysis_Building_overlaps_and_irregular_geometries_Various_cartographic_projects_comparison.md), on August 27, 
- there was an OSM mapping comparison of different cities (sample from cities starting their participation to Open Cities).  
+The mapping of the buildings added to the OSM database has been the subject of many discussions with the multiplication of mapathons and the participation of beginners. Project managers rely on the community to validate the work of beginners. On the other hand, many mapathons covering areas in countries with a low number of contributors add imprecise data that may not be corrected for a very long time. In recent years, validators have repeatedly indicated that that they consider the number of errors too high to manage and the constant flow of novices leaving quickly creates an increasingly difficult situation.
 
- We continue the comparison with this time a an OSM map sample for August 30 covering the geographical area corresponding to 
- 15 OSM mapping tasks completed in recent weeks. 
+Quality tools such as Osmose, OSM Inspector and JOSM Validator only identify invalid overlaps and polygons and not irregular geometries. But how can we ensure the monitoring of building quality in OSM, develop indicators and provide data to validate/correct more problems? This project aims to address these quality problems by analyzing the geometry of buildings, identifying irregular shapes and errors (overlaps and invalid polygons). In general, only a few percent of buildings with irregular shapes should be found in an area and the various OSM editing software programs make it easier to draw buildings with right angles. Access Diagnostic tools for buildings could allow project managers to intervene quickly and ensure that participating contributors correct the situation quickly.
+
+The architecture of buildings can of course vary, especially in large centres and very dense urban areas. Large buildings are more likely to have irregular shapes and in very dense informal settlements, shapes also vary more. In[the previous article on this Blog] (!Database_Quality_Analysis_Building_overlaps_and_irregular_geometries_Various_cartographic_projects_comparison.md), on August 27, we used a sample of areas mapped in the OSM database for 12 densely populated African cities that are beginning their participation in Open Cities. On average, «Flags» for irregular shapes and topological errors (overlaps and invalid polygons) represented less than 10%. However, large variations from one city to another were observed and data analysis indicated that the actual ratio of buildings to irregular shapes is generally well below 10⅜.  By validating using indicators described in this article for Kisenso, a densely populated commune in Kinshasa (DRC), we have succeeded in significantly reducing ratio of irregular buildings.
+
+Quality monitoring here consists in observing cartographic projects and contributors that have significantly above-average scores for buildings irregular shapes or topological errors (overlaps and invalid polygons).  As with the first analysis, there is great variability from one place to another. To explain this variability, we look at different factors.
+
+We continue the analysis by focusing this time on areas recently covered by coordinated mapping projects using the OSM Task Manager. The sample contains The sample is based on the August 30 Buildings profile from the OSM database for 25 geographical areas corresponding to as many projects completed using the OSM Task Manager during the month of August and completed before August 30. The Sample contains nearly 400,000 buildings and 2,135 contributors participated in these projects during the month of August. As for the previous analysis, the reports represent less than 10%, here 9.2% of the buildings in the base on August 30 for the areas studied. Several projects analyzed have ratios (Irregular Buildings / Total) around 1%. On the other hand, one project stands out with a rate of more than 60%. 
+
+This large variability that is still observed from one project to another can only rarely be explained by the observation on aerial imagery of a larger number of buildings with irregular shapes.  The behaviour of contributors and the uneven monitoring by project coordinators seem much more decisive, with many contributors systematically drawing very imprecise shapes, plus overlaps with buildings, roads, etc.. The OSM Tasking Manager Dashboard reports that the majority of tasks have been validated. However, it should be noted that this dashboard does not contain any Quality monitoring indicators other than confirmation that a contributor indicates that he/she has validated the task or that a contributor is a novice. The analysis shows us that following the validation step in the Tasking Manager, a high number of irregular shapes persist for these areas. 
+
+Mapathons with a predominance of insufficiently trained beginners, lack of monitoring tools and lack of interaction with contributors to adjust the course during mapathons seem to have an impact with areas that are covered in a day or two and then with no activity thereafter as mapathons move elsewhere. 
 
 
-## «State of the Map» Comparison, Areas recently mapped using the Task Manager
+## «State of the Map» 2018-08-30, Comparison, Zones recently mapped using the Tasking Manager
 
-The same two indicators as in the previous article are used for the comparison according to the different Tasks. Warnings are grouped according to
-- Warning: Buildings with irregular geometry and invalid polygons
-- Error: Overlay of buildings (with other buildings or other objects)
-
-As for the first comparative sample, there is a great variability in the results according to the Tasks. The mapping validation step via the Task Manager does not appear to have a significant impact on the tasks in this sample. Other factors seem more decisive to us.
+The same two indicators as in the previous article are used for the comparison according to the different Tasks. The Flags are grouped according to
+- Warning : Buildings with irregular geometry (8.3% of buildings)
+- Error: Overlapped or Invalid buildings and polygons (1% of buildings)
 
 *Graph 1 - Observation of buildings with irregular forms, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
 
+In several large cities, including Dar Es Salaam, Tanzania (TM#4976, #5011, #5016, #5021, #5022), Accra (#4969)
+and in Kochi, India (#5010), a higher than average number of buildings with complex shapes are observed on aerial imagery and it is therefore normal to observe higher ratios. However, it is also more difficult to draw in very dense environments with  variable image qualities and here again several buildings are drawn in an imprecise way.
+
+*Graph 2 - Inaccurate tracings, Kochi, India*
+![Kochi, India](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
+
+In Kochi, India, there are also more complex architectures but in fewer numbers. In this case, there are also many single-family homes that have been traced with imprecision. However, the number of buildings reported in irregular form does not exceed 7%.
+
+The Project 4975 (Ndorwa County, Uganda) is particularly noteworthy with more than 16,600 irregular shapes out of 28,000 
+buildings (ratio of 60.6%), and an error rate of 2.2% (superimposed buildings and invalid polygons) compared to the total buildings in the area covered.  This task has not been validated and the analysis of the mapping of the area shows sketchy mapping (see maps by contributor in Table 3). Project 4966 (Bwamba County, Uganda), although similar, has very different results with a reporting rate of only 2.8%. Graph 3 shows the OSM profile, on August 30, 2018, for the buildings in the area. This shows that few buildings had been added in the area before this project. The map was practically white. Contributors quickly covered, with two days of intensive participation and the addition of a multitude of errors.  As of August 30, these errors were still visible and there is a high risk that the errors will not be corrected with the small number of contributors in African countries.  Experienced contributors can add buildings very quickly when an area is white. But are very reluctant to correct errors such as we now see on the map. Many buildings can be traced at the same time as it takes to hide data, trace to a level and perform manipulations to correct the geometry of an existing building.
+
+xxxxx
+As for the first comparative sample, there is a great variability in the results according to the Tasks. The mapping validation step via the Task Manager does not appear to have a significant impact on the tasks in this sample. Other factors seem more decisive to us.
+
+
 Dans les centres-ville, d'abord, le nombre de bâtiments avec des formes complexes correpond à ce qui est observé sur l'imagerie aérienne et il est donc normal d'y obsrver des taux de formes comples plus élevés que dans d'autres zones géographiques. Au Centre-ville de Dar Es Salaam et d'autres villes de Tanzanie, on observe ces formes irrégulières. Dans la base OSM, elles représentent de 10% jusqu'à 20% selon les tâche. 
 In city centres, first, the number of buildings with complex shapes corresponds in general to what is observed on aerial imagery and it is therefore normal to observe higher rates of warnings for irregular forms than in other geographical areas. In downtown Dar Es Salaam and other cities in Tanzania, these irregular shapes are observed. In the OSM database, they represent from 10% to 20% depending on the task. 
 
-*Graph 2 - Inaccurate tracings, Kochi, India*
-![Dar Es Salaam](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
 In Kochi - India, we also find more complex architectures but in smaller numbers. In this case, we observe many individual houses that have been trace with imprecision. However the number of buildings reported with irregular form does not exceed 7%.
 

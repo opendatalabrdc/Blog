@@ -36,14 +36,8 @@ Task 4975 (Ndorwa County, Uganda) particularly draws our attention with over 16,
 
 
 
-*Table 1 : Comparison, Topological analysis Reports in % of buildings in the area, Areas covered by the Task Manager*
-
-|	Task * 	|	Buildings	|	Warning Irreg Forms	|	%	|	Error Overlaps +Invalid Polyg	|	%	|	Total Flags % | Validation |
-|	:------------------------------------------	|	--------:	|	------:	|	--------:	|	------:	|	------:	|	------:	| :------------|
-
 *Table 1 : Buildings Topological Analysis, sample based on zone covered by 25 Tasking Manager Tasks, august 2018*
 *Contributors classified by their Total Flags in % of Buildings mapped by the contributor, OSM database, August 30 2018*
-
 
 Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry | Nb Errors Overlapped +Invalid Polygons | Total Flags | % Flags /Buildings |
 :---------|--------:|------:|----------:|-----------:|-----------:|---------:|----------:|
@@ -54,29 +48,8 @@ Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry |
 20% +       |522     |584   |40,847     |24,504      |1,616       |26,120    |64 %    |
 TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 
+
 *Table 2 : Tasks Compararion, sample of 25 tasks, august 2018*
-
-|	Task * 	|	Nb Buildings	|	Nb Warnings Irreg. Geometry	|	%	|	ENb Errors Overlapped +Invalid Polygons	|	%	|	Total Flags | % Flags /Buildings | Task Validation |
-|	:------------------------------------------	|	--------:	|	------:	|	--------:	|	------:	|	------:	|	------:	| :------------|
-|		|		|		|		|		|		|		|		|
-|	4954 Muchinga province, Zambia	|	53,748	|	605	|	1.1%	|	56	|	0.1%	|	1.2%	|	Validé	|
-|	4958 Beni, Nord-Kivu DRC	|	71,064	|	648	|	0.9%	|	181	|	0.3%	|	1.2%	|	Validé	|
-|	4975 Ndorwa County, Uganda	|	28,393	|	16,648	|	58.6%	|	981	|	3.5%	|	62.1%	|	Non validé	|
-|	4994 Kalabo, Zambia	|	4,506	|	395	|	8.8%	|	38	|	0.8%	|	9.6%	|	Not Validated	|
-|	4998 Blue Nile State, Sudan	|	1,148	|	49	|	4.3%	|	55	|	4.8%	|	9.1%	|	Non validé	|
-|	5009 North of Kochi, India	|	15,810	|	324	|	2.0%	|	109	|	0.7%	|	2.7%	|	Validé	|
-|	5010 North of Kochi, India	|	90,816	|	6,619	|	7.3%	|	1,531	|	1.7%	|	9.0%	|	Non validé	|
-|	5019 Mungala Refugee settlement, Uganda	|	1,728	|	5	|	0.3%	|	28	|	1.6%	|	1.9%	|	Non validé	|
-|	4976 Dar es Salaam, Tanzania 	|	1,238	|	245	|	19.8%	|	62	|	5.0%	|	24.8%	|	Validé	|
-|	4978 Magata Karutonga, Tanzania	|	2,086	|	131	|	6.3%	|	18	|	0.9%	|	7.1%	|	Validé	|
-|	4991 Data Zetu, Tanzania	|	28,567	|	392	|	1.4%	|	938	|	3.3%	|	4.7%	|	Not Validé	|
-|	5011 Jangwani, Tanzania 	|	2,465	|	280	|	11.4%	|	81	|	3.3%	|	14.6%	|	Validé	|
-|	5016 Dar es Salaam, Tanzania 	|	1,201	|	192	|	16.0%	|	28	|	2.3%	|	18.3%	|	Validé	|
-|	5021 Upanga Mashariki, Dar es Salaam, Tanzania	|	2,724	|	380	|	14.0%	|	92	|	3.4%	|	17.3%	|	Validé	|
-|	5022 Mchikichini, Dar es Salaam, Tanzania	|	6,597	|	659	|	10.0%	|	372	|	5.6%	|	15.6%	|	Validé	|
-|		|		|		|		|		|		|		|		|
-|	Total	|	312,091	|	27,572	|	8.8%	|	4,570	|	1.5%	|	10.3%	|		|
-
 * The Geographic Zones correspond to zone covered by each task in the OSM Tasking Manager
 
 

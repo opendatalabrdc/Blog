@@ -1,5 +1,5 @@
 
-2018-09-10 Analyse Qualité, Base OSM: Le Gestionnaire de Tâches
+## 2018-09-10 Analyse Qualité, Base OSM: Le Gestionnaire de Tâches
 
 La cartographie des bâtiments ajoutés à la base OSM suscite de nombreuses discussions avec la multiplication de mapathons et participation de débutants. Des responsables de projet comptent sur la communauté pour valider le travail des débutants. Par contre de nombreux mapathons couvrant des zones dans des pays où le nombre de contributeurs est peu élevé ajoutent des données imprécises qui risquent de ne pas être corrigées avant très longtemps. Lors de nombreuses discussions au cours des dernières années, des validateurs on indiqué à plusieurs reprises que le nombre d'erreurs est trop élevé et les flux constants de novices qui quittent rapidement créent une situation de plus en plus difficile à gérer.
 

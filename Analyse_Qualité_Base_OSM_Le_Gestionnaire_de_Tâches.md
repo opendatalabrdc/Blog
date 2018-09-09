@@ -1,26 +1,29 @@
 # BROUILLON
 # 2018-09-02 Analyse Qualité, Base OSM: Le Gestionnaire de Tâches
 
- Dans [l'article précédent sur ce Blog](Analyse_Qualité_Base_OSM_Superpositions_et_Bâtiments_avec_Géométrie_irrégulière.md), le 27 août, 
- on retrouvait une comparaison de la cartographie de différentes villes (échantillon à partir des villes qui commencent leur participation 
- à Open Cities).  
+De façon générale, les immeubles ont des formes régulières, et le plus souvant des angles droits.  Les architectures peuvent bien sûr varier dans certaines villes avec davantage de bâtiemnts avec des formes irrégulières. De même dans des quartiers informels très denses, les formes vont davantage varier. Dans [l'article précédent sur ce Blog](Analyse_Qualité_Base_OSM_Superpositions_et_Bâtiments_avec_Géométrie_irrégulière.md), le 27 août, nous avons utilisé un échantillon de zones cartographiées dans la base OSM pour 12 villes qui commencent leur participation 
+ à Open Cities. En moyenne, les «Signalements» pour formes irrégulières et les erreurs topologiques (chevauchements et polygones invalides) représentaient moins de 10%. Cependant, les écarts étaient élevés d'une ville à l'autre.
 
-Nous poursuivons la comparaison avec cette fois-ci un échantillon de la carte OSM le 30 août  couvrant la zone géographique correpondant à 
- 15 tâches cartographiques OSM réalisées au cours des dernières semaines. 
+Nous poursuivons l'analyse avec cette fois-ci un échantillon de la carte OSM le 30 août  couvrant la zone géographique correpondant à 
+ 24 tâches cartographiques coordonnées à partir du Gestionnaire de tâches OSM au cours du mois d'août et complétées avant le 30 août. Encore ici, les signalements représentent 9,2% des immeubles dans la base le 30 août. 
  
+Pour expliquer la variablité d'un endroit à l'autre, nous examinons différents facteur. L'analyse visuelle de l'imagerie aérienne permet de repérer certains centres-villes et quartiers très denses avec davantage de formes irrégulières. Une grande variabilité est encore observée d'un projet à l'autre et peut rarement être expliquée par l'observation d'un plus grand nombre de bâtiments avec des formes irrégulières.  Le comportement des contributeurs semble beaucoup plus déterminant, avec plusieurs qui systématiquement tracent des formes très imprécises, chevauchent immeubles et routes, etc. Le gestionnaire de tâches OSM rapporte que la majorité des tâches ont été validées. L'analyse nous montre que suite à cette validation, le nombre élevé de formes irrégulières persiste pour ces zones. Les mapathons avec des débutants insuffisamment formé et un manque d'outil de Suivi lors des mapathons semblent aussi avoir un impact avec des zones qui sont couvertes ponctuellement un jour ou deux puis sans activité par la suite. 
 
-## «State of the Map» Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
+
+## «State of the Map» 2018-08-30, Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
 
 Les deux mêmes indicateurs que dans l'article précédent sont utilisés pour la comparaison selon les différentes Tâches. Les signalements sont regroupés selon
-- Avertissement : Immeubles avec Géométrie irrégulière et polygones non valides
-- Erreur : Superposition d'immeubles (avec autres immeubles ou autres objets)
+- Avertissement : Bâtiments avec Géométrie irrégulière (8,3% des bâtiments)
+- Erreur : Superposition d'immeubles et polygones non valides (1% des bâtiments)
 
-Tout comme pour le premier échantillon comparatif, on observe une grande variabilité des résultats selon les Tâches. L'étape de validation de la cartographie via le Gestionnaire de tâches ne semble pas avoir d'impact significatif pour les tâches de cet échantillon. D'autres facteurs nous apparaissent plus déterminants.
+Dar Es Salaam, Tanzanie (#4976, #5011, #5016, #5021, #5022),  à Accra (#4969),
+(#4958), (#49), (#49), (#49)
 
 *Graphique 1 - Observation de bâtiments avec formes irrégulières, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
 
-Dans les centres-ville, d'abord, le nombre de bâtiments avec des formes complexes correpond à ce qui est observé sur l'imagerie aérienne et il est donc normal d'y obsrver des taux de formes comples plus élevés que dans d'autres zones géographiques. Au Centre-ville de Dar Es Salaam et d'autres villes de Tanzanie, on observe ces formes irrégulières. Dans la base OSM, elles représentent de 10% jusqu'à 20% selon les tâche. 
+Dans les centres-ville, d'abord, le nombre de bâtiments avec des formes complexes correspond à ce qui est observé sur l'imagerie aérienne et il est donc normal d'y obsrver des taux de formes comples plus élevés que dans d'autres zones géographiques. Au Centre-ville de Dar Es Salaam et d'autres villes de Tanzanie, on observe ces formes irrégulières. Dans la base OSM, elles représentent de 10% jusqu'à 20% selon les tâche. 
+
 
 
 *Graphique 2 - Tracés imprécis, Kochi, Inde*
@@ -28,11 +31,12 @@ Dans les centres-ville, d'abord, le nombre de bâtiments avec des formes complex
 
 À Kochi en Inde, on retrouve aussi  des architectures plus complexes mais en nombre plus réduit. Dans ce cas-ci on retrouve aussi de nombreuses maisons individuelles qui ont été tracées avec imprécision. Cependant le nombre d'immeubles signalés avec forme irégulière ne dépasse pas les 7%.
 
-La tâche 4975 (Ndorwa County, Ouganda) attire particulièrement notre attention avec plus de 16,600 bâtiments sur 28,000 avec des formes irrégulières (
+Le projet 4975 (Ndorwa County, Ouganda) attire particulièrement notre attention avec plus de 16,600 bâtiments sur 28,000 avec des formes irrégulières (
 taux de signalementde 58,6% des bâtiments),  et un taux d'erreur (immeubles superposés) de 3,5% par rapport à l'ensembles des bâtiments dans la zone couverte par cette tâche.  Cette tâche n'a pas été validée et l'analyse de la cartographie de la zone montre une qualité de la cartographie très variable.
- 
+Le projet 4966 (Bwamba County, Ouganda), quoique similaire, présente des résultats très différents avec un taux de Signalement de 2,8%. 
 
 De telles variations résultats suite à l'analyse Qualité des bâtiments suggèrent qu'il faut davantage de suivi pour détecter et corriger rapidement les problèmes de qualité. 
+
 *Pierre Béland*
 
 *Graphique 3 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*

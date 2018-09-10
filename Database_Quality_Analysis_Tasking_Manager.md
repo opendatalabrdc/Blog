@@ -74,6 +74,8 @@ In conclusion, this high variability of results observed with this Building Qual
 ![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
 
 
+
+
 *Table 2 : Topological Analysis Comparison, 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
 Zones covered by the Tasking Manager, 2018-08-30*
 
@@ -89,7 +91,7 @@ Zones covered by the Tasking Manager, 2018-08-30*
 | 	[4958](https://tasks.hotosm.org/project/4958)	| 	325	| 	71,064	 | 	653	 | 	0.9	% |	105	 | 	0.1	% |	1.1	% |	Validated	 |
 | 	[4966](https://tasks.hotosm.org/project/4966)	| 	304	| 	44,247	 | 	1,061	 | 	2.4	% |	194	 | 	0.4	% |	2.8	% |	Validated	 |
 | 	[4969](https://tasks.hotosm.org/project/4969)	| 	75	| 	7,101	 | 	1,299	 | 	18.3	% |	31	 | 	0.4	% |	18.7	% |	Validated	 |
-| 	[4975](https://tasks.hotosm.org/project/4975)	| 	334	| 	28,393	 | 	17,220	 | 	60.6	% |	618	 | 	2.2	% |	62.8	% |	Not Validated	 |
+| 	[4975](https://tasks.hotosm.org/project/4975)	| 	334	| 	28,393	 | 	17,220	 | 	60.6	% |	618	 | 	2.2	% |	62.8	% |	Not Validated	|
 | 	[4976](https://tasks.hotosm.org/project/4976)	| 	36	| 	1,238	 | 	261	 | 	21.1	% |	44	 | 	3.6	% |	24.6	% |	Validated	 |
 | 	[4978](https://tasks.hotosm.org/project/4978)	| 	51	| 	2,086	 | 	125	 | 	6	% |	9	 | 	0.4	% |	6.4	% |	Validated	 |
 | 	[4991](https://tasks.hotosm.org/project/4991)	| 	102	| 	28,567	 | 	415	 | 	1.5	% |	589	 | 	2.1	% |	3.5	% |	Not Validated	 |

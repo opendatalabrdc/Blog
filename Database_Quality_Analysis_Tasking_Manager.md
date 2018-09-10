@@ -75,7 +75,7 @@ In conclusion, this high variability of results observed with this Building Qual
 
 
 
-## Table 2 : Buildings Quality Analysis Comparison, 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
+## Table 2 : Flagged Buildings Comparison for 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
 Zones covered by the Tasking Manager, 2018-08-30
 
 | Project * | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Error Overlaps +Invalid Polygon | % of Buildings 

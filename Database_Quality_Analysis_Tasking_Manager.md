@@ -1,4 +1,3 @@
-# DRAFT
 # 2018-09-10 OSM Database Buildings Quality Analysis : The Tasking Manager
 
 The mapping of the buildings added to the OSM database has been the subject of many discussions with the multiplication ofmapathons and the participation of beginners. In discussions on Quality issues, project managers have expressed that they rely on the commuinity to validate the work of beginners they gather to Mapathons while developers heavily involved in such projects 

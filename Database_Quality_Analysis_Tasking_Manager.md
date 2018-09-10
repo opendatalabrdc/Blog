@@ -75,11 +75,10 @@ In conclusion, this high variability of results observed with this Building Qual
 
 
 
+## Table 2 : Topological Analysis Comparison, 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
+Zones covered by the Tasking Manager, 2018-08-30
 
-*Table 2 : Topological Analysis Comparison, 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
-Zones covered by the Tasking Manager, 2018-08-30*
-
-|Project * | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Error Overlaps +Invalid Polygon| % of Buildings 
+| Project * | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Error Overlaps +Invalid Polygon | % of Buildings 
 |  W+E %  | Status 2018-08-30 |
 | :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
 | 	[4944](https://tasks.hotosm.org/project/4944)	| 	73	| 	3,130	 | 	217	 | 	6.9	% |	22	 | 	0.7	% |	7.6	% |	Validated	 |
@@ -109,10 +108,11 @@ Zones covered by the Tasking Manager, 2018-08-30*
 | 	[5022](https://tasks.hotosm.org/project/5022)	| 	76	| 	6,596	 | 	694	 | 	10.5	% |	342	 | 	5.2	% |	15.7	% |	Validated	 |
 | 		Total	| 	2,452	| 	397,531	| 	32,811	| 	8.3	% |	3,865	| 	1.0	% |	9.2	% |	.	 |
 
+
 * The Geographic Zones correspond to area covered by each task in the OSM Tasking Manager
 
 
-*Table 3 : Tasks by Contributors with more then 20 Building Flags and Flags / Buildings ratio over 20%, sample of 25 tasks, august 2018*
+## Table 3 : Tasks by Contributors with more then 20 Building Flags and Flags / Buildings ratio over 20%, sample of 25 tasks, august 2018
 
 |	Task * 	| user_id |	Buildings	|	Warning Irreg Forms	|	Error Overlaps +Invalid Polyg	| Flags % of Buildings | Display Flagged buildings  |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |

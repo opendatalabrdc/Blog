@@ -26,13 +26,13 @@ The same two indicators as in the previous article are used for the comparison a
 - Warning : Buildings with irregular geometry (8.3% of buildings)
 - Error: Overlapped or Invalid buildings and polygons (1% of buildings)
 
-*Graph 1 - Observation of buildings with irregular forms, Dar Es Salaam*
+*Figure 1 - Observation of buildings with irregular forms, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
 
 In several large cities, including Dar Es Salaam, Tanzania (TM#4976, #5011, #5016, #5021, #5022), Accra (#4969)
 and in Kochi, India (#5010), a higher than average number of buildings with complex shapes are observed on aerial imagery and it is therefore normal to observe higher ratios. However, it is also more difficult to draw in very dense environments with  variable image qualities and here again several buildings are drawn in an imprecise way.
 
-*Graph 2 - Inaccurate tracings, Kochi, India*
+*Figure 2 - Inaccurate tracings, Kochi, India*
 ![Kochi, India](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
 In Kochi, India, there are also more complex architectures but in fewer numbers. In this case, there are also many single-family homes that have been traced with imprecision. However, the number of buildings reported in irregular form does not exceed 7%.
@@ -40,13 +40,13 @@ In Kochi, India, there are also more complex architectures but in fewer numbers.
 The Project 4975 (Ndorwa County, Uganda) is particularly noteworthy with more than 16,600 irregular shapes out of 28,000 
 buildings (ratio of 60.6%), and an error rate of 2.2% (superimposed buildings and invalid polygons) compared to the total buildings in the area covered.  In fact, this one project account for only 7,1% of buildings traced for the 25 projects but 48.6% of Flagged buildings for evaluation. This project terminated at mid-august has not yet been validated and the analysis of the mapping of the area shows sketchy mapping (see maps by contributor in Table 3). Project 4966 (Bwamba County, Uganda), although similar, has very different results with a reporting rate of only 2.8%. 
 
-Graph 3 shows the OSM profile, on August 30, 2018, for the buildings in the area covered by Project 4965. This shows that few buildings had been added in the area before this project. The map was practically white and the contributors quickly covered the area with two days of intensive participation and the addition of a multitude of errors.  As of August 30, these errors were still visible and there is a high risk that the errors will not be corrected with the small number of contributors in African countries.  Experienced contributors can add buildings very quickly when an area is white. But are very reluctant to correct errors such as we now see on the map. Many buildings can be traced for the same time as it takes to mask the data layer, retrace and then perform manipulations to correct the geometry of an existing building.
+Figure 3 shows the OSM profile, on August 30, 2018, for the buildings in the area covered by Project 4965. This shows that few buildings had been added in the area before this project. The map was practically white and the contributors quickly covered the area with two days of intensive participation and the addition of a multitude of errors.  As of August 30, these errors were still visible and there is a high risk that the errors will not be corrected with the small number of contributors in African countries.  Experienced contributors can add buildings very quickly when an area is white. But are very reluctant to correct errors such as we now see on the map. Many buildings can be traced for the same time as it takes to mask the data layer, retrace and then perform manipulations to correct the geometry of an existing building.
 
 
-*Graph 3 - Buildings Profile, 2018-08-30, according to the  date of the last OSM edition*
+*Figure 3 - Buildings Profile, 2018-08-30, according to the  date of the last OSM edition*
 ![TM-4975-date](img/po-Topology-TM-4975-date-en.png)
 
-Table 1 classifies the 2,135 contributors according to their ratio of alerts to buildings. It can be seen that the majority of contributors trace few buildings with irregular shapes. Ratios below 5% represent the majority of contributors (54.5%) and edited buildings (73.1%) and a small ratio of Flagged buildings (1.3%). Conversely, the ratios of 20% and over represent a minority of contributors (24.4%) and edited buildings (10.3%) and the vast majority of Flagged buildings (71.2%). It will not be surprising to note that they mainly trace buildings of irregular shape (64% of buildings). Note that this measure is not perfect to evaluate the initial contributor peformance since more his errors are corrected by others, less errors are reported for this initial contributor.
+Table 1 classifies the 2,135 contributors according to their ratio of alerts to buildings. It can be seen that the majority of contributors trace few buildings with irregular shapes. Ratios below 5% represent the majority of contributors (54.5%) and edited buildings (73.1%) and a small ratio of Flagged buildings (1.3%). Conversely, the ratios of 20% and over represent a minority of contributors (24.4%) and edited buildings (10.3%) and the vast majority of Flagged buildings (71.2%). It will not be surprising to note that they mainly trace buildings of irregular shape (64% of buildings). Note that this measure is not perfect to evaluate the initial contributor peformance since more his errors are corrected by others, less errors are reported for this initial contributor. Also for building overlaps such as in Figure 5, all relevant objects are reported and no attempt is made to identify the contributor responsible for this error. 
 
 *Table 1 : Buildings Topological Analysis, sample based on areas covered by 25 Tasking Manager Tasks, august 2018*
 *Contributors classified by their Buildings Flagged in % of all Buildings reported for the contributor, OSM database, August 30 2018*
@@ -67,10 +67,10 @@ In conclusion, this high variability of results observed with this Building Qual
 
 
 
-*Graph 4 - Very approximative buildings tracing, Ndorwa, Ouganda*
+*Figure 4 - Very approximative buildings tracing, Ndorwa, Ouganda*
 ![Ndorwa, Uganda](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
 
-*Graphique 5 - Example, Buildings Visualisation, Contributors with high Signal ratio*
+*Figure 5 - Example, Buildings Visualisation, Contributors with high Signal ratio*
 ![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
 
 

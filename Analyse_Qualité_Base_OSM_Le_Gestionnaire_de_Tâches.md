@@ -72,7 +72,7 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 *Graphique 5 - Exemple, Visualisation, Bâtiments, Contributeurs avec taux de Signalement élevé*
 ![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
 
-## Tableau 2 : Comparaison 25 projets, Signalements Analyse topologique en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches
+## Tableau 2 : Comparaison 25 projets, Analyse bâtiments signalés pour validation en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches
 
 |Projet | Contributeurs | Immeubles | Avertissements Géométrie Irreg | % Immeubles| Erreurs Superpositions +Polygones non valides| % Immeubles|  % Signalements | Statut 2018-08-30 |
 | :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |

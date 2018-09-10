@@ -75,11 +75,13 @@ In conclusion, this high variability of results observed with this Building Qual
 
 
 
+
+
 ## Table 2 : Flagged Buildings Comparison for 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
 Zones covered by the Tasking Manager, 2018-08-30
 
-| Project * | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Error Overlaps +Invalid Polygon | % of Buildings 
-|  W+E %  | Status 2018-08-30 |
+
+|Project | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Errors Overlaps +Invalid Polygons | % of Buildings |  W+E % | Status 2018-08-30 |
 | :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
 | 	[4944](https://tasks.hotosm.org/project/4944)	| 	73	| 	3,130	 | 	217	 | 	6.9	% |	22	 | 	0.7	% |	7.6	% |	Validated	 |
 | 	[4946](https://tasks.hotosm.org/project/4946)	| 	43	| 	1,615	 | 	85	 | 	5.3	% |	35	 | 	2.2	% |	7.4	% |	Validated	 |
@@ -110,6 +112,8 @@ Zones covered by the Tasking Manager, 2018-08-30
 
 
 * The Geographic Zones correspond to area covered by each task in the OSM Tasking Manager
+
+
 
 
 ## Table 3 : Tasks by Contributors with more then 20 Building Flags and Flags / Buildings ratio over 20%, sample of 25 tasks, august 2018

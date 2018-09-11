@@ -6,6 +6,10 @@ Quality tools such as Osmose, OSM Inspector, KeepRight and JOSM Validator only i
 
 However, this requires a change with greater involvement of project managers in quality management. In general, only a few percent of buildings with irregular shapes should be found in the database for in an area. High rates are signs of quality problems in the geometry of buildings in the OSM database. The various OSM editing softwares facilitate the drawing of buildings at right angles and it is important to train novices to quickly master these tools and better interpret the content of aerial images. Access to diagnostic tools for the project managers would let them intervene quickly and ensure that participating contributors correct the situation before errors multiply rapidly.
 
+*Figure 1 - See Tableau 1, Individual Contributors Maps, high ratio of buildings to revise for geometry and topological errors*
+![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
+
+
 The architecture of buildings can of course vary, especially in large centres and very dense urban areas. Large buildings are more likely to have irregular shapes and in very dense informal settlements, shapes also vary more. In the [previous article on this Blog](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md), on August 27, we used a sample of areas mapped in the OSM database for 12 densely populated African cities that are beginning their participation in Open Cities. On average, «Flags» for irregular shapes and topological errors (overlaps and invalid polygons) represented less than 10%. However, large variations from one city to another were observed and data analysis indicated that the actual ratio of buildings to irregular shapes is generally well below 10⅜.  By validating using indicators described in this article for Kisenso, a densely populated commune in Kinshasa (DRC), we have succeeded in significantly reducing ratio of irregular buildings.
 
 Quality monitoring here consists in observing cartographic projects and contributors that have significantly above-average scores for buildings irregular shapes or topological errors (overlaps and invalid polygons).  As for the first analysis, an important variablility in the quality of building geometries and topological errors is observed across Projects. To explain this variability, we look at different factors.
@@ -23,13 +27,13 @@ The same two indicators as in the previous article are used for the comparison a
 - Warning : Buildings with irregular geometry (8.3% of buildings)
 - Error: Overlapped or Invalid buildings and polygons (1% of buildings)
 
-*Figure 1 - Observation of buildings with irregular forms, Dar Es Salaam*
+*Figure 2 - Observation of buildings with irregular forms, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
 
 In several large cities, including Dar Es Salaam, Tanzania (TM#4976, #5011, #5016, #5021, #5022), Accra (#4969)
 and in Kochi, India (#5010), a higher than average number of buildings with complex shapes are observed on aerial imagery and it is therefore normal to observe higher ratios. However, it is also more difficult to draw in very dense environments with  variable image qualities and here again several buildings are drawn in an imprecise way.
 
-*Figure 2 - Inaccurate tracings, Kochi, India*
+*Figure 3 - Inaccurate tracings, Kochi, India*
 ![Kochi, India](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
 In Kochi, India, there are also more complex architectures but in fewer numbers. In this case, there are also many single-family homes that have been traced with imprecision. However, the number of buildings reported in irregular form does not exceed 7%.
@@ -37,10 +41,10 @@ In Kochi, India, there are also more complex architectures but in fewer numbers.
 The Project 4975 (Ndorwa County, Uganda) is particularly noteworthy with more than 16,600 irregular shapes out of 28,000 
 buildings (ratio of 60.6%), and an error rate of 2.2% (superimposed buildings and invalid polygons) compared to the total buildings in the area covered.  In fact, this one project account for only 7,1% of buildings traced for the 25 projects but 48.6% of Flagged buildings for evaluation. This project terminated at mid-august has not yet been validated and the analysis of the mapping of the area shows sketchy mapping (see maps by contributor in Table 3). Project 4966 (Bwamba County, Uganda), although similar, has very different results with a reporting rate of only 2.8%. 
 
-Figure 3 shows the OSM profile, on August 30, 2018, for the buildings in the area covered by Project 4965. This shows that few buildings had been added in the area before this project. The map was practically white and the contributors quickly covered the area with two days of intensive participation and the addition of a multitude of errors.  As of August 30, these errors were still visible and there is a high risk that the errors will not be corrected with the small number of contributors in African countries.  Experienced contributors can add buildings very quickly when an area is white. But are very reluctant to correct errors such as we now see on the map. Many buildings can be traced for the same time as it takes to mask the data layer, retrace and then perform manipulations to correct the geometry of an existing building.
+Figure 4 shows the OSM profile, on August 30, 2018, for the buildings in the area covered by Project 4965. This shows that few buildings had been added in the area before this project. The map was practically white and the contributors quickly covered the area with two days of intensive participation and the addition of a multitude of errors.  As of August 30, these errors were still visible and there is a high risk that the errors will not be corrected with the small number of contributors in African countries.  Experienced contributors can add buildings very quickly when an area is white. But are very reluctant to correct errors such as we now see on the map. Many buildings can be traced for the same time as it takes to mask the data layer, retrace and then perform manipulations to correct the geometry of an existing building.
 
 
-*Figure 3 - Buildings Profile, 2018-08-30, according to the  date of the last OSM edition*
+*Figure 4 - Buildings Profile, 2018-08-30, according to the  date of the last OSM edition*
 ![TM-4975-date](img/po-Topology-TM-4975-date-en.png)
 
 Table 1 classifies the 2,135 contributors according to their ratio of alerts to buildings. It can be seen that the majority of contributors trace few buildings with irregular shapes. Ratios below 5% represent the majority of contributors (54.5%) and edited buildings (73.1%) and a small ratio of Flagged buildings (1.3%). Conversely, the ratios of 20% and over represent a minority of contributors (24.4%) and edited buildings (10.3%) and the vast majority of Flagged buildings (71.2%). It will not be surprising to note that they mainly trace buildings of irregular shape (64% of buildings). Note that this measure is more aimed at identifying and correcting problems. It is not perfect to evaluate the initial contributor peformance since more his errors are corrected by others, less errors are reported for this initial contributor. Also for building overlaps such as in Figure 5, all relevant objects are reported and no attempt is made to identify the contributor responsible for this error. 
@@ -64,13 +68,8 @@ In conclusion, this high variability of results observed with this Building Qual
 
 
 
-*Figure 4 - Very approximative buildings tracing, Ndorwa, Ouganda*
+*Figure 5 - Very approximative buildings tracing, Ndorwa, Ouganda*
 ![Ndorwa, Uganda](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
-
-*Figure 5 - Example, Buildings Visualisation, Contributors with high Signal ratio*
-![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
-
-
 
 
 

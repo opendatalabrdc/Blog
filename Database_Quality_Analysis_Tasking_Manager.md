@@ -14,7 +14,7 @@ We continue the analysis by focusing this time on areas recently covered by coor
 
 This great variability that is still observed from one project to another can only rarely be explained by the observation on aerial imagery of a larger number of buildings with irregular shapes.  The behaviour of contributors and the uneven monitoring by project coordinators seem much more decisive, with many contributors systematically drawing very imprecise shapes, plus overlaps with buildings, roads, etc.. The OSM Tasking Manager Dashboard reports that the majority of tasks have been validated. However, it should be noted that this dashboard does not contain any Quality monitoring indicators other than confirmation that a contributor indicates that he/she has validated the task or that a contributor is a novice. The analysis shows us that following the validation step in the Tasking Manager, a high number of irregular shapes persist for these areas. 
 
-Mapathons with a predominance of insufficiently trained beginners, lack of monitoring tools and lack of interaction with contributors to adjust the course during mapathons seem to have an impact with areas that are covered in a day or two and then with no activity thereafter as mapathons move elsewhere. 
+The organization of projects such as mapathons makes it possible to map high-risk areas that often have not yet been mapped in detail. However, the vast majority of mapathon participants are beginners insufficiently trained. Mapped areas with a large number of errors may not be reviewed later, as the focus of projects shifts to new priorities.
 
 
 ## «State of the Map» 2018-08-30, Comparison, Zones recently mapped using the Tasking Manager

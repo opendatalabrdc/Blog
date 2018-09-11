@@ -11,6 +11,9 @@ L'architecture des bâtiment peut bien sûr varier en particulier dans les grand
  
 Le suivi Qualité consiste ici à observer les projets cartographiques et contributeurs qui ont des ratios nettement au-dessus de la moyenne pour les bâtiments tracés avec des formes irrégulières ou contenant des erreurs topologiques (chevauchemets et polygones non valides).  Tout comme pour la première analyse, une grande variablité est observée d'un endroit à l'autre. Pour expliquer cette variabilité, nous examinons différents facteurs.
 
+*Graphique 1 - Voir Tableau 3, Cartes par contributeur, Taux élevé d'immeubles nécessitant révision*
+![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
+
 Nous poursuivons l'analyse en focusant cette fois-ci sur des zones couvertes récemment par des projets cartographiques coordonnées à partir du Gestionnaire de tâches OSM. L'échantillon contient les bâtiments dans la base OSM le 30 août pour 25 zones géographiques correpondant à autant de projets réalisés à l'aide du Gestionnaire de tâches OSM au cours du mois d'août et complétées avant le 30 août. L'Échantillon contient près de 400,000 immeubles et 2,135 contributeurs ont participé à ces projets au cours du mois d'août. Encore ici, les signalements représentent moins de 10%, soit 9,2% des immeubles dans la base le 30 août pour les zones étudiées. Plusieurs projets ont des ratios (Immeubles irréguliers / Total) autour de 1%. Par contre un projet se démarque particulièrement avec un taux supérieur à 60%. 
 
 Cette grande variabilité qui est encore observée d'un projet à l'autre ne peut que rarement être expliquée par l'observation sur l'imagerie aérienne d'un plus grand nombre de bâtiments avec des formes irrégulières.  Le comportement des contributeurs et le suivi inégal par les coordonnateurs des projets semblent beaucoup plus déterminants, avec de nombreux contributeurs qui systématiquement tracent des formes très imprécises, et où se chevauchent immeubles, routes, etc. Le Tableau de bord du gestionnaire de tâches OSM rapporte que la majorité des tâches ont été validées. À noter cependant que ce tableau de bord ne contient aucun indicateur de suivi Qualité sinon la confirmation qu'un contributeur indique avoir validé la tâche ou qu'un contributeur est novice. L'analyse nous montre que suite à l'étape de validation dans le Gestionnaire de tâches, un nombre élevé de formes irrégulières persiste pour ces zones. 
@@ -25,13 +28,13 @@ Les deux mêmes indicateurs que dans l'article précédent sont utilisés pour l
 - Erreur : Superposition d'immeubles et polygones non valides (1% des bâtiments)
 
 
-*Graphique 1 - Observation de bâtiments avec formes irrégulières, Dar Es Salaam*
+*Graphique 2 - Observation de bâtiments avec formes irrégulières, Dar Es Salaam*
 ![Dar Es Salaam](img/Overpass-Dar-Es-Sallaam-Irregular-Geometries.png)
 
 Dans plusieurs grandes villes, notamment à Dar Es Salaam, Tanzanie (TM#4976, #5011, #5016, #5021, #5022),  à Accra (#4969)
 et à Kochi en Inde (#5010), un nombre de bâtiments plus élevé que la moyenne avec des formes complexes est observé sur l'imagerie aérienne et il est donc normal d'y observer des ratios plus élevés. Cependant il est aussi plus difficile de tracer dans des milieux très denses avec des qualités d'images très variables et là aussi plusieurs bâtiments sont tracés de façon imprécise.
 
-*Graphique 2 - Tracés imprécis, Kochi, Inde*
+*Graphique 3 - Tracés imprécis, Kochi, Inde*
 ![Kochi, Inde](img/Overpass-Kochi-India-Irregular-Forms-Validation.png)
 
 À Kochi en Inde, on retrouve aussi  des architectures plus complexes mais en nombre plus réduit. Dans ce cas-ci on retrouve aussi de nombreuses maisons individuelles qui ont été tracées avec imprécision. Cependant le nombre d'immeubles signalés avec forme irégulière ne dépasse pas les 7%.
@@ -39,9 +42,9 @@ et à Kochi en Inde (#5010), un nombre de bâtiments plus élevé que la moyenne
 Le projet 4975 (comté de Ndorwa, Ouganda) attire particulièrement l'attention avec plus de 16 600 bâtiment avec formes 
 irrégulières sur 28 000 (ratio de 60,6 %) et un taux d'erreur de 2,2 % (bâtiments superposés et polygones non valides) par rapport au total des bâtiments de la zone couverte.  De fait, ce seul projet ne représente que 7,1% des bâtiments pour les 25 projets de l'échantillon mais 48,6% des Signalements pour évaluation. Ce projet terminé à la mi-août n'a pas encore été validé et l'analyse de la cartographie de la zone montre une qualité de la cartographie très rudimentaire (voir cartes par contributeur au tableau 3). Le projet 4966 (Bwamba County, Ouganda), quoique similaire, présente des résultats très différents avec un taux de Signalement de 2,8%. 
 
-Le Graphique 3 affiche le profil OSM des bâtiments, le 30 août 2018, pour les bâtiments de la zone couverte par le projet 4975. Cela permet de constater que peu de bâtiments avaient été ajoutées dans la zone avant ce projet. La carte était pratiquement blanche. Les contributeurs ont rapidement couvert, avec deux jours intensifs de participation et l'ajout d'une multitude d'erreurs.  Au 30 août, ces erreurs étaient encore visibles et le risque est grand que les erreurs ne soient pas corrigées avec le petit nombre de contributeurs dans les pays africains.  Les contributeurs expérimentés peuvent ajouter très rapidement des bâtiments lorsqu'une zone est blanche. Mais sont très réticents à corriger des erreurs telles que nous constatons maintenant sur la carte. On peut tracer de nombreux immeubles dans le même temps qu'il faut pour masquer la cocuche de données, tracer à niveau et faire ensuite les manipulations pour corriger la géométrie d'un bâtiment existant.
+Le Graphique 4 affiche le profil OSM des bâtiments, le 30 août 2018, pour les bâtiments de la zone couverte par le projet 4975. Cela permet de constater que peu de bâtiments avaient été ajoutées dans la zone avant ce projet. La carte était pratiquement blanche. Les contributeurs ont rapidement couvert, avec deux jours intensifs de participation et l'ajout d'une multitude d'erreurs.  Au 30 août, ces erreurs étaient encore visibles et le risque est grand que les erreurs ne soient pas corrigées avec le petit nombre de contributeurs dans les pays africains.  Les contributeurs expérimentés peuvent ajouter très rapidement des bâtiments lorsqu'une zone est blanche. Mais sont très réticents à corriger des erreurs telles que nous constatons maintenant sur la carte. On peut tracer de nombreux immeubles dans le même temps qu'il faut pour masquer la cocuche de données, tracer à niveau et faire ensuite les manipulations pour corriger la géométrie d'un bâtiment existant.
 
-*Graphique 3 - Profil bâtiments, 2018-08-30, selon date de dernière édition OSM*
+*Graphique 4 - Profil bâtiments, 2018-08-30, selon date de dernière édition OSM*
 ![TM-4975-date](img/po-Topology-TM-4975-date-fr.png)
 
 Le tableau 1 classifie les 2,135 contributeurs selon leur ratio Signalements / Immeubles. On y constate que la majorité des contributeurs tracent peu de bâtiments avec des formes irrégulières. Les ratios inférieurs à 5% représentent la majorité des contributeurs (54,5%) et des bâtiments édités (73,1%) et un très faible ratio de signalements (1,3%).
@@ -65,12 +68,8 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 
 *Pierre Béland*
 
-*Graphique 4 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
+*Graphique 5 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
 ![Ndorwa, Ouganda](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
-
-*Graphique 5 - Exemple, Visualisation, Bâtiments, Contributeurs avec taux de Signalement élevé*
-![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
-
 
 
 

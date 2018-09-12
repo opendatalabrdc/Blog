@@ -4,8 +4,8 @@ The Quality of the buildings geometry in the OSM database has been the subject o
 
 Quality tools such as Osmose, OSM Inspector, KeepRight and JOSM Validator only identify invalid overlaps and polygons and have no quality indicators for building geometry. Despite the abundance of quality monitoring tools, many topological errors persist in the database. The question therefore arises as to how to ensure the Quality control of building geometries. This project aims to provide global Quality indicators to better monitor projects and provide data files containing the objects to be validated/corrected. 
 
-*Figure 1 - See Tableau 1, Individual Contributors Maps, high ratio of buildings to revise for geometry and topological errors*
-![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
+*Consult the Building Maps for contributors to revise in priority* in Table 3 at the bottom of this post
+![Figure-1-TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
 
 However, this requires a change with greater involvement of project managers in quality management. In general, only a few percent of buildings with irregular shapes should be found in the database for in an area. High rates are signs of quality problems in the geometry of buildings in the OSM database. The various OSM editing softwares facilitate the drawing of buildings at right angles and it is important to train novices to quickly master these tools and better interpret the content of aerial images. Access to diagnostic tools for the project managers would let them intervene quickly and ensure that participating contributors correct the situation before errors multiply rapidly.
 

@@ -106,7 +106,7 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 
 
 
-## Tableau 3 : Cartes immeubles par Contributeur à réviser en priorité (taux élevé de Signalements), et statistiques par contributeur
+## Tableau 3 : Cartes immeubles par Contributeur à réviser en priorité (taux élevé de Signalements), et statistiques pour ces contributeurs
 
 | Projet * | id contributeur  	|	Bâtiments	|  Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides	| Signalements % des  Bâtiments | Carte Immeubles avec Signalement 2018-08-30 |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |

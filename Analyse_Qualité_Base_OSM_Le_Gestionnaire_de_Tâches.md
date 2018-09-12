@@ -5,7 +5,8 @@ La cartographie des bâtiments ajoutés à la base OSM suscite de nombreuses dis
 
 Les outils Qualité tels Osmose, OSM Inspector, KeepRight et JOSM Validator n'identifient que les chevauchements et les polygones invalides et n'ont aucun indicateur de qualité de la géométrie des bâtiments. Malgré l'abondance d'outils de Suivi qualité, de nombreuses erreurs topologiques persistent dans la base de données. La question se pose donc de savoir comment assurer le suivi de la qualité des bâtiments à l'OSM et mieux maitriser la qualité des données. Ce projet vise à à fournir des indicateurs globaux de Qualité pour assurer un meilleur suivi des projets et fournir des fichiers de données contenant les objets à valider/corriger. 
 
-*Graphique 1 - Voir Tableau 3, Cartes par contributeur, Taux élevé d'immeubles nécessitant révision*
+*Graphique 1 - [Voir Tableau 3, Cartes, contributeurs à réviser en priorité](#Table_3_:_Tasks_by_Contributors_with_more_then_20_Building_Flags_and_Flags_/_Buildings_ratio_over_20%,_sample_of_25_tasks,_august_2018
+), Ratio élevé d'immeubles à réviser*
 ![TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
 
 Cependant, cela nécessite un changement avec une plus grande implication des chefs de projet dans la gestion de la qualité. En général, seulement quelques pour cent des bâtiments de forme irrégulière devraient se trouver dans une zone. Des taux élevés sont des signes de problèmes de qualité de la géométrie des bâtiments dans la base OSM. Les différents logiciels d'édition de l'OSM facilitent le dessin de bâtiments à angle droit et il est important de former les novices à maîtriser rapidement ces outils et mieux interpréter le contenu des images aériennes. L'accès à des outils de diagnostic pour l'ajout de bâtiments à l'OSM permettrait aux gestionnaires de projets d'intervenir rapidement et de s'assurer que les contributeurs participants corrigent la situation avant que les erreurs ne se multiplient rapidement.

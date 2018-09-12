@@ -1,5 +1,5 @@
 ## Articles
 
-### en
 
-- [Topological Analysis to Support OpenStreetMap Quality_Analysis](./Topological_Analysis_to_Support_OpenStreetMap_Quality_Analysis)
+- [English](./index_en.md)
+- [Français](./index_fr.md)

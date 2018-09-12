@@ -111,7 +111,7 @@ Zones covered by the Tasking Manager, 2018-08-30
 
 
 
-## Table 3 : Tasks by Contributors with more then 20 Building Flags and Flags / Buildings ratio over 20%, sample of 25 tasks, august 2018
+## Table 3 : Building Maps by Contributor to be revised in priority (high rate of alerts), and statistics for these contributors
 
 |	Task * 	| user_id |	Buildings	|	Warning Irreg Forms	|	Error Overlaps +Invalid Polyg	| Flags % of Buildings | Display Flagged buildings  |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |

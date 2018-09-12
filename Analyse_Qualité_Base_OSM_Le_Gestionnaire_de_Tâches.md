@@ -106,7 +106,7 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 
 
 
-## Tableau 3 : Contributeurs avec un taux élevé de Signalements, Analyse topologique en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches et Carte des immeubles
+## Tableau 3 : Cartes immeubles par Contributeur à réviser en priorité (taux élevé de Signalements), et statistiques par contributeur
 
 | Projet * | id contributeur  	|	Bâtiments	|  Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides	| Signalements % des  Bâtiments | Carte Immeubles avec Signalement 2018-08-30 |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |

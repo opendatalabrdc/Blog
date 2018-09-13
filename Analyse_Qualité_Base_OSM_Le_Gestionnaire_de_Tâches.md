@@ -75,7 +75,7 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 
 
 
-Tableau 2 : Comparaison 25 projets, Analyse bâtiments signalés pour validation en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches
+Tableau 2 : Comparaison 25 projets, Contributeurs, Immmeubles et Ratio (Signalemens / Bâtiments) en ?, 30 août 2018
 ------
 |Projet | Contributeurs | Immeubles | Avertissements Géométrie Irreg | % Immeubles| Erreurs Superpositions +Polygones non valides| % Immeubles|  % Signalements | Statut 2018-08-30 |
 | :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
@@ -108,7 +108,7 @@ Tableau 2 : Comparaison 25 projets, Analyse bâtiments signalés pour validation
 
 
 
-Tableau 3 : Cartes immeubles par Contributeur à réviser en priorité (taux élevé de Signalements), et statistiques pour ces contributeurs
+Tableau 3 : Contributeurs avec ratio élevé de Signalements, Statistiques et Cartes des Bâtiments à réviser (données courantes)
 ------
 | Projet * | id contributeur  	|	Bâtiments	|  Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides	| Signalements % des  Bâtiments | Carte Immeubles avec Signalement 2018-08-30 |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |

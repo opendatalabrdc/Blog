@@ -17,5 +17,5 @@ The [Documentation Section](https://opendatalabrdc.github.io/Documentation/#!ind
 ## Communications, Potentiel 3.0 and DRC OpenStreetMap Community
 
 * [Blog OSM RDC](http://openstreetmap.cd/fr/)
-* [Twitter @osm_cd](https://twitter.com/OSM_CD)
+* [Twitter OSM-DRC](https://twitter.com/OSM_CD)
 * [Twitter Potentiel 3.0](https://twitter.com/potentiel3_0)

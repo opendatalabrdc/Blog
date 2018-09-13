@@ -1,4 +1,5 @@
-# 2018-09-10 OSM Database Buildings Quality Analysis : The Tasking Manager
+2018-09-10 OSM Database Buildings Quality Analysis : The Tasking Manager
+========
 
 The Quality of the buildings geometry in the OSM database has been the subject of many discussions with the multiplication of mapathons and the participation of beginners. In discussions on Quality issues, project managers have expressed that they rely on the community to validate the work of beginners while developers heavily involved in such projects expressed reservations with the multiplication of mapathons and the constant flow of novices who map with insufficient knowledge and leave after only a few hours. It is considered that they often add inaccurate data that may not be corrected for a very long time. Validators judge the number of errors too high and the situation becoming more and more difficult to manage.
 
@@ -9,11 +10,11 @@ Quality tools such as Osmose, OSM Inspector, KeepRight and JOSM Validator only i
 
 However, this requires a change with greater involvement of project managers in quality management. In general, only a few percent of buildings with irregular shapes should be found in the database for in an area. High rates are signs of quality problems in the geometry of buildings in the OSM database. The various OSM editing softwares facilitate the drawing of buildings at right angles and it is important to train novices to quickly master these tools and better interpret the content of aerial images. Access to diagnostic tools for the project managers would let them intervene quickly and ensure that participating contributors correct the situation before errors multiply rapidly.
 
-The architecture of buildings can of course vary, especially in large centres and very dense urban areas. Large buildings are more likely to have irregular shapes and in very dense informal settlements, shapes also vary more. In the [previous article on this Blog](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md), on August 27, we used a sample of areas mapped in the OSM database for 12 densely populated African cities that are beginning their participation in Open Cities. On average, «Flags» for irregular shapes and topological errors (overlaps and invalid polygons) represented less than 10%. However, large variations from one city to another were observed and data analysis indicated that the actual ratio of buildings to irregular shapes is generally well below 10⅜.  By validating using indicators described in this article for Kisenso, a densely populated commune in Kinshasa (DRC), we have succeeded in significantly reducing ratio of irregular buildings.
+The architecture of buildings can of course vary, especially in large centres and very dense urban areas. Large buildings are more likely to have irregular shapes and in very dense informal settlements, shapes also vary more. In the [previous article on this Blog](Bulding_Geometry_Analysis_to_Support_OpenStreetMap_Quality_Analysis.md), on August 27, we used a sample of areas mapped in the OSM database for 12 densely populated African cities that are beginning their participation in Open Cities. On average, «Alerts» for irregular shapes and topological errors (overlaps and invalid polygons) represented less than 10%. However, large variations from one city to another were observed and data analysis indicated that the actual ratio of buildings to irregular shapes is generally well below 10⅜.  By validating using indicators described in this article for Kisenso, a densely populated commune in Kinshasa (DRC), we have succeeded in significantly reducing ratio of irregular buildings.
 
 Quality monitoring here consists in observing cartographic projects and contributors that have significantly above-average scores for buildings irregular shapes or topological errors (overlaps and invalid polygons).  As for the first analysis, an important variablility in the quality of building geometries and topological errors is observed across Projects. To explain this variability, we look at different factors.
 
-We continue the analysis by focusing this time on areas recently covered by coordinated mapping projects using the OSM Task Manager. The sample is based on the August 30 Buildings profile from the OSM database for 25 geographical areas corresponding to as many projects completed using the OSM Task Manager during the month of August and completed before August 30. The Sample contains nearly 400,000 buildings and 2,135 contributors participated in these projects during the month of August. As for the previous analysis, Flagged buildings for evaluation represent less than 10%, here 9.2% of the buildings in the base on August 30 for the areas studied. Several projects analyzed have ratios (Irregular Buildings / Total) around 1%. On the other hand, one project stands out with a rate of more than 60%. 
+We continue the analysis by focusing this time on areas recently covered by coordinated mapping projects using the OSM Task Manager. The sample is based on the August 30 Buildings profile from the OSM database for 25 geographical areas corresponding to as many projects completed using the OSM Task Manager during the month of August and completed before August 30. The Sample contains nearly 400,000 buildings and 2,135 contributors participated in these projects during the month of August. As for the previous analysis, Alerts for buildings with irregular form or topological error represent less than 10%, here 9.2% of the buildings in the base on August 30 for the areas studied. Several projects analyzed have ratios (Irregular Buildings / Total) around 1%. On the other hand, one project stands out with a rate of more than 60%. 
 
 This great variability that is still observed from one project to another can only rarely be explained by the observation on aerial imagery of a larger number of buildings with irregular shapes.  The behaviour of contributors and the uneven monitoring by project coordinators seem much more decisive, with many contributors systematically drawing very imprecise shapes, plus overlaps with buildings, roads, etc.. The OSM Tasking Manager Dashboard reports that the majority of tasks have been validated. However, it should be noted that this dashboard does not contain any Quality monitoring indicators other than confirmation that a contributor indicates that he/she has validated the task or that a contributor is a novice. The analysis shows us that following the validation step in the Tasking Manager, a high number of irregular shapes persist for these areas. 
 
@@ -22,7 +23,7 @@ The organization of projects such as mapathons makes it possible to map high-ris
 
 ## «State of the Map» 2018-08-30, Comparison, Zones recently mapped using the Tasking Manager
 
-The same two indicators as in the previous article are used for the comparison according to the different Tasks. The Flags are grouped according to
+The same two indicators as in the previous article are used for the comparison according to the different Tasks. The Alerts are grouped according to
 - Warning : Buildings with irregular geometry (8.3% of buildings)
 - Error: Overlapped or Invalid buildings and polygons (1% of buildings)
 
@@ -38,7 +39,7 @@ and in Kochi, India (#5010), a higher than average number of buildings with comp
 In Kochi, India, there are also more complex architectures but in fewer numbers. In this case, there are also many single-family homes that have been traced with imprecision. However, the number of buildings reported in irregular form does not exceed 7%.
 
 The Project 4975 (Ndorwa County, Uganda) is particularly noteworthy with more than 16,600 irregular shapes out of 28,000 
-buildings (ratio of 60.6%), and an error rate of 2.2% (superimposed buildings and invalid polygons) compared to the total buildings in the area covered.  In fact, this one project account for only 7,1% of buildings traced for the 25 projects but 48.6% of Flagged buildings for evaluation. This project terminated at mid-august has not yet been validated and the analysis of the mapping of the area shows sketchy mapping (see maps by contributor in Table 3). Project 4966 (Bwamba County, Uganda), although similar, has very different results with a reporting rate of only 2.8%. 
+buildings (ratio of 60.6%), and an error rate of 2.2% (superimposed buildings and invalid polygons) compared to the total buildings in the area covered.  In fact, this one project account for only 7,1% of buildings traced for the 25 projects but 48.6% of Alerts for buildings to revise. This project terminated at mid-august has not yet been validated and the analysis of the mapping of the area shows sketchy mapping (see maps by contributor in Table 3). Project 4966 (Bwamba County, Uganda), although similar, has very different results with a reporting rate of only 2.8%. 
 
 Figure 4 shows the OSM profile, on August 30, 2018, for the buildings in the area covered by Project 4965. This shows that few buildings had been added in the area before this project. The map was practically white and the contributors quickly covered the area with two days of intensive participation and the addition of a multitude of errors.  As of August 30, these errors were still visible and there is a high risk that the errors will not be corrected with the small number of contributors in African countries.  Experienced contributors can add buildings very quickly when an area is white. But are very reluctant to correct errors such as we now see on the map. Many buildings can be traced for the same time as it takes to mask the data layer, retrace and then perform manipulations to correct the geometry of an existing building.
 
@@ -46,12 +47,13 @@ Figure 4 shows the OSM profile, on August 30, 2018, for the buildings in the are
 *Figure 4 - Buildings Profile, 2018-08-30, according to the  date of the last OSM edition*
 ![TM-4975-date](img/po-Topology-TM-4975-date-en.png)
 
-Table 1 classifies the 2,135 contributors according to their ratio of alerts to buildings. It can be seen that the majority of contributors trace few buildings with irregular shapes. Ratios below 5% represent the majority of contributors (54.5%) and edited buildings (73.1%) and a small ratio of Flagged buildings (1.3%). Conversely, the ratios of 20% and over represent a minority of contributors (24.4%) and edited buildings (10.3%) and the vast majority of Flagged buildings (71.2%). It will not be surprising to note that they mainly trace buildings of irregular shape (64% of buildings). Note that this measure is more aimed at identifying and correcting problems. It is not perfect to evaluate the initial contributor peformance since more his errors are corrected by others, less errors are reported for this initial contributor. Also for building overlaps such as in Figure 5, all relevant objects are reported and no attempt is made to identify the contributor responsible for this error. 
+Table 1 classifies the 2,135 contributors according to their ratio of alerts to buildings. It can be seen that the majority of contributors trace few buildings with irregular shapes. Ratios below 5% represent the majority of contributors (54.5%) and edited buildings (73.1%) and a small ratio of Buildings Alerts (1.3%). Conversely, the ratios of 20% and over represent a minority of contributors (24.4%) and edited buildings (10.3%) and the vast majority of Buildings Alerts (71.2%). It will not be surprising to note that they mainly trace buildings of irregular shape (64% of buildings). Note that this measure is more aimed at identifying and correcting problems. It is not perfect to evaluate the initial contributor peformance since more his errors are corrected by others, less errors are reported for this initial contributor. Also for building overlaps such as in Figure 5, all relevant objects are reported and no attempt is made to identify the contributor responsible for this error. 
 
-*Table 1 : Buildings Topological Analysis, sample based on areas covered by 25 Tasking Manager Tasks, august 2018*
-*Contributors classified by their Buildings Flagged in % of all Buildings reported for the contributor, OSM database, August 30 2018*
+Table 1 : Summary, Contributors grouped by their Ratio (Alerts / Buildings) in %, August 30 2018
+--------
+*Contributors classified by their Ratio (Alerts / Buildings) in % of all Buildings reported for the contributor, OSM database, August 30 2018*
 
-Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry | Nb Errors Overlapped +Invalid Polygons | Total Flags | % Flags /Buildings |
+Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry | Nb Errors Overlapped +Invalid Polygons | Total Alerts | % Alerts /Buildings |
 :---------|--------:|------:|----------:|-----------:|-----------:|---------:|----------:|
   0         |757     |866   |49,424     |0          |0          |0        |0 %|
  1<5%       |406     |489   |241,171    |2,875       |1,081       |3,956     |1.6 %      |
@@ -74,13 +76,12 @@ In conclusion, this high variability of results observed with this Building Qual
 ![Ndorwa, Uganda](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
 
 
-
-## Table 2 : Flagged Buildings Comparison for 25 Zones covered by the TM in august 2018,  Flags in % of buildings 
+Table 2 : 25 Projects Summary, Total Contributors, Buildings and Ratio (Alerts / Buildings) in %, August 30 2018
+--------
 Zones covered by the Tasking Manager, 2018-08-30
 
-
 |Project | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Errors Overlaps +Invalid Polygons | % of Buildings |  W+E % | Status 2018-08-30 |
-| :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
+| :--------- |	--------: 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
 | 	[4944](https://tasks.hotosm.org/project/4944)	| 	73	| 	3,130	 | 	217	 | 	6.9	% |	22	 | 	0.7	% |	7.6	% |	Validated	 |
 | 	[4946](https://tasks.hotosm.org/project/4946)	| 	43	| 	1,615	 | 	85	 | 	5.3	% |	35	 | 	2.2	% |	7.4	% |	Validated	 |
 | 	[4947](https://tasks.hotosm.org/project/4947)	| 	94	| 	21,140	 | 	387	 | 	1.8	% |	31	 | 	0.1	% |	2	% |	Validated	 |
@@ -113,10 +114,9 @@ Zones covered by the Tasking Manager, 2018-08-30
 
 
 
-
-## Table 3 : Building Maps by Contributor to be revised in priority (high rate of alerts), and statistics for these contributors
-
-|	Task * 	| user_id |	Buildings	|	Warning Irreg Forms	|	Error Overlaps +Invalid Polyg	| Flags % of Buildings | Display Flagged buildings  |
+Table 3 : Contributors with high Alert Ratio, Statistics and Map of Buildings to revise (current database state)
+--------
+|	Task * 	| user_id |	Buildings	|	Warning Irreg Forms	|	Error Overlaps +Invalid Polyg	| Alerts % of Buildings | Display Flagged buildings  |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |
 |	4944	 | 	8615294	 | 	88	 | 	77	 | 	4	 | 	92	% | [Buildings Map](https://overpass-turbo.eu?Q=%5Bout%3Axml%5D%3B%20way(id%3A612857167%2C612857259%2C612857335%2C612857444%2C612857580%2C612857746%2C612858041%2C612858231%2C612858260%2C612858820%2C612859248%2C612859873%2C612859908%2C612860117%2C612860917%2C612860942%2C612860976%2C612861006%2C612861015%2C612861182%2C612861335%2C612861393%2C612861505%2C612863491%2C612863770%2C612863790%2C612863814%2C612864046%2C612865893%2C612866260%2C612866392%2C612866518%2C612866818%2C612867242%2C612867622%2C612868181%2C612868230%2C612868418%2C612868512%2C612868701%2C612868740%2C612868919%2C612868959%2C612868963%2C612869019%2C612869070%2C612869124%2C612869141%2C612869267%2C612869296%2C612869390%2C612869459%2C612869540%2C612869634%2C612870001%2C612870192%2C612870518%2C612870576%2C612870736%2C612870767%2C612870805%2C612870813%2C612871188%2C612871413%2C612871436%2C612871599%2C612871759%2C612871765%2C612872047%2C612872060%2C612872072%2C612872146%2C612872465%2C612872586%2C612872674%2C612881734%2C612886855%2C612857335%2C612857444%2C612859908%2C612872674%2C612914855%2C612914855%2C612914855%2C612914855&#41;%3B%20out%20meta%3B%3E%3Bout%20meta%3B )|
 | 	4944	 | 	8627450	 | 	45	 | 	29	 | 	1	 | 	66	% | [Buildings Map](https://overpass-turbo.eu?Q=%5Bout%3Axml%5D%3B%20way(id%3A612868393%2C612868394%2C612868397%2C612868398%2C612868399%2C612868401%2C612868402%2C612868403%2C612868404%2C612868405%2C612868409%2C612868415%2C612868419%2C612868420%2C612868421%2C612868422%2C612868423%2C612868425%2C612868426%2C612868428%2C612868430%2C612868431%2C612868432%2C612868437%2C612868440%2C612868441%2C612868443%2C612868444%2C612868445%2C612868394%2C612868395&#41;%3B%20out%20meta%3B%3E%3Bout%20meta%3B )|

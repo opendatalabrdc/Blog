@@ -1,4 +1,4 @@
-## Blog OpenDatalabRDC                       #OpenDataLabRDC @potentiel3_0 @OSM_CD
+## Blog OpenDatalabRDC                       #OpenDataLabRDC
 
 - [English](index_en.md)
 

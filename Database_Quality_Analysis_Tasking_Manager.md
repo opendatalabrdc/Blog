@@ -63,7 +63,10 @@ TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 Table 2 shows the variability of results across projects while Table 3 lists the individual contributors with ratios of 20% with a minimum of 20 Flagged buidlings. For each of these, an Overpass link allows you to see the map of the buildings indicated. Note that current data are displayed and that some buildings edited since August 30 can now have regular shapes. From Overpass, a link allows you to upload the data to JOSM for editing / correction.
 
 In conclusion, this high variability of results observed with this Building Quality Analysis and the lack of editing after the initial period suggests that more monitoring is needed to quickly detect and correct quality problems. The task manager has attracted a large number of contributors over the years. But such a tool is insufficient to monitor and coordinate the contribution of constant flows of beginners.  The practice of quickly covering an area and then moving to other areas leaves areas in plan with many errors. Reflection must be given to these problems and projects must be more autonomous, ensure follow-up, training and the quality of the data produced.
+
 *Pierre Béland*
+
+
 
 
 

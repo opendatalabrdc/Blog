@@ -75,7 +75,7 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 
 
 
-Tableau 2 : Comparaison 25 projets, Contributeurs, Immmeubles et Ratio (Signalemens / Bâtiments) en %, 30 août 2018
+Tableau 2 : Sommaire 25 projets, Total Contributeurs, Immmeubles et Ratio (Signalemens / Bâtiments) en %, 30 août 2018
 ------
 |Projet | Contributeurs | Immeubles | Avertissements Géométrie Irreg | % Immeubles| Erreurs Superpositions +Polygones non valides| % Immeubles|  % Signalements | Statut 2018-08-30 |
 | :--------- |	--------: 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |

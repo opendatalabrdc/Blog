@@ -1,5 +1,5 @@
-
-## 2018-09-10 Analyse Qualité des bâtiments, Base OSM: Le Gestionnaire de Tâches
+2018-09-10 Analyse Qualité des bâtiments, Base OSM: Le Gestionnaire de Tâches
+==========
 
 La cartographie des bâtiments ajoutés à la base OSM suscite de nombreuses discussions avec la multiplication de mapathons et participation de débutants. Lors de discussions sur les problèmes de qualité, des responsables de projets ont indiqué compter  sur la communauté OSM en général pour valider le travail des débutants tandis que les développeurs fortements impliqués dans de tels projets exprimaient des réserves avec la multiplication des mapathons et le flux constant de novices qui cartographient avec insuffisamment de connaissances et quittent après quelques heures seulement. On juge que ceux-ci ajoutent souvent des données imprécises qui risquent de ne pas être corrigées avant très longtemps. Les validateurs jugent le nombre d'erreurs trop élevé et la situation de plus en plus difficile à gérer.
 
@@ -21,7 +21,8 @@ Cette grande variabilité qui est encore observée d'un projet à l'autre ne peu
 L'organisation de projets tels les mapathons permet de cartographier des zones à risque et qui souvent n'ont encore pas été cartographiées de façon détaillée. Cependant, les participants aux mapathons sont en grande majorité des débutants insuffisamment formés. Les zones cartographiées avec un grand nombre d'erreurs risquent de ne pas être revues par la suite, le focus des projets se déplaçant vers de nouvelles priorités.
 
 
-## «State of the Map» 2018-08-30, Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
+«State of the Map» 2018-08-30, Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
+------
 
 Les deux mêmes indicateurs que dans l'article précédent sont utilisés pour la comparaison selon les différentes Tâches. Les signalements sont regroupés selon
 - Avertissement : Bâtiments avec Géométrie irrégulière (8,3% des bâtiments)
@@ -50,7 +51,8 @@ Le Graphique 4 affiche le profil OSM des bâtiments, le 30 août 2018, pour les 
 Le tableau 1 classifie les 2,135 contributeurs selon leur ratio Signalements / Immeubles. On y constate que la majorité des contributeurs tracent peu de bâtiments avec des formes irrégulières. Les ratios inférieurs à 5% représentent la majorité des contributeurs (54,5%) et des bâtiments édités (73,1%) et un très faible ratio de signalements (1,3%).
 À l'inverse, les ratios de 20% et plus représentent une minorité de contributeurs (24,4%) et des bâtiments édités (10,3%) et la forte majorité des signalements (71,2%). On ne sera pas surpris de constater qu'ils tracent surtout des bâtiments de forme irrégulière (64% des bâtiments).  Il est à noter que cette mesure vise davantage à identifier et corriger les problèmes. Elle n'est pas parfaite pour évaluer la performance du contributeur intial puisque plus ses erreurs sont corrigées par d'autres, moins les erreurs sont signalées pour ce contributeur initial. Aussi pour les chevauchements d'immeubles tels que sur le graphique 5, tous les objets concernés sont signalés et on ne tente pas d'identifier le contributeur responsable de cette erreur.
 
-*Tableau 1 : Analyse topologique des bâtiments, échantillon basé sur 25 tâches, Gestionnaire hotosm août 2018*
+Tableau 1 : Analyse topologique des bâtiments, échantillon basé sur 25 tâches, Gestionnaire hotosm août 2018
+------
 *Contributeurs classés selon le taux de signalements en % des bâtiments qui lui sont crédités*
 
 Classe |Contributeurs | Tâches | Immeubles | Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides | Total Signalements | % Signalements /Immeubles |
@@ -73,8 +75,8 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 
 
 
-## Tableau 2 : Comparaison 25 projets, Analyse bâtiments signalés pour validation en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches
-
+Tableau 2 : Comparaison 25 projets, Analyse bâtiments signalés pour validation en % des bâtiments de la zone, Zones couvertes par le Gestionnaire de tâches
+------
 |Projet | Contributeurs | Immeubles | Avertissements Géométrie Irreg | % Immeubles| Erreurs Superpositions +Polygones non valides| % Immeubles|  % Signalements | Statut 2018-08-30 |
 | :--------- |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
 | 	[4944](https://tasks.hotosm.org/project/4944)	| 	73	| 	3,130	 | 	217	 | 	6.9	% |	22	 | 	0.7	% |	7.6	% |	Validé	 |
@@ -106,8 +108,8 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 
 
 
-## Tableau 3 : Cartes immeubles par Contributeur à réviser en priorité (taux élevé de Signalements), et statistiques pour ces contributeurs
-
+Tableau 3 : Cartes immeubles par Contributeur à réviser en priorité (taux élevé de Signalements), et statistiques pour ces contributeurs
+------
 | Projet * | id contributeur  	|	Bâtiments	|  Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides	| Signalements % des  Bâtiments | Carte Immeubles avec Signalement 2018-08-30 |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |
 | 	4944	 | 	8615294	 | 	88	 | 	77	 | 	4	 | 	92	% | [Carte Immeubles](http://overpass-turbo.eu?Q=%5Bout%3Axml%5D%3B%20way(id%3A612857167%2C612857259%2C612857335%2C612857444%2C612857580%2C612857746%2C612858041%2C612858231%2C612858260%2C612858820%2C612859248%2C612859873%2C612859908%2C612860117%2C612860917%2C612860942%2C612860976%2C612861006%2C612861015%2C612861182%2C612861335%2C612861393%2C612861505%2C612863491%2C612863770%2C612863790%2C612863814%2C612864046%2C612865893%2C612866260%2C612866392%2C612866518%2C612866818%2C612867242%2C612867622%2C612868181%2C612868230%2C612868418%2C612868512%2C612868701%2C612868740%2C612868919%2C612868959%2C612868963%2C612869019%2C612869070%2C612869124%2C612869141%2C612869267%2C612869296%2C612869390%2C612869459%2C612869540%2C612869634%2C612870001%2C612870192%2C612870518%2C612870576%2C612870736%2C612870767%2C612870805%2C612870813%2C612871188%2C612871413%2C612871436%2C612871599%2C612871759%2C612871765%2C612872047%2C612872060%2C612872072%2C612872146%2C612872465%2C612872586%2C612872674%2C612881734%2C612886855%2C612857335%2C612857444%2C612859908%2C612872674%2C612914855%2C612914855%2C612914855%2C612914855&#41;%3B%20out%20meta%3B%3E%3Bout%20meta%3B )|

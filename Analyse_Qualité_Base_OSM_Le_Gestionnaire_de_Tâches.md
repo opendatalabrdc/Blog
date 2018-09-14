@@ -53,7 +53,7 @@ Tableau 1 : Détection des anomalies : Classement des Contributeurs selon Ratio 
 ------
 *Contributeurs classés selon leur Ratio (Signalements / Bâtiments) en % des bâtiments qui lui sont crédités,  30 août 2018*
 
-Classe |Contributeurs | Tâches | Immeubles | Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides | Total Signalements | % Signalements /Immeubles |
+|Classe |Contributeurs | Tâches | Immeubles | Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides | Total Signalements | % Signalements /Immeubles |
 |:---------|--------:|------:|----------:|-----------:|-----------:|---------:|----------:|
   0         |757     |866   |49,424     |0          |0          |0        |0 %|
  1<5%       |406     |489   |241,171    |2,875       |1,081       |3,956     |1.6 %      |
@@ -76,6 +76,7 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 Tableau 2 : Comparaison, performance des 25 projets
 ------
 Sommaire des 25 projets, Total Contributeurs, Immmeubles et Ratio (Signalemens / Bâtiments) en %, 30 août 2018
+
 |Projet | Contributeurs | Immeubles | Avertissements Géométrie Irreg | % Immeubles| Erreurs Superpositions +Polygones non valides| % Immeubles|  % Signalements | Statut 2018-08-30 |
 | :--------- |	--------: 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
 | 	[4944](https://tasks.hotosm.org/project/4944)	| 	73	| 	3,130	 | 	217	 | 	6.9	% |	22	 | 	0.7	% |	7.6	% |	Validé	 |
@@ -109,6 +110,7 @@ Sommaire des 25 projets, Total Contributeurs, Immmeubles et Ratio (Signalemens /
 Tableau 3 : Détection des anomalies, Cartes par Contributeurs
 ------
 Contributeurs avec ratio élevé de Signalements, Statistiques et Cartes des Bâtiments à réviser (données courantes)
+
 | Projet * | id contributeur  	|	Bâtiments	|  Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides	| Signalements % des  Bâtiments | Carte des Bâtiments à réviser (Signalements 2018-08-30) |
 | ---------: |	--------: 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |
 | 	4944	 | 	8615294	 | 	88	 | 	77	 | 	4	 | 	92	% | [Carte Bâtiments](http://overpass-turbo.eu?Q=%5Bout%3Axml%5D%3B%20way(id%3A612857167%2C612857259%2C612857335%2C612857444%2C612857580%2C612857746%2C612858041%2C612858231%2C612858260%2C612858820%2C612859248%2C612859873%2C612859908%2C612860117%2C612860917%2C612860942%2C612860976%2C612861006%2C612861015%2C612861182%2C612861335%2C612861393%2C612861505%2C612863491%2C612863770%2C612863790%2C612863814%2C612864046%2C612865893%2C612866260%2C612866392%2C612866518%2C612866818%2C612867242%2C612867622%2C612868181%2C612868230%2C612868418%2C612868512%2C612868701%2C612868740%2C612868919%2C612868959%2C612868963%2C612869019%2C612869070%2C612869124%2C612869141%2C612869267%2C612869296%2C612869390%2C612869459%2C612869540%2C612869634%2C612870001%2C612870192%2C612870518%2C612870576%2C612870736%2C612870767%2C612870805%2C612870813%2C612871188%2C612871413%2C612871436%2C612871599%2C612871759%2C612871765%2C612872047%2C612872060%2C612872072%2C612872146%2C612872465%2C612872586%2C612872674%2C612881734%2C612886855%2C612857335%2C612857444%2C612859908%2C612872674%2C612914855%2C612914855%2C612914855%2C612914855&#41;%3B%20out%20meta%3B%3E%3Bout%20meta%3B )|

@@ -1,9 +1,7 @@
 2018-09-10 OSM Database Buildings Quality Analysis : The Tasking Manager
 ========
 
-The Quality of the buildings geometry in the OSM database has been the subject of many discussions with the multiplication of mapathons and the participation of beginners. In discussions on Quality issues, project managers have expressed that they rely on the community to validate the work of beginners while developers heavily involved in such projects expressed reservations with the multiplication of mapathons and the constant flow of novices who map with insufficient knowledge and leave after only a few hours. It is considered that they often add inaccurate data that may not be corrected for a very long time. Validators judge the number of errors too high and the situation becoming more and more difficult to manage.
-
-Quality tools such as Osmose, OSM Inspector, KeepRight and JOSM Validator only identify invalid overlaps and polygons and have no quality indicators for building geometry. Despite the abundance of quality monitoring tools, many topological errors persist in the database. The question therefore arises as to how to ensure the Quality control of building geometries. This project aims to provide global Quality indicators to better monitor projects and provide data files containing the objects to be validated/corrected. The biggest challenge is to identify imprecise geometries. Our approach is to identify behaviours that are very different from the average contributor. We compare the proportion of irregular geometries according to contributors and projects. And this approach has yielded very significant results to date.
+The Quality of the buildings geometry in the OSM database has been the subject of many discussions with the multiplication of mapathons and the participation of beginners. Quality tools such as Osmose, OSM Inspector, KeepRight and JOSM Validator only identify invalid overlaps and polygons and have no quality indicators for building geometry. But despite the abundance of quality monitoring tools, many topological errors persist in the database. The question therefore arises as to how to ensure the Quality control of building geometries. This project aims to provide global Quality indicators to better monitor projects and provide data files containing the objects to be validated/corrected. The biggest challenge is to identify imprecise geometries. Our approach is to identify behaviours that are very different from the average contributor. We compare the proportion of irregular geometries according to contributors and projects. And this approach has yielded very significant results to date.
 
 *Consult the Building Maps for contributors to revise in priority* in Table 3 at the bottom of this post
 ![Figure-1-TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
@@ -64,11 +62,11 @@ TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 
 Table 2 shows the variability of results across projects while Table 3 lists the individual contributors with ratios of 20% with a minimum of 20 Flagged buidlings. For each of these, an Overpass link allows you to see the map of the buildings indicated. Note that current data are displayed and that some buildings edited since August 30 can now have regular shapes. From Overpass, a link allows you to upload the data to JOSM for editing / correction.
 
+In discussions on Quality issues, project managers have expressed that they rely on the community to validate the work of beginners while developers heavily involved in such projects expressed reservations with the multiplication of mapathons and the constant flow of novices who map with insufficient knowledge and leave after only a few hours. It is considered that they often add inaccurate data that may not be corrected for a very long time. Validators judge the number of errors too high and the situation becoming more and more difficult to manage.
+
 In conclusion, this high variability of results observed with this Building Quality Analysis and the lack of editing after the initial period suggests that more monitoring is needed to quickly detect and correct quality problems. The task manager has attracted a large number of contributors over the years. But such a tool is insufficient to monitor and coordinate the contribution of constant flows of beginners.  The practice of quickly covering an area and then moving to other areas leaves areas in plan with many errors. Reflection must be given to these problems and projects must be more autonomous, ensure follow-up, training and the quality of the data produced.
 
 *Pierre Béland*
-
-
 
 
 

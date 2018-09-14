@@ -47,9 +47,9 @@ Figure 4 shows the OSM profile, on August 30, 2018, for the buildings in the are
 
 Table 1 classifies the 2,135 contributors according to their ratio of alerts to buildings. It can be seen that the majority of contributors trace few buildings with irregular shapes. Ratios below 5% represent the majority of contributors (54.5%) and edited buildings (73.1%) and a small ratio of Buildings Alerts (1.3%). Conversely, the ratios of 20% and over represent a minority of contributors (24.4%) and edited buildings (10.3%) and the vast majority of Buildings Alerts (71.2%). It will not be surprising to note that they mainly trace buildings of irregular shape (64% of buildings). Note that this measure is more aimed at identifying and correcting problems. It is less to evaluate the initial contributor peformance since more his errors are corrected by others, less errors are reported for this initial contributor. Also for building overlaps such as in Figure 5, all relevant objects are reported and no attempt is made to identify the contributor responsible for this error. 
 
-Table 1 : Summary, Contributors grouped by their Ratio (Alerts / Buildings) in %, August 30 2018
+Table 1 : Detection of anomalies : Classification of Contributors according to the Ratio (Reports / Buildings)
 --------
-*Contributors classified by their Ratio (Alerts / Buildings) in % of all Buildings reported for the contributor, OSM database, August 30 2018*
+*Contributors classified according to their Ratio (Alerts / Buildings) in % of buildings reported for the contributor, OSM database, August 30 2018*
 
 Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry | Nb Errors Overlapped +Invalid Polygons | Total Alerts | % Alerts /Buildings |
 :---------|--------:|------:|----------:|-----------:|-----------:|---------:|----------:|
@@ -74,9 +74,10 @@ In conclusion, this high variability of results observed with this Building Qual
 ![Ndorwa, Uganda](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
 
 
-Table 2 : 25 Projects Summary, Total Contributors, Buildings and Ratio (Alerts / Buildings) in %, August 30 2018
+Table 2 : Performance comparison of the 25 Projects 
 --------
-Zones covered by the Tasking Manager, 2018-08-30
+Summary by project, Total Contributors, Buildings and Ratio (Alerts / Buildings) in %, August 30 2018
+For Zones covered by the Tasking Manager
 
 |Project | Contributors | Buildings | Warning Irreg Forms | % of Buildings | Errors Overlaps +Invalid Polygons | % of Buildings |  W+E % | Status 2018-08-30 |
 | :--------- |	--------: 	|	----------: |	----------:	|	----------:	|	----------: |----------: |----------: |  :------------------------------ |
@@ -111,9 +112,10 @@ Zones covered by the Tasking Manager, 2018-08-30
 * The Geographic Zones correspond to area covered by each task in the OSM Tasking Manager
 
 
-
-Table 3 : Contributors with high Alert Ratio, Statistics and Map of Buildings to revise (current database state)
+Table 3: Detection of anomalies, Maps by Contributors
 --------
+Contributors with high Alert Ratio, Statistics and Map of Buildings to revise (current database state)
+
 |	Task * 	| user_id |	Buildings	|	Warning Irreg Forms	|	Error Overlaps +Invalid Polyg	| Alerts % of Buildings | Display Flagged buildings  |
 | ---------: |	:-------- 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |
 |	4944	 | 	8615294	 | 	88	 | 	77	 | 	4	 | 	92	% | [Buildings Map](https://overpass-turbo.eu?Q=%5Bout%3Axml%5D%3B%20way(id%3A612857167%2C612857259%2C612857335%2C612857444%2C612857580%2C612857746%2C612858041%2C612858231%2C612858260%2C612858820%2C612859248%2C612859873%2C612859908%2C612860117%2C612860917%2C612860942%2C612860976%2C612861006%2C612861015%2C612861182%2C612861335%2C612861393%2C612861505%2C612863491%2C612863770%2C612863790%2C612863814%2C612864046%2C612865893%2C612866260%2C612866392%2C612866518%2C612866818%2C612867242%2C612867622%2C612868181%2C612868230%2C612868418%2C612868512%2C612868701%2C612868740%2C612868919%2C612868959%2C612868963%2C612869019%2C612869070%2C612869124%2C612869141%2C612869267%2C612869296%2C612869390%2C612869459%2C612869540%2C612869634%2C612870001%2C612870192%2C612870518%2C612870576%2C612870736%2C612870767%2C612870805%2C612870813%2C612871188%2C612871413%2C612871436%2C612871599%2C612871759%2C612871765%2C612872047%2C612872060%2C612872072%2C612872146%2C612872465%2C612872586%2C612872674%2C612881734%2C612886855%2C612857335%2C612857444%2C612859908%2C612872674%2C612914855%2C612914855%2C612914855%2C612914855&#41;%3B%20out%20meta%3B%3E%3Bout%20meta%3B )|

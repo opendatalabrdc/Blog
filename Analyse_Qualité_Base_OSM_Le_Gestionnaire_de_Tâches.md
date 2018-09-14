@@ -55,12 +55,12 @@ Tableau 1 : Détection des anomalies : Classement des Contributeurs selon Ratio 
 
 |Classe |Contributeurs | Tâches | Immeubles | Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides | Total Signalements | % Signalements /Immeubles |
 |:---------|--------:|------:|----------:|-----------:|-----------:|---------:|----------:|
-  0         |757     |866   |49,424     |0          |0          |0        |0 %|
- 1<5%       |406     |489   |241,171    |2,875       |1,081       |3,956     |1.6 %      |
- 5<10%      |216     |236   |37,738     |2,178       |519        |2,697     |7.2 %     |
-10<20%      |234     |277   |28,351     |3,254       |649        |3,903     |13.8 %     |
-20% +       |522     |584   |40,847     |24,504      |1,616       |26,120    |64 %    |
-TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
+|  0          |757     |866   |49,424     |0           |0          |0        |0 %|
+| 1<5%        |406     |489   |241,171    |2,875       |1,081      |3,956     |1.6 %      |
+| 5<10%       |216     |236   |37,738     |2,178       |519        |2,697     |7.2 %     |
+| 10<20%      |234     |277   |28,351     |3,254       |649        |3,903     |13.8 %     |
+| 20% +       |522     |584   |40,847     |24,504      |1,616      |26,120    |64 %    |
+| TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 
 Le tableau 2 permet d'observer la variabilité des indicateurs selon les différents projets tandis que le tableau 3 liste les contributeurs individuels avec des ratios de 20% et plus et un minimum de 20 bâtiments signalés. Pour chacun de ceux-ci, un lien Overpass permet de voir la carte des immeubles signalés. À noter que les données courantes sont affichée et que les bâtiments édités depuis le 30 août peuvent maintenant avoir des formes régulières. À partir de Overpass, un lien permet de télécharger les données dans JOSM pour édition / correction.
 

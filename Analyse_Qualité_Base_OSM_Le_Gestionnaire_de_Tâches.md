@@ -62,6 +62,8 @@ Tableau 1 : Détection des anomalies : Classement des Contributeurs selon Ratio 
 | 20% +       |522     |584   |40,847     |24,504      |1,616      |26,120    |64 %    |
 | TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 
+Les nouveaux contributeurs OSM inscrits après le 1er août 2018 représentent 36% des contributeurs, 21% des bâtiments édités, mais 55% des alertes de l'échantillon. Pour les ratios supérieurs à 20 %, ils représentent 65 % des alertes. Cela montre que la plupart des anomalies proviennent des débutants.
+
 Le tableau 2 permet d'observer la variabilité des indicateurs selon les différents projets tandis que le tableau 3 liste les contributeurs individuels avec des ratios de 20% et plus et un minimum de 20 bâtiments signalés. Pour chacun de ceux-ci, un lien Overpass permet de voir la carte des immeubles signalés. À noter que les données courantes sont affichée et que les bâtiments édités depuis le 30 août peuvent maintenant avoir des formes régulières. À partir de Overpass, un lien permet de télécharger les données dans JOSM pour édition / correction.
 
  Lors de discussions sur les problèmes de qualité, des responsables de projets ont indiqué compter  sur la communauté OSM en général pour valider le travail des débutants tandis que les développeurs fortements impliqués dans de tels projets exprimaient des réserves avec la multiplication des mapathons et le flux constant de novices qui cartographient avec insuffisamment de connaissances et quittent après quelques heures seulement. On juge que ceux-ci ajoutent souvent des données imprécises qui risquent de ne pas être corrigées avant très longtemps. Les validateurs jugent le nombre d'erreurs trop élevé et la situation de plus en plus difficile à gérer.

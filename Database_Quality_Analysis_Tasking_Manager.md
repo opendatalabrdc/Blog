@@ -60,7 +60,7 @@ Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry |
 20% +       |522     |584   |40,847     |24,504      |1,616       |26,120    |64 %    |
 TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
 
-New OSM Contributors registered after august 1 represent 36% of contributors, 21% of buildings edited, but 55% of Alerts. For ratios over 20%, they account for 65% of Alerts. This shows that most of the anomalies come from beginners.
+New OSM Contributors registered after august 1 2018 represent 36% of contributors of this sample, 21% of buildings edited, but 55% of Alerts. For ratios over 20%, they account for 65% of Alerts. This shows that most of the anomalies come from beginners.
 
 Table 2 shows the variability of results across projects while Table 3 lists the individual contributors with ratios of 20% with a minimum of 20 Flagged buidlings. For each of these, an Overpass link allows you to see the map of the buildings indicated. Note that current data are displayed and that some buildings edited since August 30 can now have regular shapes. From Overpass, a link allows you to upload the data to JOSM for editing / correction.
 

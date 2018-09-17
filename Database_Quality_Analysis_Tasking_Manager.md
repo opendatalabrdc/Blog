@@ -1,7 +1,7 @@
 2018-09-10 OSM Database Buildings Quality Analysis : The Tasking Manager
 ========
 
-The Quality of the buildings geometry in the OSM database has been the subject of many discussions with the multiplication of mapathons and the participation of beginners. Quality tools such as Osmose, OSM Inspector, KeepRight and JOSM Validator only identify invalid overlaps and polygons and have no quality indicators for building geometry. But despite the abundance of quality monitoring tools, many topological errors persist in the database. The question therefore arises as to how to ensure the Quality control of building geometries. This project aims to provide global Quality indicators to better monitor projects and provide data files containing the objects to be validated/corrected. The biggest challenge is to identify imprecise geometries. Our approach is to identify behaviours that are very different from the average contributor. We compare the proportion of irregular geometries according to contributors and projects. And this approach has yielded very significant results to date.
+The Quality of the buildings geometry in the OSM database has been the subject of many discussions with the multiplication of mapathons and the participation of beginners. Quality tools such as Osmose, OSM Inspector, KeepRight and JOSM Validator only identify invalid overlaps and polygons and have no quality indicators for building geometry. But despite the abundance of quality monitoring tools, many topological errors persist in the database. The question therefore arises as to how to ensure the Quality control of building geometries. This project aims to provide global Quality indicators to better monitor projects and provide data files containing the objects to be validated/corrected. The biggest challenge is to identify imprecise geometries. Our approach is to identify behaviours that are very different from the average contributor. We compare the proportion of irregular geometries according to contributors and projects. And this approach has yielded very significant results to date
 
 *Consult the Building Maps for contributors to revise in priority* in Table 3 at the bottom of this post
 ![Figure-1-TM-4975-date](img/po-Topologie-XB-uid-8074567.png)
@@ -59,6 +59,8 @@ Class |Nb Contributors | Nb Tasks | Nb Buildings | Nb Warnings Irreg. Geometry |
 10<20%      |234     |277   |28,351     |3,254       |649        |3,903     |13.8 %     |
 20% +       |522     |584   |40,847     |24,504      |1,616       |26,120    |64 %    |
 TOTAL	| 2,135	| 2,452	| 397,531	| 32,811	| 3,865	| 36,676	| 9.2% |
+
+New OSM Contributors registered after august 1 represent 36% of contributors, 21% of buildings edited, but 55% of Alerts. For ratios over 20%, they account for 65% of Alerts. This shows that most of the anomalies come from beginners.
 
 Table 2 shows the variability of results across projects while Table 3 lists the individual contributors with ratios of 20% with a minimum of 20 Flagged buidlings. For each of these, an Overpass link allows you to see the map of the buildings indicated. Note that current data are displayed and that some buildings edited since August 30 can now have regular shapes. From Overpass, a link allows you to upload the data to JOSM for editing / correction.
 

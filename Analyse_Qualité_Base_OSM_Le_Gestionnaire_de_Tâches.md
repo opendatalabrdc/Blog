@@ -19,8 +19,9 @@ Cette grande variabilité qui est encore observée d'un projet à l'autre ne peu
 L'organisation de projets tels les mapathons permet de cartographier des zones à risque et qui souvent n'ont encore pas été cartographiées de façon détaillée. Cependant, les participants aux mapathons sont en grande majorité des débutants insuffisamment formés. Les zones cartographiées avec un grand nombre d'erreurs risquent de ne pas être revues par la suite, le focus des projets se déplaçant vers de nouvelles priorités.
 
 
-«State of the Map» 2018-08-30, Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches
+Résultat de 25 projets, Gestionnaire de tâches
 ------
+*«State of the Map» 2018-08-30, Comparaison, Zones cartographiées récemment à l'aide du Gestionnaire de tâches*
 
 Les deux mêmes indicateurs que dans l'article précédent sont utilisés pour la comparaison selon les différentes Tâches. Les signalements sont regroupés selon
 - Avertissement : Bâtiments avec Géométrie irrégulière (8,3% des bâtiments)
@@ -49,8 +50,7 @@ Le Graphique 4 affiche le profil OSM des bâtiments, le 30 août 2018, pour les 
 Le tableau 1 classifie les 2,135 contributeurs selon leur ratio Signalements / Immeubles. On y constate que la majorité des contributeurs tracent peu de bâtiments avec des formes irrégulières. Les ratios inférieurs à 5% représentent la majorité des contributeurs (54,5%) et des bâtiments édités (73,1%) et un très faible ratio de signalements (1,3%).
 À l'inverse, les ratios de 20% et plus représentent une minorité de contributeurs (24,4%) et des bâtiments édités (10,3%) et la forte majorité des signalements (71,2%). On ne sera pas surpris de constater qu'ils tracent surtout des bâtiments de forme irrégulière (64% des bâtiments).  Il est à noter que cette mesure vise davantage à identifier et corriger les problèmes. Elle vise moins à évaluer la performance du contributeur intial puisque plus ses erreurs sont corrigées par d'autres, moins les erreurs sont signalées pour ce contributeur initial. Aussi pour les chevauchements d'immeubles tels que sur le graphique 5, tous les objets concernés sont signalés et on ne tente pas d'identifier le contributeur responsable de cette erreur.
 
-Tableau 1 : Détection des anomalies : Classement des Contributeurs selon Ratio (Signalements / Bâtiments)
-------
+## Tableau 1 : Détection des anomalies : Classement des Contributeurs
 *Contributeurs classés selon leur Ratio (Signalements / Bâtiments) en % des bâtiments qui lui sont crédités,  30 août 2018*
 
 |Classe |Contributeurs | Tâches | Immeubles | Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides | Total Signalements | % Signalements /Immeubles |
@@ -75,8 +75,7 @@ En conclusion, cette grande variabilité des résultats observée avec cette ana
 *Graphique 5 - Tracé très approximatif des bâtiments, Ndorwa, Ouganda*
 ![Ndorwa, Ouganda](img/JOSM-TM-4975-Ndorwa-County-Uganda.png)
 
-Tableau 2 : Comparaison, performance des 25 projets
-------
+## Tableau 2 : Comparaison, performance des 25 projets
 Sommaire des 25 projets, Total Contributeurs, Immmeubles et Ratio (Signalemens / Bâtiments) en %, 30 août 2018
 
 |Projet | Contributeurs | Immeubles | Avertissements Géométrie Irreg | % Immeubles| Erreurs Superpositions +Polygones non valides| % Immeubles|  % Signalements | Statut 2018-08-30 |
@@ -113,7 +112,7 @@ Tableau 3 : Détection des anomalies, Cartes par Contributeurs
 ------
 Contributeurs avec ratio élevé de Signalements, Statistiques et Cartes des Bâtiments à réviser (données courantes)
 
-## 3.a Débutants: Comptes OSM depuis l3 1er août 2018
+## 3.A Débutants: Comptes OSM depuis l3 1er août 2018
 | ID Contributeur | Projet * |	Bâtiments	|  Avertissements Géométrie Irreg | Erreurs Superpositions +Polygones non valides	| Signalements % des  Bâtiments | Carte des Bâtiments à réviser (Signalements 2018-08-30) |
 | ---------: |	--------: 	|	----------: |	----------:	|	----------:	|	----------: |  :------------------------------ |
 | 	8627967	 | 	4975	 | 	37	 | 	36	 | 	0	 | 	97	% | [Carte Bâtiments](http://overpass-turbo.eu?Q=%5Bout%3Axml%5D%3B%20way%28id%3A615672189%2C615672707%2C615672775%2C615672799%2C615672890%2C615673025%2C615673542%2C615673588%2C615673990%2C615674023%2C615674269%2C615674474%2C615674771%2C615678729%2C615679633%2C615679966%2C615679986%2C615680317%2C615681242%2C615681530%2C615681787%2C615681966%2C615682254%2C615682585%2C615683150%2C615683211%2C615683329%2C615683638%2C615683877%2C615685030%2C615685973%2C615685975%2C615685976%2C615686060%2C615686380%2C615686503%29%3B%20out%20meta%3B%3E%3Bout%20meta%3B )|
